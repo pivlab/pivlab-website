@@ -21,7 +21,7 @@ These are the current open positions if you are ready to apply:
 
 ### Graduate students
 
-Our primary affiliations are the University of Colorado's [Computational Bioscience Program](https://www.cuanschutz.edu/graduate-programs/computational-bioscience/home) and the [Human Medical Genetics and Genomics Program](https://www.cuanschutz.edu/graduate-programs/human-medical-genetics-and-genomics/home).
+Our primary affiliations are the University of Colorado's [Computational Bioscience Program](https://www.cuanschutz.edu/graduate-programs/computational-bioscience/home), the [Human Medical Genetics and Genomics Program](https://www.cuanschutz.edu/graduate-programs/human-medical-genetics-and-genomics/home), and the [Biomedical Sciences Program](https://www.cuanschutz.edu/graduate-programs/biomedical-sciences-program/home) (umbrella program).
 Students pursuing computational research from [other graduate, discipline-specific programs](https://www.cuanschutz.edu/graduate-programs) are also welcomed and encouraged to [contact Milton](/contact).
 Milton has received the following training for faculty to support students:
 * Office of Research Education (ORE) - Faculty Upstander/Bystander Training.
