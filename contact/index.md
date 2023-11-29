@@ -1,33 +1,32 @@
 ---
 title: Contact
 nav:
-  order: 5
+  order: 6
   tooltip: Email, address, and location
 ---
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our lab is part of the [Department of Biomedical Informatics](https://medschool.cuanschutz.edu/dbmi) and the [Colorado Center for Personalized Medicine (CCPM)](https://medschool.cuanschutz.edu/ccpm) at the [University of Colorado Anschutz Medical Campus](https://www.cuanschutz.edu/).
+Our offices are located on the 6th floor of the [Anschutz Health Sciences Building](https://news.cuanschutz.edu/news-stories/what-should-i-know-about-the-anschutz-health-sciences-building).
 
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
+  text="miltondp@pivlab.org"
+  link="miltondp@pivlab.org"
 %}
 {%
   include button.html
   type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  text="(312) 560-0558"
+  link="+1-312-560-0558"
 %}
 {%
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  link="https://www.google.com/maps/place/Anschutz+Health+Sciences+Building/@39.7454721,-104.8418929,15z/data=!4m2!3m1!1s0x0:0x85f675e778fce18c?sa=X&ved=2ahUKEwjd_MfInpL6AhWEhIkEHd6WDIcQ_BJ6BAhkEAU"
 %}
 
 {% include section.html %}
@@ -36,8 +35,8 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/lab/ahsb_atrium.jpg"
+  caption="The Benson Atrium in the Anschutz Health Sciences Building"
 %}
 
 {% endcapture %}
@@ -46,32 +45,14 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/lab/ahsb_7th_floor_view.jpg"
+  caption="View of Denver and the mountains from the seventh-floor balcony"
 %}
 
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 %}
 
-{% include section.html dark=true %}
-
-{% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
+{:refdef: style="text-align: center;"}
+![](https://vimeo.com/686897808?h=b28d4a60ee)
+{: refdef}
