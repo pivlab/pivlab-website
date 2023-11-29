@@ -11,6 +11,11 @@ We are currently hiring postdoctoral researchers, research assistants and softwa
 
 If you are interested in joining the lab, please [contact us](/contact).
 
+These are the current open positions:
+
+* [Postdoctoral fellow in computational biology](https://cu.taleo.net/careersection/2/jobdetail.ftl?job=30387&lang=en).
+* [Research Assistant](https://add.link/here).
+
 
 ### Graduate students
 
