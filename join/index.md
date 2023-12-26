@@ -7,14 +7,16 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-handshake-angle" %}Join the lab
 
+You can read our [onboarding document](https://github.com/pivlab/onboarding/blob/main/onboarding.md) to learn more about the mission of the lab and expections of lab members.
+
 We are currently hiring postdoctoral researchers, research assistants and software engineers.
 
 If you are interested in joining the lab, please [contact us](/contact).
 
-These are the current open positions:
+These are the current open positions if you are ready to apply:
 
 * [Postdoctoral fellow in computational biology](https://cu.taleo.net/careersection/2/jobdetail.ftl?job=30387&lang=en).
-* [Research Assistant](https://add.link/here).
+* [Research Assistant / Information Science Professional](https://cu.taleo.net/careersection/2/jobdetail.ftl?job=31956&lang=en).
 
 
 ### Graduate students
