@@ -24,7 +24,7 @@ These are the current open positions if you are ready to apply:
 Our primary affiliations are the University of Colorado's [Computational Bioscience Program](https://www.cuanschutz.edu/graduate-programs/computational-bioscience/home) and the [Human Medical Genetics and Genomics Program](https://www.cuanschutz.edu/graduate-programs/human-medical-genetics-and-genomics/home).
 Students pursuing computational research from [other graduate, discipline-specific programs](https://www.cuanschutz.edu/graduate-programs) are also welcomed and encouraged to [contact Milton](/contact).
 Milton has received the following training for faculty to support students:
-* Office of Research Education (ORE) - Faculty Upstander/Bystander Training
+* Office of Research Education (ORE) - Faculty Upstander/Bystander Training.
 * Diversity, Equity and Inclusion Training part of the Pathways in Genomics Data Science (PATH-GDS) and Pathways in Genomics Research Experiences for Undergraduates from Underrepresented Groups (PATH-GREU) programs.
 
 Our teaching approach in bioinformatics is grounded in the philosophy that students should learn the fundamental principles on which modern computational methods are based, and apply them simultaneously to a real biological problem.
