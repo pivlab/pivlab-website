@@ -21,11 +21,17 @@ These are the current open positions if you are ready to apply:
 
 ### Graduate students
 
-Our primary affiliations are the University of Colorado's [Computational Bioscience Program](https://www.cuanschutz.edu/graduate-programs/computational-bioscience/home), the [Human Medical Genetics and Genomics Program](https://www.cuanschutz.edu/graduate-programs/human-medical-genetics-and-genomics/home), and the [Biomedical Sciences Program](https://www.cuanschutz.edu/graduate-programs/biomedical-sciences-program/home) (umbrella program).
+Our primary affiliations are the University of Colorado (CU)'s [Computational Bioscience Program](https://www.cuanschutz.edu/graduate-programs/computational-bioscience/home), the [Human Medical Genetics and Genomics Program](https://www.cuanschutz.edu/graduate-programs/human-medical-genetics-and-genomics/home), and the [Biomedical Sciences Program](https://www.cuanschutz.edu/graduate-programs/biomedical-sciences-program/home) (umbrella program).
 Students pursuing computational research from [other graduate, discipline-specific programs](https://www.cuanschutz.edu/graduate-programs) are also welcomed and encouraged to [contact Milton](/contact).
-Milton has received the following training for faculty to support students:
-* Office of Research Education (ORE) - Faculty Upstander/Bystander Training.
-* Diversity, Equity and Inclusion Training that was part of the Pathways in Genomics Data Science (PATH-GDS) and Pathways in Genomics Research Experiences for Undergraduates from Underrepresented Groups (PATH-GREU) programs.
+
+Milton has received the following training for faculty to support students, including topics in Diversity, Equity and Inclusion (DEI):
+* HEAL Foundations in Equity:
+  * CU: DEI 101 (August, 2023)
+  * CU: Implicit bias (January, 2024)
+  * CU: Microaggressions, Upstanding, and Allyship (April, 2024)
+  * CU: Equity in Action (pending)
+* CU Office of Research Education (ORE) - Faculty Upstander/Bystander Training (January, 2024)
+* Chan Zuckerberg Initiative (CZI) Project Management for Scientists Workshop (October, 2023)
 
 Our teaching approach in bioinformatics is grounded in the philosophy that students should learn the fundamental principles on which modern computational methods are based, and apply them simultaneously to a real biological problem.
 This approach provides students with both the theoretical foundations of a method and practical insight into its application to a real problem.
