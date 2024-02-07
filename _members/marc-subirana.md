@@ -20,7 +20,8 @@ His contributions have been pivotal in advancing our understanding of complex di
 As a Postdoctoral Researcher in the Pividori Lab, Marc is focused on exploiting next generation of computational methods and artificial intelligence methods to dissect genetic and epigenetic data.
 His goal is to extract meaningful biological insights that can pave the way for novel interventions and therapies, ultimately contributing to the improvement of human health.
 
-Outside of his professional endeavors, Marc is passionate about outdoor activities, including hiking, biking, climbing, and skiing. He values quality time with friends and family and enjoys organizing large dinners to celebrate these connections.
+Outside of his professional endeavors, Marc is passionate about outdoor activities, including hiking, biking, climbing, and skiing.
+He values quality time with friends and family and enjoys organizing large dinners to celebrate these connections.
 
 
 
