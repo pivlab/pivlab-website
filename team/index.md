@@ -29,6 +29,8 @@ We're currently hiring for several positions.
   style="button"
 %}
 
+{% include section.html %}
+
 ## Alumni
 
 These are past members of the lab, and who have made great contributions to the lab's goals, and will be missed!
