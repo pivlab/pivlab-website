@@ -3,6 +3,7 @@ name: Tristen Orndorff
 image: images/team/tristen-orndorff.jpg
 description: Master's Student (PATH-GDS program)
 role: ms
+group: alum
 links:
   email: tristen.orndorff@ucdenver.edu
   github: tristen99

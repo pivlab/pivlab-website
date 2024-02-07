@@ -7,10 +7,12 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-{% include section.html %}
+Our current lab members include postdocs, students, and staff.
+We are passionate researchers specializing in various fields, yet we work together as a cohesive team.
+We enjoy learning from each other and strive to make a significant impact on society.
 
-{% include list.html data="members" component="portrait" filters="role: pi" %}
-{% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
+{% include list.html data="members" component="portrait" filters="role: pi, group: " %}
+{% include list.html data="members" component="portrait" filters="role: ^(?!pi$), group: " %}
 
 {% include section.html dark=true %}
 
@@ -28,3 +30,14 @@ We're currently hiring for several positions.
   link="join"
   style="button"
 %}
+
+{% include section.html %}
+
+## Alumni
+
+We are deeply grateful to the past members of the lab, who have made significant contributions towards achieving the lab's goals.
+They will be greatly missed!
+
+{% include list.html data="members" component="portrait" filters="group: alum" style="small" %}
+
+{% include section.html %}
