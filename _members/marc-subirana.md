@@ -17,7 +17,8 @@ Furthermore, he extended his research to study the regulatory networks in type 1
 Beyond his research, he developed [UMI4Cats](https://bioconductor.org/packages/release/bioc/html/UMI4Cats.html), an efficient, user-friendly software for analyzing quantitative chromatin contacts, now widely available through Bioconductor.
 His contributions have been pivotal in advancing our understanding of complex diseases and enhancing bioinformatics tools in the scientific community.
 
-As a Postdoctoral Researcher in the Pividori Lab, Marc is focused on exploiting next generation of computational methods and artificial intelligence methods to dissect genetic and epigenetic data. His goal is to extract meaningful biological insights that can pave the way for novel interventions and therapies, ultimately contributing to the improvement of human health.
+As a Postdoctoral Researcher in the Pividori Lab, Marc is focused on exploiting next generation of computational methods and artificial intelligence methods to dissect genetic and epigenetic data.
+His goal is to extract meaningful biological insights that can pave the way for novel interventions and therapies, ultimately contributing to the improvement of human health.
 
 Outside of his professional endeavors, Marc is passionate about outdoor activities, including hiking, biking, climbing, and skiing. He values quality time with friends and family and enjoys organizing large dinners to celebrate these connections.
 
