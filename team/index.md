@@ -28,3 +28,11 @@ We're currently hiring for several positions.
   link="join"
   style="button"
 %}
+
+## Alumni
+
+These are past members of the lab, and who have made great contributions to the lab's goals, and will be missed!
+
+{% include list.html data="members" component="portrait" filters="group: alum" style="small" %}
+
+{% include section.html %}
