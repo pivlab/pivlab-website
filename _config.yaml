@@ -8,6 +8,7 @@ header: images/background_gene_network2.jpg
 footer: images/background_gene_network2.jpg
 header-dark: true
 footer-dark: true
+proofer: false
 
 # site social media and other links
 links:
