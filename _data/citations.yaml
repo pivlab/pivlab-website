@@ -350,14 +350,6 @@
   plugin: sources.py
   file: sources.yaml
   hide: 'true'
-- id: ':'
-  title: Consensus clustering from heteroge- neous measures of S. Lycopersicum
-  publisher: 4CAB2C (IV Argentine Conference on Computational Biology and Bioinformatics)
-  date: '2020-10-02'
-  link: http://sinc.unl.edu.ar/sinc-publications/2013/PSCM13/sinc_PSCM13.pdf
-  orcid: 0000-0002-3035-4403
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1016/S2213-2600(19)30055-4
   title: 'Shared and distinct genetic risk factors for childhood-onset and adult-onset
     asthma: genome-wide and transcriptome-wide studies'
