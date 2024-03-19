@@ -96,9 +96,9 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -359,6 +359,8 @@
 
   <script src="/_scripts/site-search.js"></script>
 
+  <script src="/_scripts/table-wrap.js"></script>
+
   <script src="/_scripts/tooltip.js"></script>
 
 
@@ -428,7 +430,7 @@
       </span>
     
     
-      <span class="title" data-tooltip="Home">
+      <span class="title-text" data-tooltip="Home">
         
         
           
@@ -486,11 +488,8 @@
   modify main content of page:
   - add section breaks
   - attach section properties
-  - wrap each table in div to allow for scrolling
   - filter out blank sections
 -->
-
-
 
 
 
@@ -528,45 +527,47 @@ For this, we aim to develop the next generation of methodologies that will conso
 
 <h2 id="integration-of-genetic-studies-with-gene-co-expression-patterns">Integration of genetic studies with gene co-expression patterns</h2>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gspsxr" class="citation-image" aria-label="Projecting genetic associations through gene expression patterns highlights disease etiology and drug mechanisms">
-      <img src="/images/articles/phenoplier.png" alt="Projecting genetic associations through gene expression patterns highlights disease etiology and drug mechanisms" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/gspsxr" class="citation-title">
-      Projecting genetic associations through gene expression patterns highlights disease etiology and drug mechanisms
-    </a>
-
-    <div class="citation-authors" data-tooltip="Milton Pividori, Sumei Lu, Binglan Li, Chun Su, Matthew E. Johnson, Wei-Qi Wei, Qiping Feng, Bahram Namjou, Krzysztof Kiryluk, Iftikhar J. Kullo, Yuan Luo, Blair D. Sullivan, Benjamin F. Voight, Carsten Skarke, Marylyn D. Ritchie, Struan F. A. Grant, Casey S. Greene " tabindex="0">
-      Milton Pividori, Sumei Lu, Binglan Li, Chun Su, Matthew E. Johnson, ..., Benjamin F. Voight, Carsten Skarke, Marylyn D. Ritchie, Struan F. A. Grant, Casey S. Greene
-    </div>
-
-    <div class="citation-details">
-      Nature Communications
-        ·  
-      09 Sep 2023
-        ·  
-      doi:10.1038/s41467-023-41057-4
-    </div>
-
+      <a href="https://doi.org/gspsxr" class="citation-image" aria-label="Projecting genetic associations through gene expression patterns highlights disease etiology and drug mechanisms">
+        <img src="/images/articles/phenoplier.png" alt="Projecting genetic associations through gene expression patterns highlights disease etiology and drug mechanisms" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
-        <div class="citation-description">
-          Here we introduce the PhenoPLIER framework, an omnigenic approach that integrates genetic studies (GWAS/TWAS) with gene modules learned from expression data. PhenoPLIER provides 1) a regression framework that computes an association between gene modules and diseases, 2) a clustering approach that finds groups of diseases with shared transcriptomic properties, and 3) a gene module-based drug-repurposing method.
 
-        </div>
+    <div class="citation-text">
       
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/gspsxr" class="citation-title">
+        Projecting genetic associations through gene expression patterns highlights disease etiology and drug mechanisms
+      </a>
+
+      <div class="citation-authors" data-tooltip="Milton Pividori, Sumei Lu, Binglan Li, Chun Su, Matthew E. Johnson, Wei-Qi Wei, Qiping Feng, Bahram Namjou, Krzysztof Kiryluk, Iftikhar J. Kullo, Yuan Luo, Blair D. Sullivan, Benjamin F. Voight, Carsten Skarke, Marylyn D. Ritchie, Struan F. A. Grant, Casey S. Greene " tabindex="0">
+        Milton Pividori, Sumei Lu, Binglan Li, Chun Su, Matthew E. Johnson, …, Benjamin F. Voight, Carsten Skarke, Marylyn D. Ritchie, Struan F. A. Grant, Casey S. Greene
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Nature Communications</span>
+         · 
+        <span class="citation-date">09 Sep 2023</span>
+         · 
+        <span class="citation-id">doi:10.1038/s41467-023-41057-4</span>
+      </div>
 
       
-        <div class="citation-buttons">
-          
+        
+          <div class="citation-description">
+            Here we introduce the PhenoPLIER framework, an omnigenic approach that integrates genetic studies (GWAS/TWAS) with gene modules learned from expression data. PhenoPLIER provides 1) a regression framework that computes an association between gene modules and diseases, 2) a clustering approach that finds groups of diseases with shared transcriptomic properties, and 3) a gene module-based drug-repurposing method.
+
+          </div>
+        
+
+        
+          <div class="citation-buttons">
             
+              
 
 
 
@@ -580,8 +581,8 @@ For this, we aim to develop the next generation of methodologies that will conso
   </div>
 
 
-          
             
+              
 
 
 
@@ -595,12 +596,13 @@ For this, we aim to develop the next generation of methodologies that will conso
   </div>
 
 
-          
-        </div>
-      
+            
+          </div>
+        
 
+        
       
-    
+    </div>
   </div>
 </div>
   </section>
@@ -618,45 +620,47 @@ For this, we aim to develop the next generation of methodologies that will conso
 
 <h2 id="extracting-complex-transcriptional-signatures-using-not-only-linear-correlation-coefficients">Extracting complex transcriptional signatures using not-only-linear correlation coefficients</h2>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gqcvbw" class="citation-image" aria-label="An efficient not-only-linear correlation coefficient based on machine learning">
-      <img src="/images/articles/ccc.png" alt="An efficient not-only-linear correlation coefficient based on machine learning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-regular fa-eye"></i>
-
-    <a href="https://doi.org/gqcvbw" class="citation-title">
-      An efficient not-only-linear correlation coefficient based on machine learning
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Milton Pividori, Marylyn D. Ritchie, Diego H. Milone, Casey S. Greene
-    </div>
-
-    <div class="citation-details">
-      Cold Spring Harbor Laboratory
-        ·  
-      17 Jun 2022
-        ·  
-      doi:10.1101/2022.06.15.496326
-    </div>
-
+      <a href="https://doi.org/gqcvbw" class="citation-image" aria-label="An efficient not-only-linear correlation coefficient based on machine learning">
+        <img src="/images/articles/ccc.png" alt="An efficient not-only-linear correlation coefficient based on machine learning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
-        <div class="citation-description">
-          This article introduces the Clustermatch Correlation Coefficient (CCC), an efficient, easy-to-use and not-only-linear coefficient based on machine learning models. CCC can detect biologically meaningful linear and nonlinear patterns missed by standard, linear-only correlation coefficients.
 
-        </div>
+    <div class="citation-text">
       
+      <i class="icon fa-regular fa-eye"></i>
+
+      <a href="https://doi.org/gqcvbw" class="citation-title">
+        An efficient not-only-linear correlation coefficient based on machine learning
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Milton Pividori, Marylyn D. Ritchie, Diego H. Milone, Casey S. Greene
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Cold Spring Harbor Laboratory</span>
+         · 
+        <span class="citation-date">17 Jun 2022</span>
+         · 
+        <span class="citation-id">doi:10.1101/2022.06.15.496326</span>
+      </div>
 
       
-        <div class="citation-buttons">
-          
+        
+          <div class="citation-description">
+            This article introduces the Clustermatch Correlation Coefficient (CCC), an efficient, easy-to-use and not-only-linear coefficient based on machine learning models. CCC can detect biologically meaningful linear and nonlinear patterns missed by standard, linear-only correlation coefficients.
+
+          </div>
+        
+
+        
+          <div class="citation-buttons">
             
+              
 
 
 
@@ -670,8 +674,8 @@ For this, we aim to develop the next generation of methodologies that will conso
   </div>
 
 
-          
             
+              
 
 
 
@@ -685,12 +689,13 @@ For this, we aim to develop the next generation of methodologies that will conso
   </div>
 
 
-          
-        </div>
-      
+            
+          </div>
+        
 
+        
       
-    
+    </div>
   </div>
 </div>
   </section>
@@ -708,45 +713,47 @@ For this, we aim to develop the next generation of methodologies that will conso
 
 <h2 id="automatic-revision-of-scholarly-text-using-ai-and-large-language-models">Automatic revision of scholarly text using AI and large language models</h2>
 
-<div class="citation">
-  
-    <a href="https://doi.org/grpf8m" class="citation-image" aria-label="A publishing infrastructure for AI-assisted academic authoring">
-      <img src="/images/articles/manubot-ai-editor.png" alt="A publishing infrastructure for AI-assisted academic authoring" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-regular fa-eye"></i>
-
-    <a href="https://doi.org/grpf8m" class="citation-title">
-      A publishing infrastructure for AI-assisted academic authoring
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Milton Pividori, Casey S. Greene
-    </div>
-
-    <div class="citation-details">
-      Cold Spring Harbor Laboratory
-        ·  
-      23 Jan 2023
-        ·  
-      doi:10.1101/2023.01.21.525030
-    </div>
-
+      <a href="https://doi.org/grpf8m" class="citation-image" aria-label="A publishing infrastructure for AI-assisted academic authoring">
+        <img src="/images/articles/manubot-ai-editor.png" alt="A publishing infrastructure for AI-assisted academic authoring" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
-        <div class="citation-description">
-          We developed the Manubot AI Editor, a plugin to the Manubot publishing infrastructure that uses manuscript section-specific prompts and OpenAI’s models (such as GPT-3) to automatically revise and improve the text.
 
-        </div>
+    <div class="citation-text">
       
+      <i class="icon fa-regular fa-eye"></i>
+
+      <a href="https://doi.org/grpf8m" class="citation-title">
+        A publishing infrastructure for AI-assisted academic authoring
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Milton Pividori, Casey S. Greene
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Cold Spring Harbor Laboratory</span>
+         · 
+        <span class="citation-date">23 Jan 2023</span>
+         · 
+        <span class="citation-id">doi:10.1101/2023.01.21.525030</span>
+      </div>
 
       
-        <div class="citation-buttons">
-          
+        
+          <div class="citation-description">
+            We developed the Manubot AI Editor, a plugin to the Manubot publishing infrastructure that uses manuscript section-specific prompts and OpenAI’s models (such as GPT-3) to automatically revise and improve the text.
+
+          </div>
+        
+
+        
+          <div class="citation-buttons">
             
+              
 
 
 
@@ -760,8 +767,8 @@ For this, we aim to develop the next generation of methodologies that will conso
   </div>
 
 
-          
             
+              
 
 
 
@@ -775,12 +782,13 @@ For this, we aim to develop the next generation of methodologies that will conso
   </div>
 
 
-          
-        </div>
-      
+            
+          </div>
+        
 
+        
       
-    
+    </div>
   </div>
 </div>
   </section>
@@ -809,45 +817,47 @@ For this, we aim to develop the next generation of methodologies that will conso
 
 <h3 id="2023">2023</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gspsxr" class="citation-image" aria-label="Projecting genetic associations through gene expression patterns highlights disease etiology and drug mechanisms">
-      <img src="/images/articles/phenoplier.png" alt="Projecting genetic associations through gene expression patterns highlights disease etiology and drug mechanisms" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-solid fa-scroll"></i>
-
-    <a href="https://doi.org/gspsxr" class="citation-title">
-      Projecting genetic associations through gene expression patterns highlights disease etiology and drug mechanisms
-    </a>
-
-    <div class="citation-authors" data-tooltip="Milton Pividori, Sumei Lu, Binglan Li, Chun Su, Matthew E. Johnson, Wei-Qi Wei, Qiping Feng, Bahram Namjou, Krzysztof Kiryluk, Iftikhar J. Kullo, Yuan Luo, Blair D. Sullivan, Benjamin F. Voight, Carsten Skarke, Marylyn D. Ritchie, Struan F. A. Grant, Casey S. Greene " tabindex="0">
-      Milton Pividori, Sumei Lu, Binglan Li, Chun Su, Matthew E. Johnson, ..., Benjamin F. Voight, Carsten Skarke, Marylyn D. Ritchie, Struan F. A. Grant, Casey S. Greene
-    </div>
-
-    <div class="citation-details">
-      Nature Communications
-        ·  
-      09 Sep 2023
-        ·  
-      doi:10.1038/s41467-023-41057-4
-    </div>
-
+      <a href="https://doi.org/gspsxr" class="citation-image" aria-label="Projecting genetic associations through gene expression patterns highlights disease etiology and drug mechanisms">
+        <img src="/images/articles/phenoplier.png" alt="Projecting genetic associations through gene expression patterns highlights disease etiology and drug mechanisms" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
-        <div class="citation-description">
-          Here we introduce the PhenoPLIER framework, an omnigenic approach that integrates genetic studies (GWAS/TWAS) with gene modules learned from expression data. PhenoPLIER provides 1) a regression framework that computes an association between gene modules and diseases, 2) a clustering approach that finds groups of diseases with shared transcriptomic properties, and 3) a gene module-based drug-repurposing method.
 
-        </div>
+    <div class="citation-text">
       
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://doi.org/gspsxr" class="citation-title">
+        Projecting genetic associations through gene expression patterns highlights disease etiology and drug mechanisms
+      </a>
+
+      <div class="citation-authors" data-tooltip="Milton Pividori, Sumei Lu, Binglan Li, Chun Su, Matthew E. Johnson, Wei-Qi Wei, Qiping Feng, Bahram Namjou, Krzysztof Kiryluk, Iftikhar J. Kullo, Yuan Luo, Blair D. Sullivan, Benjamin F. Voight, Carsten Skarke, Marylyn D. Ritchie, Struan F. A. Grant, Casey S. Greene " tabindex="0">
+        Milton Pividori, Sumei Lu, Binglan Li, Chun Su, Matthew E. Johnson, …, Benjamin F. Voight, Carsten Skarke, Marylyn D. Ritchie, Struan F. A. Grant, Casey S. Greene
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Nature Communications</span>
+         · 
+        <span class="citation-date">09 Sep 2023</span>
+         · 
+        <span class="citation-id">doi:10.1038/s41467-023-41057-4</span>
+      </div>
 
       
-        <div class="citation-buttons">
-          
+        
+          <div class="citation-description">
+            Here we introduce the PhenoPLIER framework, an omnigenic approach that integrates genetic studies (GWAS/TWAS) with gene modules learned from expression data. PhenoPLIER provides 1) a regression framework that computes an association between gene modules and diseases, 2) a clustering approach that finds groups of diseases with shared transcriptomic properties, and 3) a gene module-based drug-repurposing method.
+
+          </div>
+        
+
+        
+          <div class="citation-buttons">
             
+              
 
 
 
@@ -861,8 +871,8 @@ For this, we aim to develop the next generation of methodologies that will conso
   </div>
 
 
-          
             
+              
 
 
 
@@ -876,91 +886,97 @@ For this, we aim to develop the next generation of methodologies that will conso
   </div>
 
 
-          
-        </div>
-      
-
-      
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-    <a href="https://doi.org/gr9nx2" class="citation-image" aria-label="The high-dimensional space of human diseases built from diagnosis records and mapped to genetic loci">
-      <img src="/images/articles/high-dim-diseases.png" alt="The high-dimensional space of human diseases built from diagnosis records and mapped to genetic loci" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
-    
-    
-
-    <a href="https://doi.org/gr9nx2" class="citation-title">
-      The high-dimensional space of human diseases built from diagnosis records and mapped to genetic loci
-    </a>
-
-    <div class="citation-authors" data-tooltip="Gengjie Jia, Yu Li, Xue Zhong, Kanix Wang, Milton Pividori, Rabab Alomairy, Aniello Esposito, Hatem Ltaief, Chikashi Terao, Masato Akiyama, Koichi Matsuda, David E. Keyes, Hae Kyung Im, Takashi Gojobori, Yoichiro Kamatani, Michiaki Kubo, Nancy J. Cox, James Evans, Xin Gao, Andrey Rzhetsky " tabindex="0">
-      Gengjie Jia, Yu Li, Xue Zhong, Kanix Wang, Milton Pividori, ..., Michiaki Kubo, Nancy J. Cox, James Evans, Xin Gao, Andrey Rzhetsky
-    </div>
-
-    <div class="citation-details">
-      Nature Computational Science
-        ·  
-      22 May 2023
-        ·  
-      doi:10.1038/s43588-023-00453-y
-    </div>
-
-    
-      
-
-      
-
-      
-    
-  </div>
-</div>
-
-<div class="citation">
-  
-    <a href="https://doi.org/grpf8m" class="citation-image" aria-label="A publishing infrastructure for AI-assisted academic authoring">
-      <img src="/images/articles/manubot-ai-editor.png" alt="A publishing infrastructure for AI-assisted academic authoring" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
-    
-    <i class="icon fa-regular fa-eye"></i>
-
-    <a href="https://doi.org/grpf8m" class="citation-title">
-      A publishing infrastructure for AI-assisted academic authoring
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Milton Pividori, Casey S. Greene
-    </div>
-
-    <div class="citation-details">
-      Cold Spring Harbor Laboratory
-        ·  
-      23 Jan 2023
-        ·  
-      doi:10.1101/2023.01.21.525030
-    </div>
-
-    
-      
-        <div class="citation-description">
-          We developed the Manubot AI Editor, a plugin to the Manubot publishing infrastructure that uses manuscript section-specific prompts and OpenAI’s models (such as GPT-3) to automatically revise and improve the text.
-
-        </div>
-      
-
-      
-        <div class="citation-buttons">
-          
             
+          </div>
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/gr9nx2" class="citation-image" aria-label="The high-dimensional space of human diseases built from diagnosis records and mapped to genetic loci">
+        <img src="/images/articles/high-dim-diseases.png" alt="The high-dimensional space of human diseases built from diagnosis records and mapped to genetic loci" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      
+
+      <a href="https://doi.org/gr9nx2" class="citation-title">
+        The high-dimensional space of human diseases built from diagnosis records and mapped to genetic loci
+      </a>
+
+      <div class="citation-authors" data-tooltip="Gengjie Jia, Yu Li, Xue Zhong, Kanix Wang, Milton Pividori, Rabab Alomairy, Aniello Esposito, Hatem Ltaief, Chikashi Terao, Masato Akiyama, Koichi Matsuda, David E. Keyes, Hae Kyung Im, Takashi Gojobori, Yoichiro Kamatani, Michiaki Kubo, Nancy J. Cox, James Evans, Xin Gao, Andrey Rzhetsky " tabindex="0">
+        Gengjie Jia, Yu Li, Xue Zhong, Kanix Wang, Milton Pividori, …, Michiaki Kubo, Nancy J. Cox, James Evans, Xin Gao, Andrey Rzhetsky
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Nature Computational Science</span>
+         · 
+        <span class="citation-date">22 May 2023</span>
+         · 
+        <span class="citation-id">doi:10.1038/s43588-023-00453-y</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://doi.org/grpf8m" class="citation-image" aria-label="A publishing infrastructure for AI-assisted academic authoring">
+        <img src="/images/articles/manubot-ai-editor.png" alt="A publishing infrastructure for AI-assisted academic authoring" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      <i class="icon fa-regular fa-eye"></i>
+
+      <a href="https://doi.org/grpf8m" class="citation-title">
+        A publishing infrastructure for AI-assisted academic authoring
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Milton Pividori, Casey S. Greene
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Cold Spring Harbor Laboratory</span>
+         · 
+        <span class="citation-date">23 Jan 2023</span>
+         · 
+        <span class="citation-id">doi:10.1101/2023.01.21.525030</span>
+      </div>
+
+      
+        
+          <div class="citation-description">
+            We developed the Manubot AI Editor, a plugin to the Manubot publishing infrastructure that uses manuscript section-specific prompts and OpenAI’s models (such as GPT-3) to automatically revise and improve the text.
+
+          </div>
+        
+
+        
+          <div class="citation-buttons">
+            
+              
 
 
 
@@ -974,8 +990,8 @@ For this, we aim to develop the next generation of methodologies that will conso
   </div>
 
 
-          
             
+              
 
 
 
@@ -989,93 +1005,99 @@ For this, we aim to develop the next generation of methodologies that will conso
   </div>
 
 
-          
-        </div>
-      
+            
+          </div>
+        
 
+        
       
-    
+    </div>
   </div>
 </div>
 
 <h3 id="2022">2022</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gq68q3" class="citation-image" aria-label="Discerning asthma endotypes through comorbidity mapping">
-      <img src="/images/articles/asthma_endotypes.png" alt="Discerning asthma endotypes through comorbidity mapping" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gq68q3" class="citation-image" aria-label="Discerning asthma endotypes through comorbidity mapping">
+        <img src="/images/articles/asthma_endotypes.png" alt="Discerning asthma endotypes through comorbidity mapping" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gq68q3" class="citation-title">
-      Discerning asthma endotypes through comorbidity mapping
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" data-tooltip="Gengjie Jia, Xue Zhong, Hae Kyung Im, Nathan Schoettler, Milton Pividori, D. Kyle Hogarth, Anne I. Sperling, Steven R. White, Edward T. Naureckas, Christopher S. Lyttle, Chikashi Terao, Yoichiro Kamatani, Masato Akiyama, Koichi Matsuda, Michiaki Kubo, Nancy J. Cox, Carole Ober, Andrey Rzhetsky, Julian Solway " tabindex="0">
-      Gengjie Jia, Xue Zhong, Hae Kyung Im, Nathan Schoettler, Milton Pividori, ..., Michiaki Kubo, Nancy J. Cox, Carole Ober, Andrey Rzhetsky, Julian Solway
+      <a href="https://doi.org/gq68q3" class="citation-title">
+        Discerning asthma endotypes through comorbidity mapping
+      </a>
+
+      <div class="citation-authors" data-tooltip="Gengjie Jia, Xue Zhong, Hae Kyung Im, Nathan Schoettler, Milton Pividori, D. Kyle Hogarth, Anne I. Sperling, Steven R. White, Edward T. Naureckas, Christopher S. Lyttle, Chikashi Terao, Yoichiro Kamatani, Masato Akiyama, Koichi Matsuda, Michiaki Kubo, Nancy J. Cox, Carole Ober, Andrey Rzhetsky, Julian Solway " tabindex="0">
+        Gengjie Jia, Xue Zhong, Hae Kyung Im, Nathan Schoettler, Milton Pividori, …, Michiaki Kubo, Nancy J. Cox, Carole Ober, Andrey Rzhetsky, Julian Solway
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Nature Communications</span>
+         · 
+        <span class="citation-date">07 Nov 2022</span>
+         · 
+        <span class="citation-id">doi:10.1038/s41467-022-33628-8</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Nature Communications
-        ·  
-      07 Nov 2022
-        ·  
-      doi:10.1038/s41467-022-33628-8
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gqcvbw" class="citation-image" aria-label="An efficient not-only-linear correlation coefficient based on machine learning">
-      <img src="/images/articles/ccc.png" alt="An efficient not-only-linear correlation coefficient based on machine learning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
-    <i class="icon fa-regular fa-eye"></i>
-
-    <a href="https://doi.org/gqcvbw" class="citation-title">
-      An efficient not-only-linear correlation coefficient based on machine learning
-    </a>
-
-    <div class="citation-authors" tabindex="0">
-      Milton Pividori, Marylyn D. Ritchie, Diego H. Milone, Casey S. Greene
-    </div>
-
-    <div class="citation-details">
-      Cold Spring Harbor Laboratory
-        ·  
-      17 Jun 2022
-        ·  
-      doi:10.1101/2022.06.15.496326
-    </div>
-
+      <a href="https://doi.org/gqcvbw" class="citation-image" aria-label="An efficient not-only-linear correlation coefficient based on machine learning">
+        <img src="/images/articles/ccc.png" alt="An efficient not-only-linear correlation coefficient based on machine learning" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
-      
-        <div class="citation-description">
-          This article introduces the Clustermatch Correlation Coefficient (CCC), an efficient, easy-to-use and not-only-linear coefficient based on machine learning models. CCC can detect biologically meaningful linear and nonlinear patterns missed by standard, linear-only correlation coefficients.
 
-        </div>
+    <div class="citation-text">
       
+      <i class="icon fa-regular fa-eye"></i>
+
+      <a href="https://doi.org/gqcvbw" class="citation-title">
+        An efficient not-only-linear correlation coefficient based on machine learning
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Milton Pividori, Marylyn D. Ritchie, Diego H. Milone, Casey S. Greene
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Cold Spring Harbor Laboratory</span>
+         · 
+        <span class="citation-date">17 Jun 2022</span>
+         · 
+        <span class="citation-id">doi:10.1101/2022.06.15.496326</span>
+      </div>
 
       
-        <div class="citation-buttons">
-          
+        
+          <div class="citation-description">
+            This article introduces the Clustermatch Correlation Coefficient (CCC), an efficient, easy-to-use and not-only-linear coefficient based on machine learning models. CCC can detect biologically meaningful linear and nonlinear patterns missed by standard, linear-only correlation coefficients.
+
+          </div>
+        
+
+        
+          <div class="citation-buttons">
             
+              
 
 
 
@@ -1089,8 +1111,8 @@ For this, we aim to develop the next generation of methodologies that will conso
   </div>
 
 
-          
             
+              
 
 
 
@@ -1104,542 +1126,585 @@ For this, we aim to develop the next generation of methodologies that will conso
   </div>
 
 
-          
-        </div>
-      
+            
+          </div>
+        
 
+        
       
-    
+    </div>
   </div>
 </div>
 
 <h3 id="2020">2020</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gqqzn3" class="citation-image" aria-label="Polygenic transcriptome risk scores improve portability of polygenic risk scores across ancestries">
-      <img src="/images/articles/prs.png" alt="Polygenic transcriptome risk scores improve portability of polygenic risk scores across ancestries" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gqqzn3" class="citation-image" aria-label="Polygenic transcriptome risk scores improve portability of polygenic risk scores across ancestries">
+        <img src="/images/articles/prs.png" alt="Polygenic transcriptome risk scores improve portability of polygenic risk scores across ancestries" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gqqzn3" class="citation-title">
-      Polygenic transcriptome risk scores improve portability of polygenic risk scores across ancestries
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Yanyu Liang, Milton Pividori, Ani Manichaikul, Abraham A. Palmer, Nancy J. Cox, Heather Wheeler, Hae Kyung Im
+      <a href="https://doi.org/gqqzn3" class="citation-title">
+        Polygenic transcriptome risk scores improve portability of polygenic risk scores across ancestries
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Yanyu Liang, Milton Pividori, Ani Manichaikul, Abraham A. Palmer, Nancy J. Cox, Heather Wheeler, Hae Kyung Im
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Cold Spring Harbor Laboratory</span>
+         · 
+        <span class="citation-date">13 Nov 2020</span>
+         · 
+        <span class="citation-id">doi:10.1101/2020.11.12.373647</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Cold Spring Harbor Laboratory
-        ·  
-      13 Nov 2020
-        ·  
-      doi:10.1101/2020.11.12.373647
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="" class="citation-image" aria-label="FAIA: a framework for intelligent agents development">
-      <img src="" alt="FAIA: a framework for intelligent agents development" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="" class="citation-image" aria-label="FAIA: a framework for intelligent agents development">
+        <img src="" alt="FAIA: a framework for intelligent agents development" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="" class="citation-title">
-      FAIA: a framework for intelligent agents development
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      [no author info]
+      <a href="" class="citation-title">
+        FAIA: a framework for intelligent agents development
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">La Tecnología Educativa al Servicio de la Educación Tecnológica: Experiencias e investigaciones en la UTN</span>
+         · 
+        <span class="citation-date">02 Oct 2020</span>
+         · 
+        <span class="citation-id">isbn:978-987-25855-9-4</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      La Tecnología Educativa al Servicio de la Educación Tecnológica: Experiencias e investigaciones en la UTN
-        ·  
-      02 Oct 2020
-        ·  
-      isbn:978-987-25855-9-4
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/ghbvbf" class="citation-image" aria-label="PhenomeXcan: Mapping the genome to the phenome through the transcriptome">
-      <img src="/images/articles/phenomexcan.png" alt="PhenomeXcan: Mapping the genome to the phenome through the transcriptome" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/ghbvbf" class="citation-image" aria-label="PhenomeXcan: Mapping the genome to the phenome through the transcriptome">
+        <img src="/images/articles/phenomexcan.png" alt="PhenomeXcan: Mapping the genome to the phenome through the transcriptome" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/ghbvbf" class="citation-title">
-      PhenomeXcan: Mapping the genome to the phenome through the transcriptome
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Milton Pividori, Padma S. Rajagopal, Alvaro Barbeira, Yanyu Liang, Owen Melia, Lisa Bastarache, YoSon Park, GTEx Consortium, Xiaoquan Wen, Hae K. Im
+      <a href="https://doi.org/ghbvbf" class="citation-title">
+        PhenomeXcan: Mapping the genome to the phenome through the transcriptome
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Milton Pividori, Padma S. Rajagopal, Alvaro Barbeira, Yanyu Liang, Owen Melia, Lisa Bastarache, YoSon Park, GTEx Consortium, Xiaoquan Wen, Hae K. Im
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Science Advances</span>
+         · 
+        <span class="citation-date">11 Sep 2020</span>
+         · 
+        <span class="citation-id">doi:10.1126/sciadv.aba2083</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Science Advances
-        ·  
-      11 Sep 2020
-        ·  
-      doi:10.1126/sciadv.aba2083
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gjwh3p" class="citation-image" aria-label="Probabilistic Colocalization of Genetic Variants from Complex and Molecular Traits: Promise and Limitations">
-      <img src="/images/articles/prob_coloc.png" alt="Probabilistic Colocalization of Genetic Variants from Complex and Molecular Traits: Promise and Limitations" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gjwh3p" class="citation-image" aria-label="Probabilistic Colocalization of Genetic Variants from Complex and Molecular Traits: Promise and Limitations">
+        <img src="/images/articles/prob_coloc.png" alt="Probabilistic Colocalization of Genetic Variants from Complex and Molecular Traits: Promise and Limitations" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gjwh3p" class="citation-title">
-      Probabilistic Colocalization of Genetic Variants from Complex and Molecular Traits: Promise and Limitations
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Abhay Hukku, Milton Pividori, Francesca Luca, Roger Pique-Regi, Hae Kyung Im, Xiaoquan Wen
+      <a href="https://doi.org/gjwh3p" class="citation-title">
+        Probabilistic Colocalization of Genetic Variants from Complex and Molecular Traits: Promise and Limitations
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Abhay Hukku, Milton Pividori, Francesca Luca, Roger Pique-Regi, Hae Kyung Im, Xiaoquan Wen
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Cold Spring Harbor Laboratory</span>
+         · 
+        <span class="citation-date">01 Jul 2020</span>
+         · 
+        <span class="citation-id">doi:10.1101/2020.07.01.182097</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Cold Spring Harbor Laboratory
-        ·  
-      01 Jul 2020
-        ·  
-      doi:10.1101/2020.07.01.182097
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/ghfd95" class="citation-image" aria-label="DL4papers: a deep learning approach for the automatic interpretation of scientific articles">
-      <img src="/images/articles/dl4papers.png" alt="DL4papers: a deep learning approach for the automatic interpretation of scientific articles" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/ghfd95" class="citation-image" aria-label="DL4papers: a deep learning approach for the automatic interpretation of scientific articles">
+        <img src="/images/articles/dl4papers.png" alt="DL4papers: a deep learning approach for the automatic interpretation of scientific articles" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/ghfd95" class="citation-title">
-      DL4papers: a deep learning approach for the automatic interpretation of scientific articles
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      L A Bugnon, C Yones, J Raad, M Gerard, M Rubiolo, G Merino, M Pividori, L Di Persia, D H Milone, G Stegmayer
+      <a href="https://doi.org/ghfd95" class="citation-title">
+        DL4papers: a deep learning approach for the automatic interpretation of scientific articles
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        L A Bugnon, C Yones, J Raad, M Gerard, M Rubiolo, G Merino, M Pividori, L Di Persia, D H Milone, G Stegmayer
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Bioinformatics</span>
+         · 
+        <span class="citation-date">24 Feb 2020</span>
+         · 
+        <span class="citation-id">doi:10.1093/bioinformatics/btaa111</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Bioinformatics
-        ·  
-      24 Feb 2020
-        ·  
-      doi:10.1093/bioinformatics/btaa111
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2019">2019</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gg7m54" class="citation-image" aria-label="Exploiting the GTEx resources to decipher the mechanisms at GWAS loci">
-      <img src="/images/articles/exploiting.png" alt="Exploiting the GTEx resources to decipher the mechanisms at GWAS loci" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gg7m54" class="citation-image" aria-label="Exploiting the GTEx resources to decipher the mechanisms at GWAS loci">
+        <img src="/images/articles/exploiting.png" alt="Exploiting the GTEx resources to decipher the mechanisms at GWAS loci" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gg7m54" class="citation-title">
-      Exploiting the GTEx resources to decipher the mechanisms at GWAS loci
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" data-tooltip="Alvaro N Barbeira, Rodrigo Bonazzola, Eric R Gamazon, Yanyu Liang, YoSon Park, Sarah Kim-Hellmuth, Gao Wang, Zhuoxun Jiang, Dan Zhou, Farhad Hormozdiari, Boxiang Liu, Abhiram Rao, Andrew R Hamel, Milton D Pividori, François Aguet, Lisa Bastarache, Daniel M Jordan, Marie Verbanck, Ron Do, Matthew Stephens, Kristin Ardlie, Mark McCarthy, Stephen B Montgomery, Ayellet V Segrè, Christopher D. Brown, Tuuli Lappalainen, Xiaoquan Wen, Hae Kyung Im " tabindex="0">
-      Alvaro N Barbeira, Rodrigo Bonazzola, Eric R Gamazon, Yanyu Liang, YoSon Park, ..., Ayellet V Segrè, Christopher D. Brown, Tuuli Lappalainen, Xiaoquan Wen, Hae Kyung Im
+      <a href="https://doi.org/gg7m54" class="citation-title">
+        Exploiting the GTEx resources to decipher the mechanisms at GWAS loci
+      </a>
+
+      <div class="citation-authors" data-tooltip="Alvaro N Barbeira, Rodrigo Bonazzola, Eric R Gamazon, Yanyu Liang, YoSon Park, Sarah Kim-Hellmuth, Gao Wang, Zhuoxun Jiang, Dan Zhou, Farhad Hormozdiari, Boxiang Liu, Abhiram Rao, Andrew R Hamel, Milton D Pividori, François Aguet, Lisa Bastarache, Daniel M Jordan, Marie Verbanck, Ron Do, Matthew Stephens, Kristin Ardlie, Mark McCarthy, Stephen B Montgomery, Ayellet V Segrè, Christopher D. Brown, Tuuli Lappalainen, Xiaoquan Wen, Hae Kyung Im " tabindex="0">
+        Alvaro N Barbeira, Rodrigo Bonazzola, Eric R Gamazon, Yanyu Liang, YoSon Park, …, Ayellet V Segrè, Christopher D. Brown, Tuuli Lappalainen, Xiaoquan Wen, Hae Kyung Im
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Cold Spring Harbor Laboratory</span>
+         · 
+        <span class="citation-date">22 Oct 2019</span>
+         · 
+        <span class="citation-id">doi:10.1101/814350</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Cold Spring Harbor Laboratory
-        ·  
-      22 Oct 2019
-        ·  
-      doi:10.1101/814350
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://www.ncbi.nlm.nih.gov/pubmed/29800232" class="citation-image" aria-label="Predicting novel microRNA: a comprehensive comparison of machine learning approaches.">
-      <img src="/images/articles/predicting-mirna.png" alt="Predicting novel microRNA: a comprehensive comparison of machine learning approaches." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://www.ncbi.nlm.nih.gov/pubmed/29800232" class="citation-image" aria-label="Predicting novel microRNA: a comprehensive comparison of machine learning approaches.">
+        <img src="/images/articles/predicting-mirna.png" alt="Predicting novel microRNA: a comprehensive comparison of machine learning approaches." loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://www.ncbi.nlm.nih.gov/pubmed/29800232" class="citation-title">
-      Predicting novel microRNA: a comprehensive comparison of machine learning approaches.
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Georgina Stegmayer, Leandro E Di Persia, Mariano Rubiolo, Matias Gerard, Milton Pividori, Cristian Yones, Leandro A Bugnon, Tadeo Rodriguez, Jonathan Raad, Diego H Milone
+      <a href="https://www.ncbi.nlm.nih.gov/pubmed/29800232" class="citation-title">
+        Predicting novel microRNA: a comprehensive comparison of machine learning approaches.
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Georgina Stegmayer, Leandro E Di Persia, Mariano Rubiolo, Matias Gerard, Milton Pividori, Cristian Yones, Leandro A Bugnon, Tadeo Rodriguez, Jonathan Raad, Diego H Milone
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Briefings in bioinformatics</span>
+         · 
+        <span class="citation-date">27 Sep 2019</span>
+         · 
+        <span class="citation-id">pmid:29800232</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Briefings in bioinformatics
-        ·  
-      27 Sep 2019
-        ·  
-      pmid:29800232
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gmkmgk" class="citation-image" aria-label="Shared and distinct genetic risk factors for childhood-onset and adult-onset asthma: genome-wide and transcriptome-wide studies">
-      <img src="/images/articles/asthma.png" alt="Shared and distinct genetic risk factors for childhood-onset and adult-onset asthma: genome-wide and transcriptome-wide studies" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gmkmgk" class="citation-image" aria-label="Shared and distinct genetic risk factors for childhood-onset and adult-onset asthma: genome-wide and transcriptome-wide studies">
+        <img src="/images/articles/asthma.png" alt="Shared and distinct genetic risk factors for childhood-onset and adult-onset asthma: genome-wide and transcriptome-wide studies" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gmkmgk" class="citation-title">
-      Shared and distinct genetic risk factors for childhood-onset and adult-onset asthma: genome-wide and transcriptome-wide studies
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Milton Pividori, Nathan Schoettler, Dan L Nicolae, Carole Ober, Hae Kyung Im
+      <a href="https://doi.org/gmkmgk" class="citation-title">
+        Shared and distinct genetic risk factors for childhood-onset and adult-onset asthma: genome-wide and transcriptome-wide studies
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Milton Pividori, Nathan Schoettler, Dan L Nicolae, Carole Ober, Hae Kyung Im
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">The Lancet Respiratory Medicine</span>
+         · 
+        <span class="citation-date">01 Jun 2019</span>
+         · 
+        <span class="citation-id">doi:10.1016/S2213-2600(19)30055-4</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      The Lancet Respiratory Medicine
-        ·  
-      01 Jun 2019
-        ·  
-      doi:10.1016/S2213-2600(19)30055-4
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/ghs8vx" class="citation-image" aria-label="Integrating predicted transcriptome from multiple tissues improves association detection">
-      <img src="/images/articles/multixcan.png" alt="Integrating predicted transcriptome from multiple tissues improves association detection" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/ghs8vx" class="citation-image" aria-label="Integrating predicted transcriptome from multiple tissues improves association detection">
+        <img src="/images/articles/multixcan.png" alt="Integrating predicted transcriptome from multiple tissues improves association detection" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/ghs8vx" class="citation-title">
-      Integrating predicted transcriptome from multiple tissues improves association detection
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Alvaro N. Barbeira, Milton Pividori, Jiamao Zheng, Heather E. Wheeler, Dan L. Nicolae, Hae Kyung Im
+      <a href="https://doi.org/ghs8vx" class="citation-title">
+        Integrating predicted transcriptome from multiple tissues improves association detection
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Alvaro N. Barbeira, Milton Pividori, Jiamao Zheng, Heather E. Wheeler, Dan L. Nicolae, Hae Kyung Im
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">PLOS Genetics</span>
+         · 
+        <span class="citation-date">22 Jan 2019</span>
+         · 
+        <span class="citation-id">doi:10.1371/journal.pgen.1007889</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      PLOS Genetics
-        ·  
-      22 Jan 2019
-        ·  
-      doi:10.1371/journal.pgen.1007889
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2018">2018</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gpf349" class="citation-image" aria-label="ukbREST: efficient and streamlined data access for reproducible research in large biobanks">
-      <img src="/images/articles/ukbrest.png" alt="ukbREST: efficient and streamlined data access for reproducible research in large biobanks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gpf349" class="citation-image" aria-label="ukbREST: efficient and streamlined data access for reproducible research in large biobanks">
+        <img src="/images/articles/ukbrest.png" alt="ukbREST: efficient and streamlined data access for reproducible research in large biobanks" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gpf349" class="citation-title">
-      ukbREST: efficient and streamlined data access for reproducible research in large biobanks
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Milton Pividori, Hae Kyung Im
+      <a href="https://doi.org/gpf349" class="citation-title">
+        ukbREST: efficient and streamlined data access for reproducible research in large biobanks
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Milton Pividori, Hae Kyung Im
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Bioinformatics</span>
+         · 
+        <span class="citation-date">05 Nov 2018</span>
+         · 
+        <span class="citation-id">doi:10.1093/bioinformatics/bty925</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Bioinformatics
-        ·  
-      05 Nov 2018
-        ·  
-      doi:10.1093/bioinformatics/bty925
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
-<div class="citation">
-  
-    <a href="https://doi.org/gfg4bt" class="citation-image" aria-label="Clustermatch: discovering hidden relations in highly diverse kinds of qualitative and quantitative data without standardization">
-      <img src="/images/articles/clustermatch.png" alt="Clustermatch: discovering hidden relations in highly diverse kinds of qualitative and quantitative data without standardization" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/gfg4bt" class="citation-image" aria-label="Clustermatch: discovering hidden relations in highly diverse kinds of qualitative and quantitative data without standardization">
+        <img src="/images/articles/clustermatch.png" alt="Clustermatch: discovering hidden relations in highly diverse kinds of qualitative and quantitative data without standardization" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/gfg4bt" class="citation-title">
-      Clustermatch: discovering hidden relations in highly diverse kinds of qualitative and quantitative data without standardization
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Milton Pividori, Andres Cernadas, Luis A de Haro, Fernando Carrari, Georgina Stegmayer, Diego H Milone
+      <a href="https://doi.org/gfg4bt" class="citation-title">
+        Clustermatch: discovering hidden relations in highly diverse kinds of qualitative and quantitative data without standardization
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Milton Pividori, Andres Cernadas, Luis A de Haro, Fernando Carrari, Georgina Stegmayer, Diego H Milone
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Bioinformatics</span>
+         · 
+        <span class="citation-date">24 Oct 2018</span>
+         · 
+        <span class="citation-id">doi:10.1093/bioinformatics/bty899</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Bioinformatics
-        ·  
-      24 Oct 2018
-        ·  
-      doi:10.1093/bioinformatics/bty899
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2016">2016</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/ghtqbk" class="citation-image" aria-label="Diversity control for improving the analysis of consensus clustering">
-      <img src="/images/articles/divcontrol.png" alt="Diversity control for improving the analysis of consensus clustering" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/ghtqbk" class="citation-image" aria-label="Diversity control for improving the analysis of consensus clustering">
+        <img src="/images/articles/divcontrol.png" alt="Diversity control for improving the analysis of consensus clustering" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/ghtqbk" class="citation-title">
-      Diversity control for improving the analysis of consensus clustering
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Milton Pividori, Georgina Stegmayer, Diego H. Milone
+      <a href="https://doi.org/ghtqbk" class="citation-title">
+        Diversity control for improving the analysis of consensus clustering
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Milton Pividori, Georgina Stegmayer, Diego H. Milone
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Information Sciences</span>
+         · 
+        <span class="citation-date">01 Sep 2016</span>
+         · 
+        <span class="citation-id">doi:10.1016/j.ins.2016.04.027</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Information Sciences
-        ·  
-      01 Sep 2016
-        ·  
-      doi:10.1016/j.ins.2016.04.027
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2015">2015</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/f78h5s" class="citation-image" aria-label="A very simple and fast way to access and validate algorithms in reproducible research">
-      <img src="/images/articles/webdemo-builder.png" alt="A very simple and fast way to access and validate algorithms in reproducible research" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/f78h5s" class="citation-image" aria-label="A very simple and fast way to access and validate algorithms in reproducible research">
+        <img src="/images/articles/webdemo-builder.png" alt="A very simple and fast way to access and validate algorithms in reproducible research" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/f78h5s" class="citation-title">
-      A very simple and fast way to access and validate algorithms in reproducible research
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Georgina Stegmayer, Milton Pividori, Diego H. Milone
+      <a href="https://doi.org/f78h5s" class="citation-title">
+        A very simple and fast way to access and validate algorithms in reproducible research
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Georgina Stegmayer, Milton Pividori, Diego H. Milone
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Briefings in Bioinformatics</span>
+         · 
+        <span class="citation-date">28 Jul 2015</span>
+         · 
+        <span class="citation-id">doi:10.1093/bib/bbv054</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Briefings in Bioinformatics
-        ·  
-      28 Jul 2015
-        ·  
-      doi:10.1093/bib/bbv054
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
 
 <h3 id="2010">2010</h3>
 
-<div class="citation">
-  
-    <a href="https://doi.org/cjxvbg" class="citation-image" aria-label="How to Develop Intelligent Agents in an Easy Way with FAIA">
-      <img src="" alt="How to Develop Intelligent Agents in an Easy Way with FAIA" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-    </a>
-  
-
-  <div class="citation-text">
+<div class="citation-container">
+  <div class="citation">
     
+      <a href="https://doi.org/cjxvbg" class="citation-image" aria-label="How to Develop Intelligent Agents in an Easy Way with FAIA">
+        <img src="" alt="How to Develop Intelligent Agents in an Easy Way with FAIA" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
     
 
-    <a href="https://doi.org/cjxvbg" class="citation-title">
-      How to Develop Intelligent Agents in an Easy Way with FAIA
-    </a>
+    <div class="citation-text">
+      
+      
 
-    <div class="citation-authors" tabindex="0">
-      Jorge Roa, Milton Pividori, Ma. De los Milagros Gutiérrez, Georgina Stegmayer
+      <a href="https://doi.org/cjxvbg" class="citation-title">
+        How to Develop Intelligent Agents in an Easy Way with FAIA
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Jorge Roa, Milton Pividori, Ma. De los Milagros Gutiérrez, Georgina Stegmayer
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">Quality and Communicability for Interactive Hypermedia Systems</span>
+         · 
+        <span class="citation-date">01 Jan 2010</span>
+         · 
+        <span class="citation-id">doi:10.4018/978-1-61520-763-3.ch006</span>
+      </div>
+
+      
+        
+
+        
+
+        
+      
     </div>
-
-    <div class="citation-details">
-      Quality and Communicability for Interactive Hypermedia Systems
-        ·  
-      01 Jan 2010
-        ·  
-      doi:10.4018/978-1-61520-763-3.ch006
-    </div>
-
-    
-      
-
-      
-
-      
-    
   </div>
 </div>
   </section>

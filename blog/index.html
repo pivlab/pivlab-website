@@ -96,9 +96,9 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -359,6 +359,8 @@
 
   <script src="/_scripts/site-search.js"></script>
 
+  <script src="/_scripts/table-wrap.js"></script>
+
   <script src="/_scripts/tooltip.js"></script>
 
 
@@ -428,7 +430,7 @@
       </span>
     
     
-      <span class="title" data-tooltip="Home">
+      <span class="title-text" data-tooltip="Home">
         
         
           
@@ -486,11 +488,8 @@
   modify main content of page:
   - add section breaks
   - attach section properties
-  - wrap each table in div to allow for scrolling
   - filter out blank sections
 -->
-
-
 
 
 
@@ -538,12 +537,18 @@
 
 <div class="search-info"></div>
 
-<div class="post-excerpt">
-  
-  
-  <a href="/2023/04/24/initializing-pividori-lab.html">Initializing Pividori Lab</a>
+<div class="post-excerpt-container">
+  <div class="post-excerpt">
+    
+    
+    
 
-  <div class="post-info">
+    
+
+    <div class="post-excerpt-text">
+      <a href="/2023/04/24/initializing-pividori-lab.html">Initializing Pividori Lab</a>
+
+      <div class="post-info">
   
     
     
@@ -589,7 +594,7 @@
   
     <span data-tooltip="Last updated on">
       <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>February 12, 2024</span>
+      <span>March 19, 2024</span>
     </span>
   
 </div>
@@ -614,12 +619,14 @@
 
 
 
-  
-  
-  <p data-search="                       An abstract painting depicting the dawn light shining on a biomedical informatics research laboratory    Milton   DALL E      On May 1st  2023  I will officially start as an Assistant Professor and PI of the Pividori Lab in the Department of Biomedical Informatics at the University of Colorado Anschutz Medical Campus I m very excited and curious about this new stage in my career Our lab will focus on developing machine learning methods for biomedical informatics  with a specific focus on integrating multi omics datasets and genetics We aim to design the next generation of methodologies that will consolidate large and heterogeneous sources of biomedical data to extract biological insights that will ultimately improve human health I invite you to keep an eye on this blog  my Twitter  and our projects on GitHub for updates about our research and other activities We are recruiting  If your interests align with our labs   please reach out   ">
-    
+      
+      
+      <p data-search="                       An abstract painting depicting the dawn light shining on a biomedical informatics research laboratory    Milton   DALL E      On May 1st  2023  I will officially start as an Assistant Professor and PI of the Pividori Lab in the Department of Biomedical Informatics at the University of Colorado Anschutz Medical Campus I m very excited and curious about this new stage in my career Our lab will focus on developing machine learning methods for biomedical informatics  with a specific focus on integrating multi omics datasets and genetics We aim to design the next generation of methodologies that will consolidate large and heterogeneous sources of biomedical data to extract biological insights that will ultimately improve human health I invite you to keep an eye on this blog  my Twitter  and our projects on GitHub for updates about our research and other activities We are recruiting  If your interests align with our labs   please reach out   ">
+        
 
-  </p>
+      </p>
+    </div>
+  </div>
 </div>
   </section>
 

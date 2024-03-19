@@ -96,9 +96,9 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -359,6 +359,8 @@
 
   <script src="/_scripts/site-search.js"></script>
 
+  <script src="/_scripts/table-wrap.js"></script>
+
   <script src="/_scripts/tooltip.js"></script>
 
 
@@ -428,7 +430,7 @@
       </span>
     
     
-      <span class="title" data-tooltip="Home">
+      <span class="title-text" data-tooltip="Home">
         
         
           
@@ -486,11 +488,8 @@
   modify main content of page:
   - add section breaks
   - attach section properties
-  - wrap each table in div to allow for scrolling
   - filter out blank sections
 -->
-
-
 
 
 
@@ -504,6 +503,45 @@
   <section class="background" data-size="page">
     <h1 id="projects">
 <i class="icon fa-solid fa-wrench"></i>Projects</h1>
+
+<!-- 
+
+
+  <div
+    class="tags"
+    
+    
+      data-link="/projects/"
+    
+  >
+    
+      <a
+        href="/projects/?search=&quot;tag: publication&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;publication&quot;"
+      >
+        publication
+      </a>
+    
+      <a
+        href="/projects/?search=&quot;tag: resource&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;resource&quot;"
+      >
+        resource
+      </a>
+    
+      <a
+        href="/projects/?search=&quot;tag: website&quot;"
+        class="tag"
+        data-tooltip="Show items with the tag &quot;website&quot;"
+      >
+        website
+      </a>
+    
+  </div>
+
+ -->
 
 <div class="search-info"></div>
   </section>
@@ -538,8 +576,10 @@
     
 
     
-      <p>An omnigenic approach that provides a gene module perspective to genetic studies. PhenoPLIER computes gene module-trait associations and a drug-disease links.</p>
+      <p>
+        An omnigenic approach that provides a gene module perspective to genetic studies. PhenoPLIER computes gene module-trait associations and a drug-disease links.
 
+      </p>
     
 
     
@@ -584,8 +624,10 @@
     
 
     
-      <p>An easy-to-use and not-only-linear coefficient based on machine learning models. CCC can detect biologically meaningful linear and nonlinear patterns missed by standard, linear-only correlation coefficients.</p>
+      <p>
+        An easy-to-use and not-only-linear coefficient based on machine learning models. CCC can detect biologically meaningful linear and nonlinear patterns missed by standard, linear-only correlation coefficients.
 
+      </p>
     
 
     
@@ -626,8 +668,10 @@
     
 
     
-      <p>A workflow for Manubot that automatically improves scholarly manuscripts using large language models from OpenAI.</p>
+      <p>
+        A workflow for Manubot that automatically improves scholarly manuscripts using large language models from OpenAI.
 
+      </p>
     
 
     
@@ -682,8 +726,10 @@
     
 
     
-      <p>A tool that enables efficient retrieval of phenotypic and genetic data from the UK Biobank within a private, secure network using a REST API. Its data access specification is in a human-readable text format that can be easily shared with other researchers.</p>
+      <p>
+        A tool that enables efficient retrieval of phenotypic and genetic data from the UK Biobank within a private, secure network using a REST API. Its data access specification is in a human-readable text format that can be easily shared with other researchers.
 
+      </p>
     
 
     
@@ -724,8 +770,10 @@
     
 
     
-      <p>A method to smoothly control the diversity of a cluster ensemble, providing an effective way to study the diversity influence on clustering consensus performance.</p>
+      <p>
+        A method to smoothly control the diversity of a cluster ensemble, providing an effective way to study the diversity influence on clustering consensus performance.
 
+      </p>
     
 
     
