@@ -1,6 +1,6 @@
 ---
 name: Jill Hoffman
-image: images/team/hoffman.jpg
+image: images/team/jill_hoffman.jpg
 description: PhD Student
 role: PhD Student
 links:
