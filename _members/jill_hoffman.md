@@ -1,8 +1,8 @@
 ---
 name: Jill Hoffman
 image: images/team/jill_hoffman.jpg
-description: PhD Student
-role: PhD Student
+description: Rotation Student
+role: phd
 links:
   email: jill.hoffman@cuanschutz.edu
   github: jillhoffman
