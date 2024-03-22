@@ -5,7 +5,7 @@ description: PhD Student
 role: PhD Student
 links:
   email: jill.hoffman@cuanschutz.edu
-  github: [jillhoffman](https://github.com/jillhoffman)
+  github: jillhoffman
   
 ---
 
