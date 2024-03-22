@@ -1,6 +1,6 @@
 ---
 name: Jill Hoffman
-image: images/team/some-image.jpg
+image: images/team/hoffman.jpg
 description: CPBS Rotation Student
 
 ---
