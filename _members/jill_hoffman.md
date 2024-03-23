@@ -9,4 +9,4 @@ links:
   
 ---
 
-Jill is a first year student in the Computational Bioscience program. She recieved her bachelors degree in Biochemsitry from the University of Colorado Denver. Her previous research involved creating a highthrough put method of modeling protein mutations. 
+Jill is a first-year student in the Computational Bioscience program. She received her bachelor's degree in Biochemistry from the University of Colorado Denver. Her previous research involved creating a high-throughput method for modeling protein mutations. 
