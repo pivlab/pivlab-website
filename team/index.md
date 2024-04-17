@@ -17,7 +17,7 @@ We enjoy learning from each other and strive to make a significant impact on soc
 {% include list.html data="members" component="portrait" filters="role: ms, group: " %}
 {% include list.html data="members" component="portrait" filters="role: undergrad, group: " %}
 {% include list.html data="members" component="portrait" filters="role: programmer-lab, group: " %}
-{% include list.html data="members" component="portrait" filters="role: programmer, group: " %}
+{% include list.html data="members" component="portrait" filters="role: programmer$, group: " %}
 
 {% include section.html dark=true %}
 
