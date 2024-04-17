@@ -2,7 +2,7 @@
 name: Haoyu Zhang
 image: images/team/haoyu-zhang.png
 description: Software Developer
-role: programmer
+role: programmer-lab
 links:
   home-page: https://www.haoyu.dev/
   email: haoyu.zk@gmail.com
