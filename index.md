@@ -8,6 +8,12 @@ We are a research laboratory in the [Department of Biomedical Informatics](https
 Our research is focused on developing novel machine-learning methods to advance key computational aspects of precision medicine.
 For this, we design and develop algorithms and tools that are applied to human disease with a systems biology approach.
 
+{%
+  include figure.html
+  image="images/team/team-photo-01.jpg"
+  width="100%"
+%}
+
 {% include section.html %}
 
 ## Highlights
