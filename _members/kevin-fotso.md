@@ -2,7 +2,7 @@
 name: Kevin Fotso
 image: images/team/Kevin_Fotso.png
 description: Bioinformatics Technical Analyst
-role: HPC professional
+role: programmer-lab
 links:
   email: kevin.fotso@cuanschutz.edu
   github: kf-cuanschutz
