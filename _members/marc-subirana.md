@@ -10,7 +10,7 @@ links:
 
 Marc is currently a Postdoctoral Researcher at [Pividori Lab](/) in the [Department of Biomedical Informatics](https://medschool.cuanschutz.edu/dbmi) and the [Colorado Center for Personalized Medicine (CCPM)](https://medschool.cuanschutz.edu/ccpm) at the [University of Colorado Anschutz Medical Campus](https://www.cuanschutz.edu/).
 
-Prior to joining the Pividori Lab, Marc earned his PhD in Biomedicine and Bioinformatics at [Endocrine regulatory genomics](https://www.upf.edu/web/endocrine-regulatory-genomics/research) at the [Parcelona Biomedical Research Park](https://www.prbb.org/) (Barcelona, Spain).
+Prior to joining the Pividori Lab, Marc earned his PhD in Biomedicine and Bioinformatics at [Endocrine regulatory genomics](https://www.upf.edu/web/endocrine-regulatory-genomics/research) at the [Barcelona Biomedical Research Park](https://www.prbb.org/) (Barcelona, Spain).
 His primary research focused on insulinomas, a form of pancreatic cancer, where he analyzed the associated regulatory networks and somatic mutations.
 This work led to the discovery of genetic variations that affect the deregulation of noncoding functions in insulinoma.
 Furthermore, he extended his research to study the regulatory networks in type 1 diabetes, aiming to better understand the disease's mechanisms.
@@ -22,6 +22,3 @@ His goal is to extract meaningful biological insights that can pave the way for 
 
 Outside of his professional endeavors, Marc is passionate about outdoor activities, including hiking, biking, climbing, and skiing.
 He values quality time with friends and family and enjoys organizing large dinners to celebrate these connections.
-
-
-
