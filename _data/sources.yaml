@@ -26,17 +26,20 @@
       text: Manuscript source
       link: https://github.com/greenelab/ccc-manuscript/
 # Manubot AI Editor
-## Preprint:
+## JAMIA:
 - id: doi:10.1093/jamia/ocae139
   type: paper
   image: images/articles/manubot-ai-editor.png
-  description: We developed the Manubot AI Editor, a plugin to the Manubot publishing infrastructure that uses manuscript section-specific prompts and OpenAI's models (such as GPT-3) to automatically revise and improve the text.
+  description: We developed the Manubot AI Editor, a plugin to the Manubot publishing infrastructure that uses manuscript section-specific prompts and OpenAI's models to automatically revise and improve the text.
   buttons:
     - type: manubot
       link: https://greenelab.github.io/manubot-gpt-manuscript/
     - type: source
       text: Manuscript source
       link: https://github.com/greenelab/manubot-gpt-manuscript
+## Preprint:
+- id: doi:10.1101/2023.01.21.525030
+  hide: "true"
 # Others
 - id: doi:10.1016/S2213-2600(19)30055-4
   image: images/articles/asthma.png
