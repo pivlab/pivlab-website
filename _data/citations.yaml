@@ -1,10 +1,13 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
 - id: doi:10.1093/jamia/ocae139
-  title: pendingpublications
-  authors: []
-  publisher: ''
-  date: ''
+  title: A publishing infrastructure for Artificial Intelligence (AI)-assisted academic
+    authoring
+  authors:
+  - Milton Pividori
+  - Casey S Greene
+  publisher: Journal of the American Medical Informatics Association
+  date: '2024-06-14'
   link: https://doi.org/gtw9d3
   orcid: 0000-0002-3035-4403
   plugin: orcid.py
