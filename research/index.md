@@ -32,7 +32,7 @@ Strongly committed to open source and open science, we use [GitHub](https://gith
 
 ## Automatic revision of scholarly text using AI and large language models
 
-{% include citation.html lookup="doi:10.1101/2023.01.21.525030" style="rich" %}
+{% include citation.html lookup="doi:10.1093/jamia/ocae139" style="rich" %}
 
 {% include section.html %}
 
