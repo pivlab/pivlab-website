@@ -1,7 +1,7 @@
 ---
 name: Jill Hoffman
 image: images/team/jill_hoffman.jpg
-description: Rotation Student
+description: PhD Student
 role: phd
 links:
   email: jill.hoffman@cuanschutz.edu
