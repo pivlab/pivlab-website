@@ -346,23 +346,23 @@
   plugin: sources.py
   file: sources.yaml
   image: images/articles/ukbrest.png
-- id: doi:10.1101/292649
-  title: Integrating Predicted Transcriptome From Multiple Tissues Improves Association
-    Detection
+- id: doi:10.1371/journal.pgen.1007889
+  title: Integrating predicted transcriptome from multiple tissues improves association
+    detection
   authors:
   - Alvaro N. Barbeira
-  - Milton D. Pividori
+  - Milton Pividori
   - Jiamao Zheng
   - Heather E. Wheeler
   - Dan L. Nicolae
   - Hae Kyung Im
-  publisher: Cold Spring Harbor Laboratory
-  date: '2018-03-31'
-  link: https://doi.org/gkws4v
+  publisher: PLOS Genetics
+  date: '2019-01-22'
+  link: https://doi.org/ghs8vx
   orcid: 0000-0002-3035-4403
   plugin: sources.py
   file: sources.yaml
-  hide: 'true'
+  image: images/articles/multixcan.png
 - id: doi:10.1016/S2213-2600(19)30055-4
   title: 'Shared and distinct genetic risk factors for childhood-onset and adult-onset
     asthma: genome-wide and transcriptome-wide studies'
@@ -379,9 +379,9 @@
   plugin: sources.py
   file: sources.yaml
   image: images/articles/asthma.png
-- id: doi:10.1093/bioinformatics/bty899
+- id: pmid:30357313
   title: 'Clustermatch: discovering hidden relations in highly diverse kinds of qualitative
-    and quantitative data without standardization'
+    and quantitative data without standardization.'
   authors:
   - Milton Pividori
   - Andres Cernadas
@@ -389,16 +389,16 @@
   - Fernando Carrari
   - Georgina Stegmayer
   - Diego H Milone
-  publisher: Bioinformatics
-  date: '2018-10-24'
-  link: https://doi.org/gfg4bt
+  publisher: Bioinformatics (Oxford, England)
+  date: '2019-06-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/30357313
   orcid: 0000-0002-3035-4403
   plugin: sources.py
   file: sources.yaml
-  image: images/articles/clustermatch.png
-- id: doi:10.1093/bib/bby037
+  hide: 'true'
+- id: pmid:29800232
   title: 'Predicting novel microRNA: a comprehensive comparison of machine learning
-    approaches'
+    approaches.'
   authors:
   - Georgina Stegmayer
   - Leandro E Di Persia
@@ -410,13 +410,13 @@
   - Tadeo Rodriguez
   - Jonathan Raad
   - Diego H Milone
-  publisher: Briefings in Bioinformatics
-  date: '2018-05-23'
-  link: https://doi.org/gdmf9z
+  publisher: Briefings in bioinformatics
+  date: '2019-09-27'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/29800232
   orcid: 0000-0002-3035-4403
   plugin: sources.py
   file: sources.yaml
-  hide: 'true'
+  image: images/articles/predicting-mirna.png
 - id: doi:10.1016/j.ins.2016.04.027
   title: Diversity control for improving the analysis of consensus clustering
   authors:
@@ -454,11 +454,12 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: isbn:978-987-25855-9-4
-  title: 'FAIA: a framework for intelligent agents development'
+  title: "La tecnolog\xEDa eductiva al servicio de la educaci\xF3n tecnol\xF3gica:\
+    \ experiencias e investigaciones en la UTN Uriel Rub\xE9n Cukierman; Jos\xE9 Mar\xED\
+    a Virgili (comps.)"
   authors: []
-  publisher: "La Tecnolog\xEDa Educativa al Servicio de la Educaci\xF3n Tecnol\xF3\
-    gica: Experiencias e investigaciones en la UTN"
-  date: '2020-10-02'
+  publisher: EdUTecNe
+  date: '2010-01-01'
   link: ''
   orcid: 0000-0002-3035-4403
   plugin: orcid.py
@@ -476,9 +477,25 @@
   orcid: 0000-0002-3035-4403
   plugin: orcid.py
   file: orcid.yaml
-- id: pmid:29800232
+- id: doi:10.1093/bioinformatics/bty899
+  title: 'Clustermatch: discovering hidden relations in highly diverse kinds of qualitative
+    and quantitative data without standardization'
+  authors:
+  - Milton Pividori
+  - Andres Cernadas
+  - Luis A de Haro
+  - Fernando Carrari
+  - Georgina Stegmayer
+  - Diego H Milone
+  publisher: Bioinformatics
+  date: '2018-10-24'
+  link: https://doi.org/gfg4bt
+  image: images/articles/clustermatch.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1093/bib/bby037
   title: 'Predicting novel microRNA: a comprehensive comparison of machine learning
-    approaches.'
+    approaches'
   authors:
   - Georgina Stegmayer
   - Leandro E Di Persia
@@ -490,41 +507,25 @@
   - Tadeo Rodriguez
   - Jonathan Raad
   - Diego H Milone
-  publisher: Briefings in bioinformatics
-  date: '2019-09-27'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/29800232
-  image: images/articles/predicting-mirna.png
+  publisher: Briefings in Bioinformatics
+  date: '2018-05-23'
+  link: https://doi.org/gdmf9z
+  hide: 'true'
   plugin: sources.py
   file: sources.yaml
-- id: doi:10.1371/journal.pgen.1007889
-  title: Integrating predicted transcriptome from multiple tissues improves association
-    detection
+- id: doi:10.1101/292649
+  title: Integrating Predicted Transcriptome From Multiple Tissues Improves Association
+    Detection
   authors:
   - Alvaro N. Barbeira
-  - Milton Pividori
+  - Milton D. Pividori
   - Jiamao Zheng
   - Heather E. Wheeler
   - Dan L. Nicolae
   - Hae Kyung Im
-  publisher: PLOS Genetics
-  date: '2019-01-22'
-  link: https://doi.org/ghs8vx
-  image: images/articles/multixcan.png
-  plugin: sources.py
-  file: sources.yaml
-- id: pmid:30357313
-  title: 'Clustermatch: discovering hidden relations in highly diverse kinds of qualitative
-    and quantitative data without standardization.'
-  authors:
-  - Milton Pividori
-  - Andres Cernadas
-  - Luis A de Haro
-  - Fernando Carrari
-  - Georgina Stegmayer
-  - Diego H Milone
-  publisher: Bioinformatics (Oxford, England)
-  date: '2019-06-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/30357313
+  publisher: Cold Spring Harbor Laboratory
+  date: '2018-03-31'
+  link: https://doi.org/gkws4v
   hide: 'true'
   plugin: sources.py
   file: sources.yaml
