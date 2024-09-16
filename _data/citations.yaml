@@ -124,6 +124,7 @@
   orcid: 0000-0002-3035-4403
   plugin: sources.py
   file: sources.yaml
+  type: paper
   image: images/articles/high-dim-diseases.png
 - id: doi:10.1101/2023.01.21.525030
   title: A publishing infrastructure for AI-assisted academic authoring
@@ -165,6 +166,7 @@
   orcid: 0000-0002-3035-4403
   plugin: sources.py
   file: sources.yaml
+  type: paper
   image: images/articles/asthma_endotypes.png
 - id: doi:10.1101/2022.06.15.496326
   title: An efficient, not-only-linear correlation coefficient based on clustering
@@ -256,6 +258,7 @@
   orcid: 0000-0002-3035-4403
   plugin: sources.py
   file: sources.yaml
+  type: paper
   image: images/articles/exploiting.png
 - id: doi:10.1016/j.ajhg.2020.11.012
   title: 'Probabilistic colocalization of genetic variants from complex and molecular
@@ -273,6 +276,7 @@
   orcid: 0000-0002-3035-4403
   plugin: sources.py
   file: sources.yaml
+  type: paper
   image: images/articles/prob_coloc.png
 - id: doi:10.1101/2020.11.12.373647
   title: Polygenic transcriptome risk scores improve portability of polygenic risk
@@ -291,6 +295,7 @@
   orcid: 0000-0002-3035-4403
   plugin: sources.py
   file: sources.yaml
+  type: paper
   image: images/articles/prs.png
 - id: doi:10.1126/sciadv.aba2083
   title: 'PhenomeXcan: Mapping the genome to the phenome through the transcriptome'
@@ -311,6 +316,7 @@
   orcid: 0000-0002-3035-4403
   plugin: sources.py
   file: sources.yaml
+  type: paper
   image: images/articles/phenomexcan.png
 - id: doi:10.1093/bioinformatics/btaa111
   title: 'DL4papers: a deep learning approach for the automatic interpretation of
@@ -332,6 +338,7 @@
   orcid: 0000-0002-3035-4403
   plugin: sources.py
   file: sources.yaml
+  type: paper
   image: images/articles/dl4papers.png
 - id: doi:10.1093/bioinformatics/bty925
   title: 'ukbREST: efficient and streamlined data access for reproducible research
@@ -345,6 +352,7 @@
   orcid: 0000-0002-3035-4403
   plugin: sources.py
   file: sources.yaml
+  type: paper
   image: images/articles/ukbrest.png
 - id: doi:10.1371/journal.pgen.1007889
   title: Integrating predicted transcriptome from multiple tissues improves association
@@ -362,6 +370,7 @@
   orcid: 0000-0002-3035-4403
   plugin: sources.py
   file: sources.yaml
+  type: paper
   image: images/articles/multixcan.png
 - id: doi:10.1016/S2213-2600(19)30055-4
   title: 'Shared and distinct genetic risk factors for childhood-onset and adult-onset
@@ -378,6 +387,7 @@
   orcid: 0000-0002-3035-4403
   plugin: sources.py
   file: sources.yaml
+  type: paper
   image: images/articles/asthma.png
 - id: pmid:30357313
   title: 'Clustermatch: discovering hidden relations in highly diverse kinds of qualitative
@@ -416,6 +426,7 @@
   orcid: 0000-0002-3035-4403
   plugin: sources.py
   file: sources.yaml
+  type: paper
   image: images/articles/predicting-mirna.png
 - id: doi:10.1016/j.ins.2016.04.027
   title: Diversity control for improving the analysis of consensus clustering
@@ -429,6 +440,7 @@
   orcid: 0000-0002-3035-4403
   plugin: sources.py
   file: sources.yaml
+  type: paper
   image: images/articles/divcontrol.png
 - id: doi:10.1093/bib/bbv054
   title: A very simple and fast way to access and validate algorithms in reproducible
@@ -443,6 +455,7 @@
   orcid: 0000-0002-3035-4403
   plugin: sources.py
   file: sources.yaml
+  type: paper
   image: images/articles/webdemo-builder.png
 - id: doi:10.4114/intartif.vol17iss53
   title: ''
@@ -545,6 +558,7 @@
   publisher: Bioinformatics
   date: '2018-10-24'
   link: https://doi.org/gfg4bt
+  type: paper
   image: images/articles/clustermatch.png
   plugin: sources.py
   file: sources.yaml
