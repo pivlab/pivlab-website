@@ -87,7 +87,9 @@
   image: images/articles/high-dim-diseases.png
 - id: doi:10.4018/978-1-61520-763-3.ch006
   image: images/articles/faia.png
+  type: book
 - id: isbn:978-987-25855-9-4
   image: images/articles/faia2.png
   title: 'FAIA: Un framework para el desarrollo de agentes inteligentes'
   link: https://www.worldcat.org/isbn/9789872585594
+  type: book
