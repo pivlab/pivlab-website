@@ -44,6 +44,15 @@
 ## Preprint:
 - id: doi:10.1101/2023.01.21.525030
   hide: "true"
+# Chatbots in science
+- id: doi:10.1038/d41586-024-02630-z
+  type: paper
+  authors:
+  - Milton Pividori
+  publisher: Nature
+  date: '2024-08-14'
+  link: https://doi.org/gt68hg
+  image: images/articles/chatgpt-nature.png
 # Probabilistic Colocalization...
 ## AJHG:
 - id: doi:10.1016/j.ajhg.2020.11.012
