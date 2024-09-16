@@ -40,6 +40,20 @@
 ## Preprint:
 - id: doi:10.1101/2023.01.21.525030
   hide: "true"
+# Probabilistic Colocalization...
+## AJHG:
+- id: doi:10.1016/j.ajhg.2020.11.012
+  image: images/articles/prob_coloc.png
+## Preprint:
+- id: doi:10.1101/2020.07.01.182097
+  hide: "true"
+# Exploiting the GTEx resources...
+## Genome Biology
+- id: doi:10.1186/s13059-020-02252-4
+  image: images/articles/exploiting.png
+## Preprint:
+- id: doi:10.1101/814350
+  hide: "true"
 # Others
 - id: doi:10.1016/S2213-2600(19)30055-4
   image: images/articles/asthma.png
@@ -49,14 +63,10 @@
   image: images/articles/prs.png
 - id: doi:10.1126/sciadv.aba2083
   image: images/articles/phenomexcan.png
-- id: doi:10.1101/2020.07.01.182097
-  image: images/articles/prob_coloc.png
 - id: doi:10.1093/bioinformatics/btaa111
   image: images/articles/dl4papers.png
 - id: doi:10.1093/bioinformatics/bty925
   image: images/articles/ukbrest.png
-- id: doi:10.1101/814350
-  image: images/articles/exploiting.png
 - id: pmid:29800232
   image: images/articles/predicting-mirna.png
 - id: doi:10.1093/bioinformatics/bty899
