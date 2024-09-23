@@ -34,8 +34,20 @@
   date: '2024-09-01'
   link: https://doi.org/nhs4
   orcid: 0000-0002-3035-4403
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: images/articles/ccc.png
+  description: This article introduces the Clustermatch Correlation Coefficient (CCC),
+    an efficient, easy-to-use and not-only-linear coefficient based on machine learning
+    models. CCC can detect biologically meaningful linear and nonlinear patterns missed
+    by standard, linear-only correlation coefficients.
+  buttons:
+  - type: manubot
+    link: https://greenelab.github.io/ccc-manuscript/
+  - type: source
+    text: Manuscript source
+    link: https://github.com/greenelab/ccc-manuscript/
 - id: doi:10.1038/d41586-024-02630-z
   title: 'Chatbots in science: What can ChatGPT do for you?'
   authors:
@@ -194,30 +206,19 @@
   type: paper
   image: images/articles/asthma_endotypes.png
 - id: doi:10.1101/2022.06.15.496326
-  title: An efficient, not-only-linear correlation coefficient based on clustering
+  title: An efficient not-only-linear correlation coefficient based on machine learning
   authors:
   - Milton Pividori
   - Marylyn D. Ritchie
   - Diego H. Milone
   - Casey S. Greene
-  publisher: Cell Systems
-  date: '2024-09-06'
-  link: https://doi.org/nhs4
+  publisher: Cold Spring Harbor Laboratory
+  date: '2022-06-17'
+  link: https://doi.org/gqcvbw
   orcid: 0000-0002-3035-4403
   plugin: sources.py
   file: sources.yaml
-  type: paper
-  image: images/articles/ccc.png
-  description: This article introduces the Clustermatch Correlation Coefficient (CCC),
-    an efficient, easy-to-use and not-only-linear coefficient based on machine learning
-    models. CCC can detect biologically meaningful linear and nonlinear patterns missed
-    by standard, linear-only correlation coefficients.
-  buttons:
-  - type: manubot
-    link: https://greenelab.github.io/ccc-manuscript/
-  - type: source
-    text: Manuscript source
-    link: https://github.com/greenelab/ccc-manuscript/
+  hide: 'true'
 - id: doi:10.1101/2021.07.05.450786
   title: Projecting genetic associations through gene expression patterns highlights
     disease etiology and drug mechanisms
