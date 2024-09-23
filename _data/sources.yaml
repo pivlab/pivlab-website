@@ -1,5 +1,5 @@
 # PhenoPLIER
-## Nat Comm:
+## Journal:
 - id: doi:10.1038/s41467-023-41057-4
   type: paper
   image: images/articles/phenoplier.png
@@ -14,14 +14,10 @@
 - id: doi:10.1101/2021.07.05.450786
   hide: "true"
 # CCC
-## Preprint:
-- id: doi:10.1101/2022.06.15.496326
+## Journal:
+- id: doi:10.1016/j.cels.2024.08.005
   type: paper
-  publisher: Cell Systems
   image: images/articles/ccc.png
-  date: '2024-09-06'
-  link: https://doi.org/nhs4
-  title: An efficient, not-only-linear correlation coefficient based on clustering
   description: This article introduces the Clustermatch Correlation Coefficient (CCC), an efficient, easy-to-use and not-only-linear coefficient based on machine learning models. CCC can detect biologically meaningful linear and nonlinear patterns missed by standard, linear-only correlation coefficients.
   buttons:
     - type: manubot
@@ -29,8 +25,11 @@
     - type: source
       text: Manuscript source
       link: https://github.com/greenelab/ccc-manuscript/
+## Preprint:
+- id: doi:10.1101/2022.06.15.496326
+  hide: "true"
 # Manubot AI Editor
-## JAMIA:
+## Journal:
 - id: doi:10.1093/jamia/ocae139
   type: paper
   image: images/articles/manubot-ai-editor.png
@@ -47,14 +46,9 @@
 # Chatbots in science
 - id: doi:10.1038/d41586-024-02630-z
   type: paper
-  authors:
-  - Milton Pividori
-  publisher: Nature
-  date: '2024-08-14'
-  link: https://doi.org/gt68hg
   image: images/articles/chatgpt-nature.png
 # Probabilistic Colocalization...
-## AJHG:
+## Journal:
 - id: doi:10.1016/j.ajhg.2020.11.012
   type: paper
   image: images/articles/prob_coloc.png
@@ -62,7 +56,7 @@
 - id: doi:10.1101/2020.07.01.182097
   hide: "true"
 # Exploiting the GTEx resources...
-## Genome Biology
+## Journal:
 - id: doi:10.1186/s13059-020-02252-4
   type: paper
   image: images/articles/exploiting.png
