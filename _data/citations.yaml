@@ -1,5 +1,40 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1093/jamia/ocae139
+  title: A publishing infrastructure for Artificial Intelligence (AI)-assisted academic
+    authoring
+  authors:
+  - Milton Pividori
+  - Casey S Greene
+  publisher: Journal of the American Medical Informatics Association
+  date: '2024-06-14'
+  link: https://doi.org/gtw9d3
+  orcid: 0000-0002-3035-4403
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.cels.2024.08.005
+  title: An efficient, not-only-linear correlation coefficient based on clustering
+  authors:
+  - Milton Pividori
+  - Marylyn D. Ritchie
+  - Diego H. Milone
+  - Casey S. Greene
+  publisher: Cell Systems
+  date: '2024-09-01'
+  link: https://doi.org/nhs4
+  orcid: 0000-0002-3035-4403
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/d41586-024-02630-z
+  title: 'Chatbots in science: What can ChatGPT do for you?'
+  authors:
+  - Milton Pividori
+  publisher: Nature
+  date: '2024-08-14'
+  link: https://doi.org/gt68hg
+  orcid: 0000-0002-3035-4403
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1038/s41467-023-41057-4
   title: Projecting genetic associations through gene expression patterns highlights
     disease etiology and drug mechanisms
@@ -206,6 +241,59 @@
   plugin: sources.py
   file: sources.yaml
   hide: 'true'
+- id: doi:10.1186/s13059-020-02252-4
+  title: Exploiting the GTEx resources to decipher the mechanisms at GWAS loci
+  authors:
+  - Alvaro N. Barbeira
+  - Rodrigo Bonazzola
+  - Eric R. Gamazon
+  - Yanyu Liang
+  - YoSon Park
+  - Sarah Kim-Hellmuth
+  - Gao Wang
+  - Zhuoxun Jiang
+  - Dan Zhou
+  - Farhad Hormozdiari
+  - Boxiang Liu
+  - Abhiram Rao
+  - Andrew R. Hamel
+  - Milton D. Pividori
+  - "Fran\xE7ois Aguet"
+  - Lisa Bastarache
+  - Daniel M. Jordan
+  - Marie Verbanck
+  - Ron Do
+  - Matthew Stephens
+  - Kristin Ardlie
+  - Mark McCarthy
+  - Stephen B. Montgomery
+  - "Ayellet V. Segr\xE8"
+  - Christopher D. Brown
+  - Tuuli Lappalainen
+  - Xiaoquan Wen
+  - Hae Kyung Im
+  publisher: Genome Biology
+  date: '2021-01-26'
+  link: https://doi.org/ghxdc9
+  orcid: 0000-0002-3035-4403
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.ajhg.2020.11.012
+  title: 'Probabilistic colocalization of genetic variants from complex and molecular
+    traits: promise and limitations'
+  authors:
+  - Abhay Hukku
+  - Milton Pividori
+  - Francesca Luca
+  - Roger Pique-Regi
+  - Hae Kyung Im
+  - Xiaoquan Wen
+  publisher: The American Journal of Human Genetics
+  date: '2021-01-01'
+  link: https://doi.org/gj58gg
+  orcid: 0000-0002-3035-4403
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1101/2020.11.12.373647
   title: Polygenic transcriptome risk scores improve portability of polygenic risk
     scores across ancestries
@@ -244,23 +332,6 @@
   plugin: sources.py
   file: sources.yaml
   image: images/articles/phenomexcan.png
-- id: doi:10.1101/2020.07.01.182097
-  title: 'Probabilistic Colocalization of Genetic Variants from Complex and Molecular
-    Traits: Promise and Limitations'
-  authors:
-  - Abhay Hukku
-  - Milton Pividori
-  - Francesca Luca
-  - Roger Pique-Regi
-  - Hae Kyung Im
-  - Xiaoquan Wen
-  publisher: Cold Spring Harbor Laboratory
-  date: '2020-07-01'
-  link: https://doi.org/gjwh3p
-  orcid: 0000-0002-3035-4403
-  plugin: sources.py
-  file: sources.yaml
-  image: images/articles/prob_coloc.png
 - id: doi:10.1093/bioinformatics/btaa111
   title: 'DL4papers: a deep learning approach for the automatic interpretation of
     scientific articles'
@@ -282,44 +353,6 @@
   plugin: sources.py
   file: sources.yaml
   image: images/articles/dl4papers.png
-- id: doi:10.1101/814350
-  title: Exploiting the GTEx resources to decipher the mechanisms at GWAS loci
-  authors:
-  - Alvaro N Barbeira
-  - Rodrigo Bonazzola
-  - Eric R Gamazon
-  - Yanyu Liang
-  - YoSon Park
-  - Sarah Kim-Hellmuth
-  - Gao Wang
-  - Zhuoxun Jiang
-  - Dan Zhou
-  - Farhad Hormozdiari
-  - Boxiang Liu
-  - Abhiram Rao
-  - Andrew R Hamel
-  - Milton D Pividori
-  - "Fran\xE7ois Aguet"
-  - Lisa Bastarache
-  - Daniel M Jordan
-  - Marie Verbanck
-  - Ron Do
-  - Matthew Stephens
-  - Kristin Ardlie
-  - Mark McCarthy
-  - Stephen B Montgomery
-  - "Ayellet V Segr\xE8"
-  - Christopher D. Brown
-  - Tuuli Lappalainen
-  - Xiaoquan Wen
-  - Hae Kyung Im
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-10-22'
-  link: https://doi.org/gg7m54
-  orcid: 0000-0002-3035-4403
-  plugin: sources.py
-  file: sources.yaml
-  image: images/articles/exploiting.png
 - id: doi:10.1093/bioinformatics/bty925
   title: 'ukbREST: efficient and streamlined data access for reproducible research
     in large biobanks'
@@ -449,12 +482,12 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: isbn:978-987-25855-9-4
-  title: 'FAIA: a framework for intelligent agents development'
+  title: 'FAIA: Un framework para el desarrollo de agentes inteligentes'
   authors: []
   publisher: "La Tecnolog\xEDa Educativa al Servicio de la Educaci\xF3n Tecnol\xF3\
     gica: Experiencias e investigaciones en la UTN"
-  date: '2020-10-02'
-  link: ''
+  date: '2024-09-16'
+  link: https://www.edutecne.utn.edu.ar/teset/tecnol_educativa_cukierman_virgili.pdf
   orcid: 0000-0002-3035-4403
   plugin: orcid.py
   file: orcid.yaml
@@ -471,6 +504,59 @@
   orcid: 0000-0002-3035-4403
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1101/2020.07.01.182097
+  title: 'Probabilistic Colocalization of Genetic Variants from Complex and Molecular
+    Traits: Promise and Limitations'
+  authors:
+  - Abhay Hukku
+  - Milton Pividori
+  - Francesca Luca
+  - Roger Pique-Regi
+  - Hae Kyung Im
+  - Xiaoquan Wen
+  publisher: Cold Spring Harbor Laboratory
+  date: '2020-07-01'
+  link: https://doi.org/gjwh3p
+  image: images/articles/prob_coloc.png
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1101/814350
+  title: Exploiting the GTEx resources to decipher the mechanisms at GWAS loci
+  authors:
+  - Alvaro N Barbeira
+  - Rodrigo Bonazzola
+  - Eric R Gamazon
+  - Yanyu Liang
+  - YoSon Park
+  - Sarah Kim-Hellmuth
+  - Gao Wang
+  - Zhuoxun Jiang
+  - Dan Zhou
+  - Farhad Hormozdiari
+  - Boxiang Liu
+  - Abhiram Rao
+  - Andrew R Hamel
+  - Milton D Pividori
+  - "Fran\xE7ois Aguet"
+  - Lisa Bastarache
+  - Daniel M Jordan
+  - Marie Verbanck
+  - Ron Do
+  - Matthew Stephens
+  - Kristin Ardlie
+  - Mark McCarthy
+  - Stephen B Montgomery
+  - "Ayellet V Segr\xE8"
+  - Christopher D. Brown
+  - Tuuli Lappalainen
+  - Xiaoquan Wen
+  - Hae Kyung Im
+  publisher: Cold Spring Harbor Laboratory
+  date: '2019-10-22'
+  link: https://doi.org/gg7m54
+  image: images/articles/exploiting.png
+  plugin: sources.py
+  file: sources.yaml
 - id: pmid:29800232
   title: 'Predicting novel microRNA: a comprehensive comparison of machine learning
     approaches.'
