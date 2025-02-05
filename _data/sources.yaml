@@ -43,6 +43,14 @@
 ## Preprint:
 - id: doi:10.1101/2023.01.21.525030
   remove: true
+# Genetic studies through the lens of gene networks (review)
+- id: pubmed:39575117
+  type: paper
+  image: images/articles/genetic-studies-networks-review.png
+# omni-PLIER
+- id: pubmed:39670386
+  type: paper
+  image: images/articles/omni-plier.png
 # Chatbots in science
 - id: doi:10.1038/d41586-024-02630-z
   type: paper
@@ -64,18 +72,58 @@
 - id: doi:10.1101/814350
   remove: true
 # Others
+- id: pubmed:26223526
+  remove: true
+- id: pubmed:30668570
+  remove: true
+- id: pubmed:30395166
+  remove: true
+- id: pubmed:30357313
+  remove: true
+- id: pubmed:31036433
+  remove: true
+- id: pubmed:29800232
+  remove: true
+- id: pubmed:32917697
+  remove: true
+- id: pubmed:33308443
+  remove: true
+- id: pubmed:35391741
+  type: paper
+  image: images/articles/param-gene-module-clique.png
+- id: pubmed:33499903
+  remove: true
+- id: pubmed:36441943
+  type: paper
+  image: images/articles/quality-control-gwas.png
+- id: pubmed:36344522
+  remove: true
+- id: pubmed:36747665
+  remove: true
+- id: pubmed:38177845
+  remove: true
+- id: pubmed:37689782
+  remove: true
+- id: pubmed:39147814
+  remove: true
+- id: pubmed:39243756
+  remove: true
 - id: doi:10.1101/2024.11.08.622657
   type: paper
   image: images/articles/biclustering_twas.png
+- id: pubmed:39605717
+  remove: true
 - id: doi:10.1016/S2213-2600(19)30055-4
   type: paper
   image: images/articles/asthma.png
 - id: doi:10.1038/s41467-022-33628-8
   type: paper
   image: images/articles/asthma_endotypes.png
-- id: doi:10.1101/2020.11.12.373647
+- id: pubmed:35027082
   type: paper
   image: images/articles/prs.png
+- id: doi:10.1101/2020.11.12.373647
+  remove: true
 - id: doi:10.1126/sciadv.aba2083
   type: paper
   image: images/articles/phenomexcan.png
