@@ -1,5 +1,5 @@
 ---
-name: Marc Subirana Granés
+name: Marc Subirana-Granés
 image: images/team/marc-subirana.jpg
 description: Postdoc
 role: postdoc
