@@ -180,18 +180,6 @@
   file: sources.yaml
   type: paper
   image: images/articles/high-dim-diseases.png
-- id: doi:10.1101/2023.01.21.525030
-  title: A publishing infrastructure for AI-assisted academic authoring
-  authors:
-  - Milton Pividori
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-23'
-  link: https://doi.org/grpf8m
-  orcid: 0000-0002-3035-4403
-  plugin: sources.py
-  file: sources.yaml
-  hide: 'true'
 - id: doi:10.1038/s41467-022-33628-8
   title: Discerning asthma endotypes through comorbidity mapping
   authors:
@@ -222,48 +210,6 @@
   file: sources.yaml
   type: paper
   image: images/articles/asthma_endotypes.png
-- id: doi:10.1101/2022.06.15.496326
-  title: An efficient not-only-linear correlation coefficient based on machine learning
-  authors:
-  - Milton Pividori
-  - Marylyn D. Ritchie
-  - Diego H. Milone
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2022-06-17'
-  link: https://doi.org/gqcvbw
-  orcid: 0000-0002-3035-4403
-  plugin: sources.py
-  file: sources.yaml
-  hide: 'true'
-- id: doi:10.1101/2021.07.05.450786
-  title: Projecting genetic associations through gene expression patterns highlights
-    disease etiology and drug mechanisms
-  authors:
-  - Milton Pividori
-  - Sumei Lu
-  - Binglan Li
-  - Chun Su
-  - Matthew E. Johnson
-  - Wei-Qi Wei
-  - Qiping Feng
-  - Bahram Namjou
-  - Krzysztof Kiryluk
-  - Iftikhar Kullo
-  - Yuan Luo
-  - Blair D. Sullivan
-  - Benjamin F. Voight
-  - Carsten Skarke
-  - Marylyn D. Ritchie
-  - Struan F.A. Grant
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2021-07-06'
-  link: https://doi.org/gk9g25
-  orcid: 0000-0002-3035-4403
-  plugin: sources.py
-  file: sources.yaml
-  hide: 'true'
 - id: doi:10.1186/s13059-020-02252-4
   title: Exploiting the GTEx resources to decipher the mechanisms at GWAS loci
   authors:
@@ -432,23 +378,6 @@
   file: sources.yaml
   type: paper
   image: images/articles/asthma.png
-- id: pmid:30357313
-  title: 'Clustermatch: discovering hidden relations in highly diverse kinds of qualitative
-    and quantitative data without standardization.'
-  authors:
-  - Milton Pividori
-  - Andres Cernadas
-  - Luis A de Haro
-  - Fernando Carrari
-  - Georgina Stegmayer
-  - Diego H Milone
-  publisher: Bioinformatics (Oxford, England)
-  date: '2019-06-01'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/30357313
-  orcid: 0000-0002-3035-4403
-  plugin: sources.py
-  file: sources.yaml
-  hide: 'true'
 - id: pmid:29800232
   title: 'Predicting novel microRNA: a comprehensive comparison of machine learning
     approaches.'
@@ -535,59 +464,6 @@
   file: sources.yaml
   image: images/articles/faia.png
   type: book
-- id: doi:10.1101/2020.07.01.182097
-  title: 'Probabilistic Colocalization of Genetic Variants from Complex and Molecular
-    Traits: Promise and Limitations'
-  authors:
-  - Abhay Hukku
-  - Milton Pividori
-  - Francesca Luca
-  - Roger Pique-Regi
-  - Hae Kyung Im
-  - Xiaoquan Wen
-  publisher: Cold Spring Harbor Laboratory
-  date: '2020-07-01'
-  link: https://doi.org/gjwh3p
-  hide: 'true'
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1101/814350
-  title: Exploiting the GTEx resources to decipher the mechanisms at GWAS loci
-  authors:
-  - Alvaro N Barbeira
-  - Rodrigo Bonazzola
-  - Eric R Gamazon
-  - Yanyu Liang
-  - YoSon Park
-  - Sarah Kim-Hellmuth
-  - Gao Wang
-  - Zhuoxun Jiang
-  - Dan Zhou
-  - Farhad Hormozdiari
-  - Boxiang Liu
-  - Abhiram Rao
-  - Andrew R Hamel
-  - Milton D Pividori
-  - "Fran\xE7ois Aguet"
-  - Lisa Bastarache
-  - Daniel M Jordan
-  - Marie Verbanck
-  - Ron Do
-  - Matthew Stephens
-  - Kristin Ardlie
-  - Mark McCarthy
-  - Stephen B Montgomery
-  - "Ayellet V Segr\xE8"
-  - Christopher D. Brown
-  - Tuuli Lappalainen
-  - Xiaoquan Wen
-  - Hae Kyung Im
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-10-22'
-  link: https://doi.org/gg7m54
-  hide: 'true'
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.1093/bioinformatics/bty899
   title: 'Clustermatch: discovering hidden relations in highly diverse kinds of qualitative
     and quantitative data without standardization'
@@ -603,41 +479,5 @@
   link: https://doi.org/gfg4bt
   type: paper
   image: images/articles/clustermatch.png
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1093/bib/bby037
-  title: 'Predicting novel microRNA: a comprehensive comparison of machine learning
-    approaches'
-  authors:
-  - Georgina Stegmayer
-  - Leandro E Di Persia
-  - Mariano Rubiolo
-  - Matias Gerard
-  - Milton Pividori
-  - Cristian Yones
-  - Leandro A Bugnon
-  - Tadeo Rodriguez
-  - Jonathan Raad
-  - Diego H Milone
-  publisher: Briefings in Bioinformatics
-  date: '2018-05-23'
-  link: https://doi.org/gdmf9z
-  hide: 'true'
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1101/292649
-  title: Integrating Predicted Transcriptome From Multiple Tissues Improves Association
-    Detection
-  authors:
-  - Alvaro N. Barbeira
-  - Milton D. Pividori
-  - Jiamao Zheng
-  - Heather E. Wheeler
-  - Dan L. Nicolae
-  - Hae Kyung Im
-  publisher: Cold Spring Harbor Laboratory
-  date: '2018-03-31'
-  link: https://doi.org/gkws4v
-  hide: 'true'
   plugin: sources.py
   file: sources.yaml
