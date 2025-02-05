@@ -64,6 +64,9 @@
 - id: doi:10.1101/814350
   hide: "true"
 # Others
+- id: doi:10.1101/2024.11.08.622657
+  type: paper
+  image: images/articles/biclustering_twas.png
 - id: doi:10.1016/S2213-2600(19)30055-4
   type: paper
   image: images/articles/asthma.png

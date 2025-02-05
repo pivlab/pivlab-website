@@ -1,5 +1,22 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1101/2024.11.08.622657
+  title: Uncovering hidden gene-trait patterns through biclustering analysis of the
+    UK Biobank
+  authors:
+  - Milton Pividori
+  - Suraju Sadeeq
+  - Arjun Krishnan
+  - Barbara E. Stranger
+  - Christopher R. Gignoux
+  publisher: Cold Spring Harbor Laboratory
+  date: '2024-11-11'
+  link: https://doi.org/g8q8t2
+  orcid: 0000-0002-3035-4403
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: images/articles/biclustering_twas.png
 - id: doi:10.1093/jamia/ocae139
   title: A publishing infrastructure for Artificial Intelligence (AI)-assisted academic
     authoring
