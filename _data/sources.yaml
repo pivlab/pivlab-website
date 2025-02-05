@@ -12,7 +12,7 @@
       link: https://github.com/greenelab/phenoplier_manuscript/
 ## Preprint:
 - id: doi:10.1101/2021.07.05.450786
-  hide: "true"
+  remove: true
 # CCC
 ## Journal:
 - id: doi:10.1016/j.cels.2024.08.005
@@ -27,7 +27,7 @@
       link: https://github.com/greenelab/ccc-manuscript/
 ## Preprint:
 - id: doi:10.1101/2022.06.15.496326
-  hide: "true"
+  remove: true
 # Manubot AI Editor
 ## Journal:
 - id: doi:10.1093/jamia/ocae139
@@ -42,7 +42,7 @@
       link: https://github.com/greenelab/manubot-gpt-manuscript
 ## Preprint:
 - id: doi:10.1101/2023.01.21.525030
-  hide: "true"
+  remove: true
 # Chatbots in science
 - id: doi:10.1038/d41586-024-02630-z
   type: paper
@@ -54,7 +54,7 @@
   image: images/articles/prob_coloc.png
 ## Preprint:
 - id: doi:10.1101/2020.07.01.182097
-  hide: "true"
+  remove: true
 # Exploiting the GTEx resources...
 ## Journal:
 - id: doi:10.1186/s13059-020-02252-4
@@ -62,7 +62,7 @@
   image: images/articles/exploiting.png
 ## Preprint:
 - id: doi:10.1101/814350
-  hide: "true"
+  remove: true
 # Others
 - id: doi:10.1101/2024.11.08.622657
   type: paper
@@ -101,11 +101,11 @@
   type: paper
   image: images/articles/webdemo-builder.png
 - id: doi:10.1093/bib/bby037
-  hide: "true"
+  remove: true
 - id: doi:10.1101/292649
-  hide: "true"
+  remove: true
 - id: pmid:30357313
-  hide: "true"
+  remove: true
 - id: doi:10.1038/s43588-023-00453-y
   type: paper
   image: images/articles/high-dim-diseases.png
