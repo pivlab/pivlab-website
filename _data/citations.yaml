@@ -1,5 +1,427 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: pubmed:39670386
+  title: A Pathway-Level Information ExtractoR (PLIER) framework to gain mechanistic
+    insights into obesity in Down syndrome.
+  authors:
+  - Sutanu Nandi
+  - Yuehua Zhu
+  - Lucas A Gillenwater
+  - "Marc Subirana-Gran\xE9s"
+  - Haoyu Zhang
+  - Negar Janani
+  - Casey Greene
+  - Milton Pividori
+  - Maria Chikina
+  - James C Costello
+  publisher: Pacific Symposium on Biocomputing. Pacific Symposium on Biocomputing
+  date: '2025-01-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/39670386
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:39605717
+  title: Uncovering hidden gene-trait patterns through biclustering analysis of the
+    UK Biobank.
+  authors:
+  - Milton Pividori
+  - Suraju Sadeeq
+  - Arjun Krishnan
+  - Barbara E Stranger
+  - Christopher R Gignoux
+  publisher: 'bioRxiv : the preprint server for biology'
+  date: '2024-11-11'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/39605717
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:39575117
+  title: Genetic studies through the lens of gene networks.
+  authors:
+  - "Marc Subirana-Gran\xE9s"
+  - Jill Hoffman
+  - Haoyu Zhang
+  - Christina Akirtava
+  - Sutanu Nandi
+  - Kevin Fotso
+  - Milton Pividori
+  publisher: ArXiv
+  date: '2024-10-30'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/39575117
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:39243756
+  title: An efficient, not-only-linear correlation coefficient based on clustering.
+  authors:
+  - Milton Pividori
+  - Marylyn D Ritchie
+  - Diego H Milone
+  - Casey S Greene
+  publisher: Cell systems
+  date: '2024-09-06'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/39243756
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:39147814
+  title: 'Chatbots in science: What can ChatGPT do for you?'
+  authors:
+  - Milton Pividori
+  publisher: Nature
+  date: '2024-08-14'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/39147814
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:38214655
+  title: 'Author Correction: The high-dimensional space of human diseases built from
+    diagnosis records and mapped to genetic loci.'
+  authors:
+  - Gengjie Jia
+  - Yu Li
+  - Xue Zhong
+  - Kanix Wang
+  - Milton Pividori
+  - Rabab Alomairy
+  - Aniello Esposito
+  - Hatem Ltaief
+  - Chikashi Terao
+  - Masato Akiyama
+  - Koichi Matsuda
+  - David E Keyes
+  - Hae Kyung Im
+  - Takashi Gojobori
+  - Yoichiro Kamatani
+  - Michiaki Kubo
+  - Nancy J Cox
+  - James Evans
+  - Xin Gao
+  - Andrey Rzhetsky
+  publisher: Nature computational science
+  date: '2023-07-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/38214655
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:38177845
+  title: The high-dimensional space of human diseases built from diagnosis records
+    and mapped to genetic loci.
+  authors:
+  - Gengjie Jia
+  - Yu Li
+  - Xue Zhong
+  - Kanix Wang
+  - Milton Pividori
+  - Rabab Alomairy
+  - Aniello Esposito
+  - Hatem Ltaief
+  - Chikashi Terao
+  - Masato Akiyama
+  - Koichi Matsuda
+  - David E Keyes
+  - Hae Kyung Im
+  - Takashi Gojobori
+  - Yoichiro Kamatani
+  - Michiaki Kubo
+  - Nancy J Cox
+  - James Evans
+  - Xin Gao
+  - Andrey Rzhetsky
+  publisher: Nature computational science
+  date: '2023-05-22'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/38177845
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:37689782
+  title: Projecting genetic associations through gene expression patterns highlights
+    disease etiology and drug mechanisms.
+  authors:
+  - Milton Pividori
+  - Sumei Lu
+  - Binglan Li
+  - Chun Su
+  - Matthew E Johnson
+  - Wei-Qi Wei
+  - Qiping Feng
+  - Bahram Namjou
+  - Krzysztof Kiryluk
+  - Iftikhar J Kullo
+  - Yuan Luo
+  - Blair D Sullivan
+  - Benjamin F Voight
+  - Carsten Skarke
+  - Marylyn D Ritchie
+  - Struan F A Grant
+  - Casey S Greene
+  publisher: Nature communications
+  date: '2023-09-09'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/37689782
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:36747665
+  title: A publishing infrastructure for AI-assisted academic authoring.
+  authors:
+  - Milton Pividori
+  - Casey S Greene
+  publisher: 'bioRxiv : the preprint server for biology'
+  date: '2023-01-23'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/36747665
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:36441943
+  title: Quality Control Procedures for Genome-Wide Association Studies.
+  authors:
+  - Van Q Truong
+  - Jakob A Woerner
+  - Tess A Cherlin
+  - Yuki Bradford
+  - Anastasia M Lucas
+  - Chelsea C Okeh
+  - Manu K Shivakumar
+  - Daniel H Hui
+  - Rachit Kumar
+  - Milton Pividori
+  - S Chris Jones
+  - Abigail C Bossa
+  - Stephen D Turner
+  - Marylyn D Ritchie
+  - Shefali S Verma
+  publisher: Current protocols
+  date: '2022-11-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/36441943
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:36344522
+  title: Discerning asthma endotypes through comorbidity mapping.
+  authors:
+  - Gengjie Jia
+  - Xue Zhong
+  - Hae Kyung Im
+  - Nathan Schoettler
+  - Milton Pividori
+  - D Kyle Hogarth
+  - Anne I Sperling
+  - Steven R White
+  - Edward T Naureckas
+  - Christopher S Lyttle
+  - Chikashi Terao
+  - Yoichiro Kamatani
+  - Masato Akiyama
+  - Koichi Matsuda
+  - Michiaki Kubo
+  - Nancy J Cox
+  - Carole Ober
+  - Andrey Rzhetsky
+  - Julian Solway
+  publisher: Nature communications
+  date: '2022-11-07'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/36344522
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:35027082
+  title: Polygenic transcriptome risk scores (PTRS) can improve portability of polygenic
+    risk scores across ancestries.
+  authors:
+  - Yanyu Liang
+  - Milton Pividori
+  - Ani Manichaikul
+  - Abraham A Palmer
+  - Nancy J Cox
+  - Heather E Wheeler
+  - Hae Kyung Im
+  publisher: Genome biology
+  date: '2022-01-13'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/35027082
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:33499903
+  title: Exploiting the GTEx resources to decipher the mechanisms at GWAS loci.
+  authors:
+  - Alvaro N Barbeira
+  - Rodrigo Bonazzola
+  - Eric R Gamazon
+  - Yanyu Liang
+  - YoSon Park
+  - Sarah Kim-Hellmuth
+  - Gao Wang
+  - Zhuoxun Jiang
+  - Dan Zhou
+  - Farhad Hormozdiari
+  - Boxiang Liu
+  - Abhiram Rao
+  - Andrew R Hamel
+  - Milton D Pividori
+  - "Fran\xE7ois Aguet"
+  - Lisa Bastarache
+  - Daniel M Jordan
+  - Marie Verbanck
+  - Ron Do
+  - Matthew Stephens
+  - Kristin Ardlie
+  - Mark McCarthy
+  - Stephen B Montgomery
+  - "Ayellet V Segr\xE8"
+  - Christopher D Brown
+  - Tuuli Lappalainen
+  - Xiaoquan Wen
+  - Hae Kyung Im
+  publisher: Genome biology
+  date: '2021-01-26'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/33499903
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:35391741
+  title: Parameterized algorithms for identifying gene co-expression modules via weighted
+    clique decomposition.
+  authors:
+  - Madison Cooley
+  - Casey S Greene
+  - Davis Issac
+  - Milton Pividori
+  - Blair D Sullivan
+  publisher: 'Proceedings of the 2021 SIAM Conference on Applied and Computational
+    Discrete Algorithms. SIAM Conference on Applied and Computational Discrete Algorithms
+    (2021 : Online)'
+  date: '2021-01-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/35391741
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:33308443
+  title: 'Probabilistic colocalization of genetic variants from complex and molecular
+    traits: promise and limitations.'
+  authors:
+  - Abhay Hukku
+  - Milton Pividori
+  - Francesca Luca
+  - Roger Pique-Regi
+  - Hae Kyung Im
+  - Xiaoquan Wen
+  publisher: American journal of human genetics
+  date: '2020-12-11'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/33308443
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:32917697
+  title: 'PhenomeXcan: Mapping the genome to the phenome through the transcriptome.'
+  authors:
+  - Milton Pividori
+  - Padma S Rajagopal
+  - Alvaro Barbeira
+  - Yanyu Liang
+  - Owen Melia
+  - Lisa Bastarache
+  - YoSon Park
+  - GTEx Consortium
+  - Xiaoquan Wen
+  - Hae K Im
+  publisher: Science advances
+  date: '2020-09-10'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/32917697
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:31036433
+  title: 'Shared and distinct genetic risk factors for childhood-onset and adult-onset
+    asthma: genome-wide and transcriptome-wide studies.'
+  authors:
+  - Milton Pividori
+  - Nathan Schoettler
+  - Dan L Nicolae
+  - Carole Ober
+  - Hae Kyung Im
+  publisher: The Lancet. Respiratory medicine
+  date: '2019-04-27'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/31036433
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:30668570
+  title: Integrating predicted transcriptome from multiple tissues improves association
+    detection.
+  authors:
+  - Alvaro N Barbeira
+  - Milton Pividori
+  - Jiamao Zheng
+  - Heather E Wheeler
+  - Dan L Nicolae
+  - Hae Kyung Im
+  publisher: PLoS genetics
+  date: '2019-01-22'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/30668570
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:30395166
+  title: 'ukbREST: efficient and streamlined data access for reproducible research
+    in large biobanks.'
+  authors:
+  - Milton Pividori
+  - Hae Kyung Im
+  publisher: Bioinformatics (Oxford, England)
+  date: '2019-06-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/30395166
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:30357313
+  title: 'Clustermatch: discovering hidden relations in highly diverse kinds of qualitative
+    and quantitative data without standardization.'
+  authors:
+  - Milton Pividori
+  - Andres Cernadas
+  - Luis A de Haro
+  - Fernando Carrari
+  - Georgina Stegmayer
+  - Diego H Milone
+  publisher: Bioinformatics (Oxford, England)
+  date: '2019-06-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/30357313
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:29800232
+  title: 'Predicting novel microRNA: a comprehensive comparison of machine learning
+    approaches.'
+  authors:
+  - Georgina Stegmayer
+  - Leandro E Di Persia
+  - Mariano Rubiolo
+  - Matias Gerard
+  - Milton Pividori
+  - Cristian Yones
+  - Leandro A Bugnon
+  - Tadeo Rodriguez
+  - Jonathan Raad
+  - Diego H Milone
+  publisher: Briefings in bioinformatics
+  date: '2019-09-27'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/29800232
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:26223526
+  title: A very simple and fast way to access and validate algorithms in reproducible
+    research.
+  authors:
+  - Georgina Stegmayer
+  - Milton Pividori
+  - Diego H Milone
+  publisher: Briefings in bioinformatics
+  date: '2015-07-28'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/26223526
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: doi:10.1101/2024.11.08.622657
   title: Uncovering hidden gene-trait patterns through biclustering analysis of the
     UK Biobank
