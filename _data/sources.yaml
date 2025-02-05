@@ -72,6 +72,8 @@
 - id: doi:10.1101/814350
   remove: true
 # Others
+- id: pubmed:38879443
+  remove: true
 - id: pubmed:26223526
   remove: true
 - id: pubmed:30668570
