@@ -47,6 +47,12 @@
 - id: pubmed:39575117
   type: paper
   image: images/articles/genetic-studies-networks-review.png
+  buttons:
+    - type: manubot
+      link: https://pivlab.github.io/annual_review_of_biomedical_data_science/
+    - type: source
+      text: Manuscript source
+      link: https://github.com/pivlab/annual_review_of_biomedical_data_science
 # omni-PLIER
 - id: pubmed:39670386
   type: paper
@@ -113,6 +119,12 @@
 - id: doi:10.1101/2024.11.08.622657
   type: paper
   image: images/articles/biclustering_twas.png
+  buttons:
+    - type: manubot
+      link: https://pivlab.github.io/biclustering-twas-manuscript/
+    - type: source
+      text: Manuscript source
+      link: https://github.com/pivlab/biclustering-twas-manuscript
 - id: pubmed:39605717
   remove: true
 - id: doi:10.1016/S2213-2600(19)30055-4
