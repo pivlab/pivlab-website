@@ -40,6 +40,12 @@
   file: sources.yaml
   type: paper
   image: images/articles/genetic-studies-networks-review.png
+  buttons:
+  - type: manubot
+    link: https://pivlab.github.io/annual_review_of_biomedical_data_science/
+  - type: source
+    text: Manuscript source
+    link: https://github.com/pivlab/annual_review_of_biomedical_data_science
 - id: pubmed:38214655
   title: 'Author Correction: The high-dimensional space of human diseases built from
     diagnosis records and mapped to genetic loci.'
@@ -151,6 +157,12 @@
   file: sources.yaml
   type: paper
   image: images/articles/biclustering_twas.png
+  buttons:
+  - type: manubot
+    link: https://pivlab.github.io/biclustering-twas-manuscript/
+  - type: source
+    text: Manuscript source
+    link: https://github.com/pivlab/biclustering-twas-manuscript
 - id: doi:10.1093/jamia/ocae139
   title: A publishing infrastructure for Artificial Intelligence (AI)-assisted academic
     authoring
