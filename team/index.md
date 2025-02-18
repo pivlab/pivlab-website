@@ -12,12 +12,12 @@ We are passionate researchers specializing in various fields, yet we work togeth
 We enjoy learning from each other and strive to make a significant impact on society.
 
 {% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role == 'postdoc'" %}
-{% include list.html data="members" component="portrait" filter="role =='phd'" %}
+{% include list.html data="members" component="portrait" filter="role == 'postdoc'" and group != 'alum'" %}
+{% include list.html data="members" component="portrait" filter="role == 'phd'" and group != 'alum'" %}
 {% include list.html data="members" component="portrait" filter="role == 'ms' and group != 'alum'" %}
-{% include list.html data="members" component="portrait" filter="role == 'undergrad'" %}
-{% include list.html data="members" component="portrait" filter="role == 'programmer-lab'" %}
-{% include list.html data="members" component="portrait" filter="role == 'programmer'" %}
+{% include list.html data="members" component="portrait" filter="role == 'undergrad'" and group != 'alum'" %}
+{% include list.html data="members" component="portrait" filter="role == 'programmer-lab'" and group != 'alum'" %}
+{% include list.html data="members" component="portrait" filter="role == 'programmer'" and group != 'alum'" %}
 
 {% include section.html dark=true %}
 
@@ -48,6 +48,7 @@ They will be greatly missed!
 {% include list.html data="members" component="portrait" filter="role == 'phd' and group == 'alum'" style="small" %}
 {% include list.html data="members" component="portrait" filter="role == 'ms' and group == 'alum'" style="small" %}
 {% include list.html data="members" component="portrait" filter="role == 'undergrad' and group == 'alum'" style="small" %}
+{% include list.html data="members" component="portrait" filter="role == 'programmer-lab' and group == 'alum'" style="small" %}
 {% include list.html data="members" component="portrait" filter="role == 'programmer' and group == 'alum'" style="small" %}
 
 {% include section.html %}
