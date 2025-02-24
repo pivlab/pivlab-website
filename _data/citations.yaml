@@ -1,5 +1,21 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: pubmed:39977605
+  title: Genetic Studies Through the Lens of Gene Networks.
+  authors:
+  - "Marc Subirana-Gran\xE9s"
+  - Jill Hoffman
+  - Haoyu Zhang
+  - Christina Akirtava
+  - Sutanu Nandi
+  - Kevin Fotso
+  - Milton Pividori
+  publisher: Annual review of biomedical data science
+  date: '2025-02-20'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/39977605
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:39670386
   title: A Pathway-Level Information ExtractoR (PLIER) framework to gain mechanistic
     insights into obesity in Down syndrome.
