@@ -14,8 +14,16 @@
   date: '2025-02-20'
   link: https://www.ncbi.nlm.nih.gov/pubmed/39977605
   term: Pividori, Milton[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: images/articles/genetic-studies-networks-review.png
+  buttons:
+  - type: manubot
+    link: https://pivlab.github.io/annual_review_of_biomedical_data_science/
+  - type: source
+    text: Manuscript source
+    link: https://github.com/pivlab/annual_review_of_biomedical_data_science
 - id: pubmed:39670386
   title: A Pathway-Level Information ExtractoR (PLIER) framework to gain mechanistic
     insights into obesity in Down syndrome.
@@ -38,30 +46,6 @@
   file: sources.yaml
   type: paper
   image: images/articles/omni-plier.png
-- id: pubmed:39575117
-  title: Genetic studies through the lens of gene networks.
-  authors:
-  - "Marc Subirana-Gran\xE9s"
-  - Jill Hoffman
-  - Haoyu Zhang
-  - Christina Akirtava
-  - Sutanu Nandi
-  - Kevin Fotso
-  - Milton Pividori
-  publisher: ArXiv
-  date: '2024-10-30'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/39575117
-  term: Pividori, Milton[Author]
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  image: images/articles/genetic-studies-networks-review.png
-  buttons:
-  - type: manubot
-    link: https://pivlab.github.io/annual_review_of_biomedical_data_science/
-  - type: source
-    text: Manuscript source
-    link: https://github.com/pivlab/annual_review_of_biomedical_data_science
 - id: pubmed:38214655
   title: 'Author Correction: The high-dimensional space of human diseases built from
     diagnosis records and mapped to genetic loci.'
