@@ -43,8 +43,10 @@
 ## Preprint:
 - id: doi:10.1101/2023.01.21.525030
   remove: true
+
 # Genetic studies through the lens of gene networks (review)
-- id: pubmed:39575117
+## Journal:
+- id: pubmed:39977605
   type: paper
   image: images/articles/genetic-studies-networks-review.png
   buttons:
@@ -53,6 +55,10 @@
     - type: source
       text: Manuscript source
       link: https://github.com/pivlab/annual_review_of_biomedical_data_science
+## Preprint:
+- id: pubmed:39575117
+  remove: true
+
 # omni-PLIER
 - id: pubmed:39670386
   type: paper
