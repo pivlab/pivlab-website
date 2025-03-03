@@ -13,6 +13,7 @@
 ## Preprint:
 - id: doi:10.1101/2021.07.05.450786
   remove: true
+
 # CCC
 ## Journal:
 - id: doi:10.1016/j.cels.2024.08.005
@@ -28,6 +29,7 @@
 ## Preprint:
 - id: doi:10.1101/2022.06.15.496326
   remove: true
+
 # Manubot AI Editor
 ## Journal:
 - id: doi:10.1093/jamia/ocae139
@@ -63,10 +65,12 @@
 - id: pubmed:39670386
   type: paper
   image: images/articles/omni-plier.png
+
 # Chatbots in science
 - id: doi:10.1038/d41586-024-02630-z
   type: paper
   image: images/articles/chatgpt-nature.png
+
 # Probabilistic Colocalization...
 ## Journal:
 - id: doi:10.1016/j.ajhg.2020.11.012
@@ -75,6 +79,7 @@
 ## Preprint:
 - id: doi:10.1101/2020.07.01.182097
   remove: true
+
 # Exploiting the GTEx resources...
 ## Journal:
 - id: doi:10.1186/s13059-020-02252-4
@@ -83,6 +88,7 @@
 ## Preprint:
 - id: doi:10.1101/814350
   remove: true
+
 # Others
 - id: pubmed:38879443
   remove: true
