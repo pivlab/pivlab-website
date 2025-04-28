@@ -13,8 +13,10 @@
   date: '2025-03-24'
   link: https://www.ncbi.nlm.nih.gov/pubmed/40225702
   term: Pividori, Milton[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: images/articles/ai-bone.png
 - id: pubmed:39977605
   title: Genetic Studies Through the Lens of Gene Networks.
   authors:
