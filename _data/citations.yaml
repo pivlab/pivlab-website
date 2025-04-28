@@ -1,5 +1,20 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: pubmed:40225702
+  title: Can AI reveal the next generation of high-impact bone genomics targets?
+  authors:
+  - Casey S Greene
+  - Christopher R Gignoux
+  - "Marc Subirana-Gran\xE9s"
+  - Milton Pividori
+  - Stephanie C Hicks
+  - Cheryl L Ackert-Bicknell
+  publisher: Bone reports
+  date: '2025-03-24'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/40225702
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:39977605
   title: Genetic Studies Through the Lens of Gene Networks.
   authors:
