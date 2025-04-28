@@ -46,6 +46,11 @@
 - id: doi:10.1101/2023.01.21.525030
   remove: true
 
+# AI and  bone
+- id: pubmed:40225702
+  type: paper
+  image: images/articles/ai-bone.png
+
 # Genetic studies through the lens of gene networks (review)
 ## Journal:
 - id: pubmed:39977605
