@@ -3,6 +3,7 @@ name: Christina Akirtava
 image: images/team/christina-akirtava.jpg
 description: Postdoc
 role: postdoc
+group: alum
 links:
   email: christina.akirtava@cuanschutz.edu
   github: bio2data
