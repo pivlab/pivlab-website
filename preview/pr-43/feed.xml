@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/preview/pr-43/feed.xml" rel="self" type="application/atom+xml" /><link href="/preview/pr-43/" rel="alternate" type="text/html" /><updated>2025-05-13T21:17:38+00:00</updated><id>/preview/pr-43/feed.xml</id><title type="html">Pividori Lab</title><subtitle>We are a research laboratory at the University of Colorado Anschutz Medical Campus. We design advanced machine learning methods applied to human disease with a systems biology approach.</subtitle><entry><title type="html">Initializing Pividori Lab</title><link href="/preview/pr-43/2023/04/24/initializing-pividori-lab.html" rel="alternate" type="text/html" title="Initializing Pividori Lab" /><published>2023-04-24T00:00:00+00:00</published><updated>2025-05-13T21:16:34+00:00</updated><id>/preview/pr-43/2023/04/24/initializing-pividori-lab</id><content type="html" xml:base="/preview/pr-43/2023/04/24/initializing-pividori-lab.html"><![CDATA[<div class="float" data-flip="">
+  
+<figure class="figure">
+  <a href="/preview/pr-43/research" class="figure-image" aria-label="An abstract painting depicting the dawn light shining on a biomedical informatics research laboratory - Milton DALL E">
+    <img src="/preview/pr-43/images/blog/2023-04-25-dalle_2.png" style="
+        width: 100%;
+        max-height: unset;
+      " alt="An abstract painting depicting the dawn light shining on a biomedical informatics research laboratory - Milton DALL E" loading="lazy" onerror="this.src = '/preview/pr-43/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      “An abstract painting depicting the dawn light shining on a biomedical informatics research laboratory” - Milton × DALL·E
+
+    </figcaption>
+  
+</figure>
+
+
+</div>
+
+<p>On May 1st, 2023, I will officially start as an Assistant Professor and PI of the <a href="/">Pividori Lab</a> in the <a href="https://medschool.cuanschutz.edu/dbmi">Department of Biomedical Informatics</a> at the <a href="https://medschool.cuanschutz.edu/">University of Colorado Anschutz Medical Campus</a>.</p>
+
+<p>I’m very excited and curious about this new stage in my career.
+Our lab will focus on developing machine-learning methods for biomedical informatics, with a specific focus on integrating multi-omics datasets and genetics.
+We aim to design the next generation of methodologies that will consolidate large and heterogeneous sources of biomedical data to extract biological insights that will ultimately improve human health.
+I invite you to keep an eye on <a href="/blog">this blog</a>, <a href="https://twitter.com/miltondp">my Twitter</a>, and <a href="https://github.com/pivlab">our projects on GitHub</a> for updates about our research and other activities.</p>
+
+<p><strong>We are recruiting!</strong> If your interests align with <a href="/research">our labs’</a>, please reach out!</p>
+
+<div class="float" data-clear="">
+  
+
+</div>]]></content><author><name>milton-pividori</name></author><category term="lab,research" /><summary type="html"><![CDATA[]]></summary></entry></feed>
