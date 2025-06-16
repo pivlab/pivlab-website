@@ -1,5 +1,139 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: pubmed:40502087
+  title: 'CCC-GPU: A graphics processing unit (GPU)-optimized nonlinear correlation
+    coefficient for large transcriptomic analyses.'
+  authors:
+  - Haoyu Zhang
+  - Kevin Fotso
+  - Milton Pividori
+  publisher: 'bioRxiv : the preprint server for biology'
+  date: '2025-06-06'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/40502087
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:40501901
+  title: 'PLIERv2: bigger, better and faster.'
+  authors:
+  - Marc Subirana-Granes
+  - Sutanu Nandi
+  - Haoyu Zhang
+  - Maria Chikina
+  - Milton Pividori
+  publisher: 'bioRxiv : the preprint server for biology'
+  date: '2025-06-08'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/40501901
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:40501630
+  title: Mechanistic insights into Down syndrome comorbidities via convergent RNA-seq
+    and TWAS signals.
+  authors:
+  - "Marc Subirana-Gran\xE9s"
+  - Haoyu Zhang
+  - Prashant Gupta
+  - Milton Pividori
+  publisher: 'bioRxiv : the preprint server for biology'
+  date: '2025-06-08'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/40501630
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
+- id: pubmed:40463558
+  title: Global multi-ancestry genetic study elucidates genes and biological pathways
+    associated with thyroid cancer and benign thyroid diseases.
+  authors:
+  - Samantha L White
+  - Maizy S Brasher
+  - Jack Pattee
+  - Wei Zhou
+  - "Sin\xE9ad Chapman"
+  - Yon Ho Jee
+  - Caitlin C Bell
+  - Taylor L Jamil
+  - Martin Barrio
+  - Jibril Hirbo
+  - Nancy J Cox
+  - Peter Straub
+  - Shinichi Namba
+  - Emily Bertucci-Richter
+  - Lindsay Guare
+  - Ahmed EdrisMohammed
+  - Sam Morris
+  - Ashley J Mulford
+  - Haoyu Zhang
+  - Brian Fennessy
+  - Martin D Tobin
+  - Jing Chen
+  - Alexander T Williams
+  - Catherine John
+  - David A van Heel
+  - Rohini Mathur
+  - Sarah Finer
+  - Marta Riise Moksnes
+  - Ben Brumpton
+  - "Bj\xF8rn Olav \xC5svold"
+  - Raitis Peculis
+  - Vita Rovite
+  - Ilze Konrade
+  - Ying Wang
+  - Kristy Crooks
+  - Sameer Chavan
+  - Matthew J Fisher
+  - Nicholas Rafaels
+  - Meng Lin
+  - Jonathan Shortt
+  - Alan R Sanders
+  - David Whiteman
+  - Stuart MacGregor
+  - Sarah Medland
+  - "Unnur Thorsteinsd\xF3ttir"
+  - "K\xE1ri Stef\xE1nsson"
+  - Tugce Karaderi
+  - Kathleen M Egan
+  - Therese Bocklage
+  - Hilary C McCrary
+  - Greg Riedlingeer
+  - Bodour Salhia
+  - Craig Shriver
+  - Minh D Phan
+  - Janice L Farlow
+  - Stephen Edge
+  - Varinder Kaur
+  - Michelle Churchman
+  - Robert J Rounbehler
+  - Pamela L Brock
+  - Matthew D Ringel
+  - Milton Pividori
+  - Rebecca Schweppe
+  - Christopher D Raeburn
+  - Robin Walters
+  - Zhengming Chen
+  - Liming Li
+  - Koichi Matsuda
+  - Yukinori Okada
+  - Sebastian Zoellner
+  - Anurag Verma
+  - Michael Preuss
+  - Eimear Kenny
+  - Audrey Hendricks
+  - Lauren Fishbein
+  - Peter Kraft
+  - Mark Daly
+  - Benjamin Neale
+  - Alicia Martin
+  - Joanne B Cole
+  - Bryan R Haugen
+  - Christopher R Gignoux
+  - Nikita Pozdeyev
+  publisher: 'medRxiv : the preprint server for health sciences'
+  date: '2025-05-16'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/40463558
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:40225702
   title: Can AI reveal the next generation of high-impact bone genomics targets?
   authors:
@@ -157,6 +291,47 @@
   file: sources.yaml
   type: paper
   image: images/articles/param-gene-module-clique.png
+- id: doi:10.1101/2025.06.05.658122
+  title: 'PLIERv2: bigger, better and faster'
+  authors:
+  - "Marc Subirana-Gran\xE9s"
+  - Sutanu Nandi
+  - Haoyu Zhang
+  - Maria Chikina
+  - Milton Pividori
+  publisher: Cold Spring Harbor Laboratory
+  date: '2025-06-09'
+  link: https://doi.org/g9p5tv
+  orcid: 0000-0002-3035-4403
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2025.06.05.658129
+  title: Mechanistic insights into Down syndrome comorbidities via convergent RNA-seq
+    and TWAS signals
+  authors:
+  - "Marc Subirana-Gran\xE9s"
+  - Haoyu Zhang
+  - Prashant Gupta
+  - Milton Pividori
+  publisher: Cold Spring Harbor Laboratory
+  date: '2025-06-08'
+  link: https://doi.org/g9p5tw
+  orcid: 0000-0002-3035-4403
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1101/2025.06.03.657735
+  title: 'CCC-GPU: A graphics processing unit (GPU)-optimized nonlinear correlation
+    coefficient for large transcriptomic analyses'
+  authors:
+  - Haoyu Zhang
+  - Kevin Fotso
+  - Milton Pividori
+  publisher: Cold Spring Harbor Laboratory
+  date: '2025-06-06'
+  link: https://doi.org/g9pm9r
+  orcid: 0000-0002-3035-4403
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1101/2024.11.08.622657
   title: Uncovering hidden gene-trait patterns through biclustering analysis of the
     UK Biobank
