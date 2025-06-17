@@ -46,6 +46,13 @@
 - id: doi:10.1101/2023.01.21.525030
   remove: true
 
+# HTP-DS-PLIER
+- id: doi:10.1101/2025.06.05.658129
+  type: paper
+  image: images/articles/htp-ds-plier.png
+- id: pubmed:40501630
+  remove: true
+
 # PLIERv2
 - id: doi:10.1101/2025.06.05.658122
   type: paper
