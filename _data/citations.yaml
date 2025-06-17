@@ -1,46 +1,5 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: pubmed:40502087
-  title: 'CCC-GPU: A graphics processing unit (GPU)-optimized nonlinear correlation
-    coefficient for large transcriptomic analyses.'
-  authors:
-  - Haoyu Zhang
-  - Kevin Fotso
-  - Milton Pividori
-  publisher: 'bioRxiv : the preprint server for biology'
-  date: '2025-06-06'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/40502087
-  term: Pividori, Milton[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:40501901
-  title: 'PLIERv2: bigger, better and faster.'
-  authors:
-  - Marc Subirana-Granes
-  - Sutanu Nandi
-  - Haoyu Zhang
-  - Maria Chikina
-  - Milton Pividori
-  publisher: 'bioRxiv : the preprint server for biology'
-  date: '2025-06-08'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/40501901
-  term: Pividori, Milton[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
-- id: pubmed:40501630
-  title: Mechanistic insights into Down syndrome comorbidities via convergent RNA-seq
-    and TWAS signals.
-  authors:
-  - "Marc Subirana-Gran\xE9s"
-  - Haoyu Zhang
-  - Prashant Gupta
-  - Milton Pividori
-  publisher: 'bioRxiv : the preprint server for biology'
-  date: '2025-06-08'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/40501630
-  term: Pividori, Milton[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
 - id: pubmed:40463558
   title: Global multi-ancestry genetic study elucidates genes and biological pathways
     associated with thyroid cancer and benign thyroid diseases.
@@ -132,8 +91,10 @@
   date: '2025-05-16'
   link: https://www.ncbi.nlm.nih.gov/pubmed/40463558
   term: Pividori, Milton[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: images/articles/thyroid-cancer.png
 - id: pubmed:40225702
   title: Can AI reveal the next generation of high-impact bone genomics targets?
   authors:
@@ -303,8 +264,10 @@
   date: '2025-06-09'
   link: https://doi.org/g9p5tv
   orcid: 0000-0002-3035-4403
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: images/articles/plierv2.png
 - id: doi:10.1101/2025.06.05.658129
   title: Mechanistic insights into Down syndrome comorbidities via convergent RNA-seq
     and TWAS signals
@@ -317,8 +280,10 @@
   date: '2025-06-08'
   link: https://doi.org/g9p5tw
   orcid: 0000-0002-3035-4403
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: images/articles/htp-ds-plier.png
 - id: doi:10.1101/2025.06.03.657735
   title: 'CCC-GPU: A graphics processing unit (GPU)-optimized nonlinear correlation
     coefficient for large transcriptomic analyses'
@@ -330,8 +295,10 @@
   date: '2025-06-06'
   link: https://doi.org/g9pm9r
   orcid: 0000-0002-3035-4403
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: images/articles/ccc-gpu.png
 - id: doi:10.1101/2024.11.08.622657
   title: Uncovering hidden gene-trait patterns through biclustering analysis of the
     UK Biobank
