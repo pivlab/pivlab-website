@@ -46,6 +46,13 @@
 - id: doi:10.1101/2023.01.21.525030
   remove: true
 
+# CCC-GPU
+- id: doi:10.1101/2025.06.03.657735
+  type: paper
+  image: images/articles/ccc-gpu.png
+- id: pubmed:40502087
+  remove: true
+
 # Thyroid cancer
 - id: pubmed:40463558
   type: paper
