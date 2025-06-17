@@ -46,6 +46,11 @@
 - id: doi:10.1101/2023.01.21.525030
   remove: true
 
+# Thyroid cancer
+- id: pubmed:40463558
+  type: paper
+  image: images/articles/thyroid-cancer.png
+
 # AI and  bone
 - id: pubmed:40225702
   type: paper
