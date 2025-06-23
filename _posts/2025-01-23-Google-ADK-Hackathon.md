@@ -25,8 +25,8 @@ Moreover, time spent polishing figures, formatting references, and resolving rev
     width="70%"
 %}
 
-We saw the Devpost hackathon as an ideal proving ground for Google’s Agent Development Kit because it offered a fast-paced, collaborative setting in which to experiment with orchestrating specialized AI agents end-to-end.
-In a short amount of time, we could spin up retrieval, summarization, drafting, and revision agents, wire them together through ADK’s built-in state management, and immediately observe how small prompt tweaks or workflow adjustments affected overall output quality.
+We saw the [Devpost hackathon "Agent Development Kit Hackathon with Google Cloud"](https://googlecloudmultiagents.devpost.com/) as an ideal proving ground for Google’s Agent Development Kit because it offered a fast-paced, collaborative setting in which to experiment with orchestrating specialized AI agents end-to-end.
+In a short amount of time, we could spin up retrieval, summarization, drafting, and revision agents, wire them together through [Google ADK](https://google.github.io/adk-docs/)’s built-in state management, and immediately observe how small prompt tweaks or workflow adjustments affected overall output quality.
 The hackathon’s tight timeframe forced us to confront real-world integration and error-handling challenges—everything from passing context cleanly between agents to gracefully recovering from unexpected generation failures—while also giving us confidence that an agent-based architecture can dramatically streamline the scientific writing process.
 
 ## What Inspired Us
@@ -77,7 +77,7 @@ The hackathon’s emphasis on orchestrated agent interactions inspired us to ask
 
 1. **User Interface.**
    We created a web interface which helps users write their paper content with the help of AI‐assistant actions.
-   Under the hood, we used FastAPI to provide an API service layer to a Vue.js front‐end.
+   Under the hood, we used [FastAPI](https://fastapi.tiangolo.com/) to provide an API service layer to a [Vue.js](https://vuejs.org/) front‐end.
    This streamlined interface means that users can quickly get input on their work directly in a browser.
    It offers an intuitive writing environment that offers agentic input in the form of specific actions.
    Users can leverage one of many options which described in detail below.
@@ -85,7 +85,7 @@ The hackathon’s emphasis on orchestrated agent interactions inspired us to ask
 
 2. **Agent Roles & Pipeline:**
 
-We used the Python version of ADK to define each agent’s behavior and orchestrate the workflow, tapping into its built-in support for asynchronous execution and state management.
+We used the [Python version of ADK](https://github.com/google/adk-python) to define each agent’s behavior and orchestrate the workflow, tapping into its built-in support for asynchronous execution and state management.
 
 - **Coordinator Agent:** An LlmAgent that orchestrates the entire manuscript workflow—initializing the prompt template, dispatching tasks to sub-agents (drafting, figures, citations, review, repo extraction), managing shared context and state, and collating each agent’s outputs into a unified draft.
 
@@ -137,9 +137,9 @@ The following agents are invoked as part of extended agents which add specific c
 %}
 
 Participating in the Devpost hackathon was an exhilarating journey that validated the power of multi-agent AI in scientific writing.
-In a short amount of time, we witnessed firsthand how coordinated agents could accelerate literature review, draft coherent sections, generate figures, manage citations, and even perform automated “peer review.”
+In a short amount of time, we witnessed firsthand how coordinated agents could accelerate literature review, draft coherent sections, generate figures, manage citations, and perform reviews with relevant updates.
 The collaborative hackathon environment pushed us to solve real-world integration challenges under tight deadlines, and the results exceeded our expectations—our prototype delivered draft manuscripts far more quickly than traditional workflows.
 
 Looking ahead, we’re excited to iterate on this foundation: refining prompt strategies to further reduce factual errors, experimenting with additional sub-agents (e.g., for data analysis or ethical bias checks), and exploring integrations with more diverse data sources.
 By continuously benchmarking against human-authored papers and expanding our agent toolkit, we aim to uncover the full potential of Google-ADK for research writing.
-This hackathon was just the beginning, and we’re eager to push the boundaries of what autonomous AI collaborations can achieve in scholarly publishing.
+This hackathon was just the beginning, and we’re eager to push the boundaries of what autonomous AI collaborations can achieve in scholarly publishing!
