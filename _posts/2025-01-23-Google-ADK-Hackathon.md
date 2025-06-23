@@ -108,7 +108,7 @@ The following agents are invoked as core functionality by the coordinator agent.
 {%
     include figure.html
     image="images/blog/coordinator_agent_extensions_lr.png"
-    width="100%"
+    width="68%"
 %}
 
 The following agents are invoked as part of extended agents which add specific capabilities we thought would be helpful for the project.
