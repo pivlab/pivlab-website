@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/preview/pr-45/feed.xml" rel="self" type="application/atom+xml" /><link href="/preview/pr-45/" rel="alternate" type="text/html" /><updated>2025-06-23T19:19:36+00:00</updated><id>/preview/pr-45/feed.xml</id><title type="html">Pividori Lab</title><subtitle>We are a research laboratory at the University of Colorado Anschutz Medical Campus. We design advanced machine learning methods applied to human disease with a systems biology approach.</subtitle><entry><title type="html">Manugen AI - Agent Development Kit Hackathon with Google Cloud</title><link href="/preview/pr-45/2025/01/23/Google-ADK-Hackathon.html" rel="alternate" type="text/html" title="Manugen AI - Agent Development Kit Hackathon with Google Cloud" /><published>2025-01-23T00:00:00+00:00</published><updated>2025-06-23T19:17:25+00:00</updated><id>/preview/pr-45/2025/01/23/Google-ADK-Hackathon</id><content type="html" xml:base="/preview/pr-45/2025/01/23/Google-ADK-Hackathon.html"><![CDATA[<h1 id="manugen-ai---agent-development-kit-hackathon-with-google-cloud">Manugen AI - Agent Development Kit Hackathon with Google Cloud</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/preview/pr-45/feed.xml" rel="self" type="application/atom+xml" /><link href="/preview/pr-45/" rel="alternate" type="text/html" /><updated>2025-06-23T19:26:48+00:00</updated><id>/preview/pr-45/feed.xml</id><title type="html">Pividori Lab</title><subtitle>We are a research laboratory at the University of Colorado Anschutz Medical Campus. We design advanced machine learning methods applied to human disease with a systems biology approach.</subtitle><entry><title type="html">Manugen AI - Agent Development Kit Hackathon with Google Cloud</title><link href="/preview/pr-45/2025/01/23/Google-ADK-Hackathon.html" rel="alternate" type="text/html" title="Manugen AI - Agent Development Kit Hackathon with Google Cloud" /><published>2025-01-23T00:00:00+00:00</published><updated>2025-06-23T19:24:56+00:00</updated><id>/preview/pr-45/2025/01/23/Google-ADK-Hackathon</id><content type="html" xml:base="/preview/pr-45/2025/01/23/Google-ADK-Hackathon.html"><![CDATA[<h1 id="manugen-ai---agent-development-kit-hackathon-with-google-cloud">Manugen AI - Agent Development Kit Hackathon with Google Cloud</h1>
 
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
     <img src="/preview/pr-45/images/blog/manuscript_deadlines.png" style="
-        width: 70%;
+        width: 60%;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-45/images/fallback.svg'; this.onerror = null;" />
   </a>
@@ -34,13 +34,23 @@ The hackathon’s tight timeframe forced us to confront real-world integration a
 
 <h2 id="what-inspired-us">What Inspired Us</h2>
 
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/preview/pr-45/images/blog/ADK%20Hackathon%202025%20Hero%20Image.png" style="
+        width: 60%;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-45/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
 <p>From the outset, we were captivated by the promise of autonomous AI agents collaborating to tackle complex, multidisciplinary tasks.
 The Agent Development Kit Hackathon with Google Cloud challenged participants to “build autonomous multi-agent AI systems” capable of content creation, among other applications.</p>
 
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
     <img src="/preview/pr-45/images/blog/ai_assisted_writing.png" style="
-        width: 70%;
+        width: 60%;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-45/images/fallback.svg'; this.onerror = null;" />
   </a>
@@ -79,7 +89,7 @@ While it caught many structural issues, nuanced scientific arguments still requi
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
     <img src="/preview/pr-45/images/blog/manugen-ai-frontend.png" style="
-        width: 70%;
+        width: 100%;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-45/images/fallback.svg'; this.onerror = null;" />
   </a>
@@ -112,7 +122,7 @@ Once agents have taken actions on the content, users may analyze the results and
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
     <img src="/preview/pr-45/images/blog/coordinator_agent_core_tb.png" style="
-        width: 70%;
+        width: 100%;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-45/images/fallback.svg'; this.onerror = null;" />
   </a>
@@ -131,8 +141,8 @@ Once agents have taken actions on the content, users may analyze the results and
 
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
-    <img src="/preview/pr-45/images/blog/coordinator_agent_extensions_tb.png" style="
-        width: 70%;
+    <img src="/preview/pr-45/images/blog/coordinator_agent_extensions_rl.png" style="
+        width: 100%;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-45/images/fallback.svg'; this.onerror = null;" />
   </a>
@@ -165,7 +175,7 @@ Despite our multi-agent setup, final quality assurance still relied on human rev
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
     <img src="/preview/pr-45/images/blog/ai_and_scientist_bright_future.png" style="
-        width: 70%;
+        width: 60%;
         max-height: unset;
       " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-45/images/fallback.svg'; this.onerror = null;" />
   </a>
@@ -178,7 +188,7 @@ The collaborative hackathon environment pushed us to solve real-world integratio
 
 <p>Looking ahead, we’re excited to iterate on this foundation: refining prompt strategies to further reduce factual errors, experimenting with additional sub-agents (e.g., for data analysis or ethical bias checks), and exploring integrations with more diverse data sources.
 By continuously benchmarking against human-authored papers and expanding our agent toolkit, we aim to uncover the full potential of Google-ADK for research writing.
-This hackathon was just the beginning, and we’re eager to push the boundaries of what autonomous AI collaborations can achieve in scholarly publishing.</p>]]></content><author><name>faisal_alquaddoomi,vincent-rubinetti,dave-bunten,milton-pividori</name></author><category term="agents,llm,google-adk,vuejs,fastapi,adkhackathon" /><summary type="html"><![CDATA[Manugen AI - Agent Development Kit Hackathon with Google Cloud]]></summary></entry><entry><title type="html">Initializing Pividori Lab</title><link href="/preview/pr-45/2023/04/24/initializing-pividori-lab.html" rel="alternate" type="text/html" title="Initializing Pividori Lab" /><published>2023-04-24T00:00:00+00:00</published><updated>2025-06-23T19:17:25+00:00</updated><id>/preview/pr-45/2023/04/24/initializing-pividori-lab</id><content type="html" xml:base="/preview/pr-45/2023/04/24/initializing-pividori-lab.html"><![CDATA[<div class="float" data-flip="">
+This hackathon was just the beginning, and we’re eager to push the boundaries of what autonomous AI collaborations can achieve in scholarly publishing.</p>]]></content><author><name>faisal_alquaddoomi,vincent-rubinetti,dave-bunten,milton-pividori</name></author><category term="agents,llm,google-adk,vuejs,fastapi,adkhackathon" /><summary type="html"><![CDATA[Manugen AI - Agent Development Kit Hackathon with Google Cloud]]></summary></entry><entry><title type="html">Initializing Pividori Lab</title><link href="/preview/pr-45/2023/04/24/initializing-pividori-lab.html" rel="alternate" type="text/html" title="Initializing Pividori Lab" /><published>2023-04-24T00:00:00+00:00</published><updated>2025-06-23T19:24:56+00:00</updated><id>/preview/pr-45/2023/04/24/initializing-pividori-lab</id><content type="html" xml:base="/preview/pr-45/2023/04/24/initializing-pividori-lab.html"><![CDATA[<div class="float" data-flip="">
   
 <figure class="figure">
   <a href="/preview/pr-45/research" class="figure-image" aria-label="An abstract painting depicting the dawn light shining on a biomedical informatics research laboratory - Milton DALL E">
