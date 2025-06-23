@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/preview/pr-45/feed.xml" rel="self" type="application/atom+xml" /><link href="/preview/pr-45/" rel="alternate" type="text/html" /><updated>2025-06-23T20:20:28+00:00</updated><id>/preview/pr-45/feed.xml</id><title type="html">Pividori Lab</title><subtitle>We are a research laboratory at the University of Colorado Anschutz Medical Campus. We design advanced machine learning methods applied to human disease with a systems biology approach.</subtitle><entry><title type="html">Manugen AI - Agent Development Kit Hackathon with Google Cloud</title><link href="/preview/pr-45/2025/01/23/Google-ADK-Hackathon.html" rel="alternate" type="text/html" title="Manugen AI - Agent Development Kit Hackathon with Google Cloud" /><published>2025-01-23T00:00:00+00:00</published><updated>2025-06-23T20:19:15+00:00</updated><id>/preview/pr-45/2025/01/23/Google-ADK-Hackathon</id><content type="html" xml:base="/preview/pr-45/2025/01/23/Google-ADK-Hackathon.html"><![CDATA[<h1 id="manugen-ai---agent-development-kit-hackathon-with-google-cloud">Manugen AI - Agent Development Kit Hackathon with Google Cloud</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/preview/pr-45/feed.xml" rel="self" type="application/atom+xml" /><link href="/preview/pr-45/" rel="alternate" type="text/html" /><updated>2025-06-23T20:55:02+00:00</updated><id>/preview/pr-45/feed.xml</id><title type="html">Pividori Lab</title><subtitle>We are a research laboratory at the University of Colorado Anschutz Medical Campus. We design advanced machine learning methods applied to human disease with a systems biology approach.</subtitle><entry><title type="html">Manugen AI - Agent Development Kit Hackathon with Google Cloud</title><link href="/preview/pr-45/2025/01/23/Google-ADK-Hackathon.html" rel="alternate" type="text/html" title="Manugen AI - Agent Development Kit Hackathon with Google Cloud" /><published>2025-01-23T00:00:00+00:00</published><updated>2025-06-23T20:52:50+00:00</updated><id>/preview/pr-45/2025/01/23/Google-ADK-Hackathon</id><content type="html" xml:base="/preview/pr-45/2025/01/23/Google-ADK-Hackathon.html"><![CDATA[<h1 id="manugen-ai---agent-development-kit-hackathon-with-google-cloud">Manugen AI - Agent Development Kit Hackathon with Google Cloud</h1>
 
 <figure class="figure">
   <a class="figure-image" aria-label="figure link">
@@ -111,6 +111,21 @@ Once agents have taken actions on the content, users may analyze the results and
   </li>
 </ol>
 
+<figure class="figure">
+  <a class="figure-image" aria-label="Manugen-AI enables you to produce high-quality agentic output for use with scientific manuscript generation.">
+    <img src="/preview/pr-45/images/blog/full_manugen_ai_example.png" style="
+        width: 100%;
+        max-height: unset;
+      " alt="Manugen-AI enables you to produce high-quality agentic output for use with scientific manuscript generation." loading="lazy" onerror="this.src = '/preview/pr-45/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      Manugen-AI enables you to produce high-quality agentic output for use with scientific manuscript generation.
+
+    </figcaption>
+  
+</figure>
+
 <p>We used the <a href="https://github.com/google/adk-python">Python version of ADK</a> to define each agent’s behavior and orchestrate the workflow, tapping into its built-in support for asynchronous execution and state management.</p>
 
 <ul>
@@ -152,10 +167,40 @@ Once agents have taken actions on the content, users may analyze the results and
 <p>The following agents are invoked as part of extended agents which add specific capabilities we thought would be helpful for the project.</p>
 
 <ul>
+  <li><strong>Repository‐to‐Paper Agent:</strong> Extracts methods and implementation details directly from your code repository—parsing README, docstrings, or example scripts—to generate the “Code &amp; Methods” and Supplementary sections, ensuring the manuscript accurately reflects the underlying software.</li>
   <li><strong>Citation Agent:</strong> Manages all bibliographic work by querying OpenAlex, verifying and formatting references, and inserting in‐text citations and a properly styled reference list.</li>
   <li><strong>Retraction Avoidance Agent:</strong> Uses a retrieval-augmented generation (RAG) approach and customized embeddings database based on WithdrarXiv abstracts to supply related reasons for retraction to help the mitigate related challenges with the content.</li>
-  <li><strong>Repository‐to‐Paper Agent:</strong> Extracts methods and implementation details directly from your code repository—parsing README, docstrings, or example scripts—to generate the “Code &amp; Methods” and Supplementary sections, ensuring the manuscript accurately reflects the underlying software.</li>
 </ul>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="The Repos action provides users with a way to provide a repository link and draft an entire paper.">
+    <img src="/preview/pr-45/images/blog/repo_manugen_ai_demo.gif" style="
+        width: 100%;
+        max-height: unset;
+      " alt="The Repos action provides users with a way to provide a repository link and draft an entire paper." loading="lazy" onerror="this.src = '/preview/pr-45/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      The ‘Repos’ action provides users with a way to provide a repository link and draft an entire paper.
+
+    </figcaption>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="The Cites action provides users with a way to incorporate relevant citations to help strengthen and relate the paper content to other works.">
+    <img src="/preview/pr-45/images/blog/cites_manugen_ai_demo.gif" style="
+        width: 100%;
+        max-height: unset;
+      " alt="The Cites action provides users with a way to incorporate relevant citations to help strengthen and relate the paper content to other works." loading="lazy" onerror="this.src = '/preview/pr-45/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      The ‘Cites’ action provides users with a way to incorporate relevant citations to help strengthen and relate the paper content to other works.
+
+    </figcaption>
+  
+</figure>
 
 <h2 id="challenges-we-faced">Challenges We Faced</h2>
 
@@ -188,7 +233,7 @@ The collaborative hackathon environment pushed us to solve real-world integratio
 
 <p>Looking ahead, we’re excited to iterate on this foundation: refining prompt strategies to further reduce factual errors, experimenting with additional sub-agents (e.g., for data analysis or ethical bias checks), and exploring integrations with more diverse data sources.
 By continuously benchmarking against human-authored papers and expanding our agent toolkit, we aim to uncover the full potential of Google-ADK for research writing.
-This hackathon was just the beginning, and we’re eager to push the boundaries of what autonomous AI collaborations can achieve in scholarly publishing!</p>]]></content><author><name>faisal_alquaddoomi,vincent-rubinetti,dave-bunten,milton-pividori</name></author><category term="agents,llm,google-adk,vuejs,fastapi,adkhackathon" /><summary type="html"><![CDATA[Manugen AI - Agent Development Kit Hackathon with Google Cloud]]></summary></entry><entry><title type="html">Initializing Pividori Lab</title><link href="/preview/pr-45/2023/04/24/initializing-pividori-lab.html" rel="alternate" type="text/html" title="Initializing Pividori Lab" /><published>2023-04-24T00:00:00+00:00</published><updated>2025-06-23T20:19:15+00:00</updated><id>/preview/pr-45/2023/04/24/initializing-pividori-lab</id><content type="html" xml:base="/preview/pr-45/2023/04/24/initializing-pividori-lab.html"><![CDATA[<div class="float" data-flip="">
+This hackathon was just the beginning, and we’re eager to push the boundaries of what autonomous AI collaborations can achieve in scholarly publishing!</p>]]></content><author><name>faisal_alquaddoomi,vincent-rubinetti,dave-bunten,milton-pividori</name></author><category term="agents,llm,google-adk,vuejs,fastapi,adkhackathon" /><summary type="html"><![CDATA[Manugen AI - Agent Development Kit Hackathon with Google Cloud]]></summary></entry><entry><title type="html">Initializing Pividori Lab</title><link href="/preview/pr-45/2023/04/24/initializing-pividori-lab.html" rel="alternate" type="text/html" title="Initializing Pividori Lab" /><published>2023-04-24T00:00:00+00:00</published><updated>2025-06-23T20:52:50+00:00</updated><id>/preview/pr-45/2023/04/24/initializing-pividori-lab</id><content type="html" xml:base="/preview/pr-45/2023/04/24/initializing-pividori-lab.html"><![CDATA[<div class="float" data-flip="">
   
 <figure class="figure">
   <a href="/preview/pr-45/research" class="figure-image" aria-label="An abstract painting depicting the dawn light shining on a biomedical informatics research laboratory - Milton DALL E">
