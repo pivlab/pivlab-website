@@ -87,7 +87,7 @@ The hackathon’s emphasis on orchestrated agent interactions inspired us to ask
 
 {%
     include figure.html
-    image="images/blog/full_manugen_ai_example.png"
+    image="images/blog/full_manugen_ai_example.gif"
     width="100%"
     caption="Manugen-AI enables you to produce high-quality agentic output for use with scientific manuscript generation."
 %}
@@ -124,12 +124,16 @@ The following agents are invoked as part of extended agents which add specific c
 - **Citation Agent:** Manages all bibliographic work by querying OpenAlex, verifying and formatting references, and inserting in‐text citations and a properly styled reference list.
 - **Retraction Avoidance Agent:** Uses a retrieval-augmented generation (RAG) approach and customized embeddings database based on WithdrarXiv abstracts to supply related reasons for retraction to help the mitigate related challenges with the content.
 
+#### Repos action demonstration
+
 {%
     include figure.html
     image="images/blog/repo_manugen_ai_demo.gif"
     caption="The 'Repos' action provides users with a way to provide a repository link and draft an entire paper."
     width="100%"
 %}
+
+#### Cites action demonstration
 
 {%
     include figure.html
