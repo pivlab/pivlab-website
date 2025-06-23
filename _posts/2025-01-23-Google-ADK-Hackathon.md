@@ -8,7 +8,7 @@ tags: agents,llm,google-adk,vuejs,fastapi,adkhackathon
 {%
     include figure.html
     image="images/blog/manuscript_deadlines.png"
-    width="70%"
+    width="60%"
 %}
 
 Researchers today navigate an increasingly complex landscape: from securing funding and navigating ethical approvals to designing robust methodologies and managing ever-growing datasets, the path from hypothesis to discovery is fraught with logistical, technical, and interpersonal hurdles.
@@ -31,13 +31,19 @@ The hackathon’s tight timeframe forced us to confront real-world integration a
 
 ## What Inspired Us
 
+{%
+    include figure.html
+    image="images/blog/ADK Hackathon 2025 Hero Image.png"
+    width="60%"
+%}
+
 From the outset, we were captivated by the promise of autonomous AI agents collaborating to tackle complex, multidisciplinary tasks.
 The Agent Development Kit Hackathon with Google Cloud challenged participants to “build autonomous multi-agent AI systems” capable of content creation, among other applications.
 
 {%
     include figure.html
     image="images/blog/ai_assisted_writing.png"
-    width="70%"
+    width="60%"
 %}
 
 Recognizing that writing a rigorous scientific manuscript involves navigating vast literature, synthesizing nuanced insights, and maintaining a coherent narrative, we saw an opportunity to apply multi-agent orchestration to streamline and elevate the research-writing process.
@@ -66,7 +72,7 @@ The hackathon’s emphasis on orchestrated agent interactions inspired us to ask
 {%
     include figure.html
     image="images/blog/manugen-ai-frontend.png"
-    width="70%"
+    width="100%"
 %}
 
 1. **User Interface.**
@@ -88,7 +94,7 @@ We used the Python version of ADK to define each agent’s behavior and orchestr
 {%
     include figure.html
     image="images/blog/coordinator_agent_core_tb.png"
-    width="70%"
+    width="100%"
 %}
 
 The following agents are invoked as core functionality by the coordinator agent.
@@ -101,8 +107,8 @@ The following agents are invoked as core functionality by the coordinator agent.
 
 {%
     include figure.html
-    image="images/blog/coordinator_agent_extensions_tb.png"
-    width="70%"
+    image="images/blog/coordinator_agent_extensions_rl.png"
+    width="100%"
 %}
 
 The following agents are invoked as part of extended agents which add specific capabilities we thought would be helpful for the project.
@@ -127,7 +133,7 @@ The following agents are invoked as part of extended agents which add specific c
 {%
     include figure.html
     image="images/blog/ai_and_scientist_bright_future.png"
-    width="70%"
+    width="60%"
 %}
 
 Participating in the Devpost hackathon was an exhilarating journey that validated the power of multi-agent AI in scientific writing.
