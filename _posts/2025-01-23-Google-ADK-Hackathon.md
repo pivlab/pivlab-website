@@ -107,7 +107,7 @@ The following agents are invoked as core functionality by the coordinator agent.
 
 {%
     include figure.html
-    image="images/blog/coordinator_agent_extensions_rl.png"
+    image="images/blog/coordinator_agent_extensions_lr.png"
     width="100%"
 %}
 
