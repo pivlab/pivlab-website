@@ -85,6 +85,13 @@ The hackathon’s emphasis on orchestrated agent interactions inspired us to ask
 
 2. **Agent Roles & Pipeline:**
 
+{%
+    include figure.html
+    image="images/blog/full_manugen_ai_example.png"
+    width="100%"
+    caption="Manugen-AI enables you to produce high-quality agentic output for use with scientific manuscript generation."
+%}
+
 We used the [Python version of ADK](https://github.com/google/adk-python) to define each agent’s behavior and orchestrate the workflow, tapping into its built-in support for asynchronous execution and state management.
 
 - **Coordinator Agent:** An LlmAgent that orchestrates the entire manuscript workflow—initializing the prompt template, dispatching tasks to sub-agents (drafting, figures, citations, review, repo extraction), managing shared context and state, and collating each agent’s outputs into a unified draft.
@@ -113,9 +120,23 @@ The following agents are invoked as core functionality by the coordinator agent.
 
 The following agents are invoked as part of extended agents which add specific capabilities we thought would be helpful for the project.
 
+- **Repository‐to‐Paper Agent:** Extracts methods and implementation details directly from your code repository—parsing README, docstrings, or example scripts—to generate the “Code & Methods” and Supplementary sections, ensuring the manuscript accurately reflects the underlying software.
 - **Citation Agent:** Manages all bibliographic work by querying OpenAlex, verifying and formatting references, and inserting in‐text citations and a properly styled reference list.
 - **Retraction Avoidance Agent:** Uses a retrieval-augmented generation (RAG) approach and customized embeddings database based on WithdrarXiv abstracts to supply related reasons for retraction to help the mitigate related challenges with the content.
-- **Repository‐to‐Paper Agent:** Extracts methods and implementation details directly from your code repository—parsing README, docstrings, or example scripts—to generate the “Code & Methods” and Supplementary sections, ensuring the manuscript accurately reflects the underlying software.
+
+{%
+    include figure.html
+    image="images/blog/repo_manugen_ai_demo.gif"
+    caption="The 'Repos' action provides users with a way to provide a repository link and draft an entire paper."
+    width="100%"
+%}
+
+{%
+    include figure.html
+    image="images/blog/cites_manugen_ai_demo.gif"
+    caption="The 'Cites' action provides users with a way to incorporate relevant citations to help strengthen and relate the paper content to other works."
+    width="100%"
+%}
 
 ## Challenges We Faced
 
