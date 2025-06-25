@@ -66,8 +66,10 @@ Check out our [short demo video](https://youtu.be/WkfA-7lXE5w?si=7P_1BMonfFpm_2Y
     width="70%"
 %}
 
-- **Modular Agent Design Is Essential.** By decomposing the writing process into discrete stages—literature retrieval, abstract summarization, section drafting, and peer-review simulation—we discovered that agents with narrowly scoped responsibilities could be more effectively tuned and evaluated.
-  This division of labor not only improved output quality but also made debugging and iterating on individual components far more manageable.
+- **Modular Agent Design Is Essential.** By decomposing the writing process into discrete stages—literature retrieval, abstract summarization, section drafting, and peer-review simulation—agents with narrowly scoped responsibilities can be more effectively tuned and evaluated.
+  This division of labor not only improves output quality but also makes debugging and iterating on individual components far more manageable.
+  It also influences the required model complexity: a modular design with specialized agents focused on specific goals works well with smaller, open-source/open-weight yet powerful models that support tools, reasoning, and vision—such as [Qwen3](https://ollama.com/library/qwen3) or [Gemma3](https://ollama.com/library/gemma3)—which you can run locally (e.g., via [Ollama](https://ollama.com/)) without incurring costs or sharing sensitive content with third parties.
+
 - **Prompt Engineering Drives Quality.** Small changes in how we prompted each agent had outsized effects on coherence, style, and factual accuracy.
   Iteratively refining prompts based on error modes (e.g., hallucinations in data-driven sections, insufficient context in methods descriptions) emerged as a critical skill.
 - **Integrating Retrieval Strengthens Rigor.** Leveraging a dedicated retrieval agent which queries [OpenAlex](https://openalex.org/) to ensured that our drafts were firmly grounded in existing literature, rather than relying solely on generative models.
