@@ -78,7 +78,7 @@ Check out our [short demo video](https://youtu.be/WkfA-7lXE5w?si=7P_1BMonfFpm_2Y
 - **Automated Feedback Is Powerful, but Imperfect.** Implementing a “peer-review” agent that applied heuristic and model-based checks (e.g., ensuring the presence of hypothesis statements, verifying statistical claims against source data) highlighted both the potential and current limitations of automated review.
   While it caught many structural issues, nuanced scientific arguments still required human oversight.
 
-## How We Built Our Project
+## How We Built It
 
 {%
     include figure.html
