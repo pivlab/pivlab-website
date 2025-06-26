@@ -37,7 +37,7 @@ The hackathon's tight timeframe forced us to confront real-world integration and
 %}
 
 From the outset, we were captivated by the promise of autonomous AI agents collaborating to tackle complex, multidisciplinary tasks.
-The Agent Development Kit Hackathon with Google Cloud challenged participants to “build autonomous multi-agent AI systems” capable of content creation, among other applications.
+The Agent Development Kit Hackathon with Google Cloud challenged participants to "build autonomous multi-agent AI systems" capable of content creation, among other applications.
 
 {%
     include figure.html
@@ -117,7 +117,8 @@ The following agents are invoked as core functionality by the coordinator agent.
 
 The following agents are invoked as part of extended agents which add specific capabilities we thought would be helpful for the project.
 
-- **Repository‐to‐Paper Agent:** Extracts methods and implementation details directly from your code repository—parsing README, docstrings, or example scripts—to generate the “Code & Methods” and Supplementary sections, ensuring the manuscript accurately reflects the underlying software.
+- **Repository‐to‐Paper Agent:** Extracts methods and implementation details directly from your code repository—parsing README, docstrings, or example scripts—to generate the "Code & Methods" and Supplementary sections, ensuring the manuscript accurately reflects the underlying software.
+  See an example below using our [Manugen-AI GitHub repository](https://github.com/pivlab/manugen-ai).
 - **Citation Agent:** Manages all bibliographic work by querying OpenAlex, verifying and formatting references, and inserting in‐text citations and a properly styled reference list.
 - **Retraction Avoidance Agent:** Uses a retrieval-augmented generation (RAG) approach and customized embeddings database based on WithdrarXiv abstracts to supply related reasons for retraction to help mitigate related challenges with the content.
 
@@ -155,7 +156,7 @@ The following agents are invoked as part of extended agents which add specific c
 - **Integrating Retrieval Strengthens Rigor.** Leveraging a dedicated retrieval agent which queries [OpenAlex](https://openalex.org/) to ensure that our drafts were firmly grounded in existing literature, rather than relying solely on generative models.
   We also used [WithdrarXiv](https://arxiv.org/abs/2412.03775) through a custom-built vector embeddings database to help avoid reasons for retraction based on similar content.
   This hybrid retrieval-augmented approach helps reduce fabricated citations and avoids reasons for retraction to improve the manuscript's scientific credibility.
-- **Automated Feedback Is Powerful, but Imperfect.** Implementing a “peer-review” agent that applied heuristic and model-based checks (e.g., ensuring the presence of hypothesis statements, verifying statistical claims against source data) highlighted both the potential and current limitations of automated review.
+- **Automated Feedback Is Powerful, but Imperfect.** Implementing a "peer-review" agent that applied heuristic and model-based checks (e.g., ensuring the presence of hypothesis statements, verifying statistical claims against source data) highlighted both the potential and current limitations of automated review.
   While it caught many structural issues, nuanced scientific arguments still required human oversight.
 
 ## Challenges We Faced
@@ -181,6 +182,6 @@ Participating in the Devpost hackathon was an exhilarating journey that validate
 In a short amount of time, we witnessed firsthand how coordinated agents could accelerate literature review, draft coherent sections, explain figures, manage citations, and perform reviews with relevant updates.
 The collaborative hackathon environment pushed us to solve real-world integration challenges under tight deadlines, and the results exceeded our expectations—our prototype delivered draft manuscripts far more quickly than traditional workflows.
 
-Looking ahead, we're excited to iterate on this foundation: refining prompt strategies to further reduce factual errors, experimenting with additional sub-agents (e.g., for data analysis or ethical bias checks), and exploring integrations with more diverse data sources.
+Looking ahead, we're excited to iterate on this foundation: refining prompt strategies to further reduce factual errors, experimenting with additional sub-agents (e.g., for data analysis or ethical bias checks), and exploring integrations with more diverse data sources to support scientific writing.
 By continuously benchmarking against human-authored papers and expanding our agent toolkit, we aim to uncover the full potential of Google ADK for research writing.
 This hackathon was just the beginning, and we're eager to push the boundaries of what autonomous AI collaborations can achieve in scholarly publishing!
