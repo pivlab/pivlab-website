@@ -58,26 +58,6 @@ The user can use Manugen-AI to go from results, figures and rough instructions, 
 
 Check out our [short demo video](https://youtu.be/WkfA-7lXE5w?si=7P_1BMonfFpm_2YE) and [GitHub repo](https://github.com/pivlab/manugen-ai)!
 
-## What We Learned
-
-{%
-    include figure.html
-    image="images/blog/writing_assistance_workflow.png"
-    width="70%"
-%}
-
-- **Modular Agent Design Is Essential.** By decomposing the writing process into discrete stages—literature retrieval, abstract summarization, section drafting, and peer-review simulation—agents with narrowly scoped responsibilities can be more effectively tuned and evaluated.
-  This division of labor not only improves output quality but also makes debugging and iterating on individual components far more manageable.
-  It also influences the required model complexity: a modular design with specialized agents focused on specific goals works well with smaller, open-source/open-weight yet powerful models that support tools, reasoning, and vision—such as [Qwen3](https://ollama.com/library/qwen3) or [Gemma3](https://ollama.com/library/gemma3)—which you can run locally (e.g., via [Ollama](https://ollama.com/)) without incurring costs or sharing sensitive content with third parties.
-
-- **Prompt Engineering Drives Quality.** Small changes in how we prompted each agent had outsized effects on coherence, style, and factual accuracy.
-  Iteratively refining prompts based on error modes (e.g., hallucinations in data-driven sections, insufficient context in methods descriptions) emerged as a critical skill.
-- **Integrating Retrieval Strengthens Rigor.** Leveraging a dedicated retrieval agent which queries [OpenAlex](https://openalex.org/) to ensured that our drafts were firmly grounded in existing literature, rather than relying solely on generative models.
-  We also used [WithdrarXiv](https://arxiv.org/abs/2412.03775) through a custom-built vector embeddings database to help avoid reasons for retraction based on similar content.
-  This hybrid retrieval-augmented approach helps reduce fabricated citations and avoids reasons for retraction to improve manuscripts scientific credibility.
-- **Automated Feedback Is Powerful, but Imperfect.** Implementing a “peer-review” agent that applied heuristic and model-based checks (e.g., ensuring the presence of hypothesis statements, verifying statistical claims against source data) highlighted both the potential and current limitations of automated review.
-  While it caught many structural issues, nuanced scientific arguments still required human oversight.
-
 ## How We Built It
 
 {%
@@ -91,7 +71,7 @@ Check out our [short demo video](https://youtu.be/WkfA-7lXE5w?si=7P_1BMonfFpm_2Y
    Under the hood, we used [FastAPI](https://fastapi.tiangolo.com/) to provide an API service layer to a [Vue.js](https://vuejs.org/) front‐end.
    This streamlined interface means that users can quickly get input on their work directly in a browser.
    It offers an intuitive writing environment that offers agentic input in the form of specific actions.
-   Users can leverage one of many options which described in detail below.
+   Users can leverage one of many options, described in detail below.
    Once agents have taken actions on the content, users may analyze the results and make iterative improvements on the content.
 
 2. **Agent Roles & Pipeline:**
@@ -105,7 +85,7 @@ Check out our [short demo video](https://youtu.be/WkfA-7lXE5w?si=7P_1BMonfFpm_2Y
 
 We used the [Python version of ADK](https://github.com/google/adk-python) to define each agent’s behavior and orchestrate the workflow, tapping into its built-in support for asynchronous execution and state management.
 
-- **Coordinator Agent:** An LlmAgent that orchestrates the entire manuscript workflow—initializing the prompt template, dispatching tasks to sub-agents (drafting, figures, citations, review, repo extraction), managing shared context and state, and collating each agent’s outputs into a unified draft.
+- **Coordinator Agent:** A [`CustomAgent`](https://google.github.io/adk-docs/agents/custom-agents/) that orchestrates the entire manuscript workflow by interpreting the user request using clear rules implemented in Python, dispatching tasks to sub-agents (drafting, figures, citations, review, repo extraction), managing shared context and state, and collating each agent’s outputs into a unified draft.
 
 ### Core Agents
 
@@ -117,8 +97,14 @@ We used the [Python version of ADK](https://github.com/google/adk-python) to def
 
 The following agents are invoked as core functionality by the coordinator agent.
 
-- **Manuscript Drafter Agent:** An LlmAgent that takes the core prompt template and synthesizes full manuscript sections (Introduction, Methods, Results, Discussion), weaving together background, experimental details, and findings into a coherent draft.
-- **Figure Agent:** Responsible for generating or formatting scientific figures—pulling in data, rendering plots or diagrams, and embedding them with appropriate captions so that visuals integrate seamlessly with the text.
+- **Manuscript Drafter Agent:** A [`SequentialAgent`](https://google.github.io/adk-docs/agents/workflow-agents/sequential-agents/) that runs the following agents sequentially: the "Request Interpreter Agent" (an [`LlmAgent`](https://google.github.io/adk-docs/agents/llm-agents/) that tries to interpret which section the user wants to draft, or what the user is requesting to edit in an already drafted section) and the "Section Drafter Agent" that delegates to the section-specific agent for drafting either the Title, Abstract, Introduction, Results, Discussion or Methods sections (all of them being `LlmAgent`s).
+  All theese agents share a state and access different section drafts that are relevant for them.
+  The Results agent, for instance, has access to the current figures' titles, descriptions, and numbers (e.g., "Figure 1," "Figure 2"), all of them generated by the "Figures Agents" (`LlmAgent`).
+  In our [demo video](https://youtu.be/WkfA-7lXE5w?si=7P_1BMonfFpm_2YE) we show how the Results agent uses this information about figures to draft paragraph explaining all their details.
+  The Methods agent can detect URL to external text files, such as Python files implementing a method by using an external [tool](https://google.github.io/adk-docs/tools/) that retrieves the content, interprets the source code, and extracts relevant information about your approach to explain how it works automatically.
+  Since [each section of a scientific manuscript has a particular structure](https://doi.org/10.1371/journal.pcbi.1005619), these section-specific agents incorporate this knowledge on how to propertly write a section.
+  For example, the Introduction agent's prompt has instructions to highlight *"the gap that exists in current knowledge or methods and why it is important"* [@doi:10.1371/journal.pcbi.1005619], which is done by *"a set of progressively more specific paragraphs that culminate in a clear exposition of what is lacking in the literature, followed by a paragraph summarizing what the paper does to fill that gap"*.
+- **Figure Agent:** Responsible for explaining figures uploaded by the user, identifying different types of plots (like an UpSet plot), numbers and methods being compared, and finally generating a title and description that will be stored in a shared state for other agents to use.
 - **Review Agent:** Acts as an automated peer reviewer—scanning each draft for logical flow, missing or incorrect citations, adherence to target journal guidelines, and surfacing any issues (e.g., potential retractions or style violations) back to the drafting agents.
 
 ### Extended Agents
@@ -152,6 +138,25 @@ The following agents are invoked as part of extended agents which add specific c
     caption="The 'Cites' action provides users with a way to incorporate relevant citations to help strengthen and relate the paper content to other works."
     width="100%"
 %}
+
+## What We Learned
+
+{%
+    include figure.html
+    image="images/blog/writing_assistance_workflow.png"
+    width="70%"
+%}
+
+- **Modular Agent Design Is Essential.** By decomposing the writing process into discrete stages—literature retrieval, abstract summarization, section drafting, and peer-review simulation—agents with narrowly scoped responsibilities can be more effectively tuned and evaluated.
+  This division of labor not only improves output quality but also makes debugging and iterating on individual components far more manageable.
+  It also influences the required model complexity: a modular design with specialized agents focused on specific goals works well with smaller, open-source/open-weight yet powerful models that support tools, reasoning, and vision—such as [Qwen3](https://ollama.com/library/qwen3) or [Gemma3](https://ollama.com/library/gemma3)—which you can run locally (e.g., via [Ollama](https://ollama.com/)) without incurring costs or sharing sensitive content with third parties.
+- **Prompt Engineering Drives Quality.** Small changes in how we prompted each agent had outsized effects on coherence, style, and factual accuracy.
+  Iteratively refining prompts based on error modes (e.g., hallucinations in data-driven sections, insufficient context in methods descriptions) emerged as a critical skill.
+- **Integrating Retrieval Strengthens Rigor.** Leveraging a dedicated retrieval agent which queries [OpenAlex](https://openalex.org/) to ensured that our drafts were firmly grounded in existing literature, rather than relying solely on generative models.
+  We also used [WithdrarXiv](https://arxiv.org/abs/2412.03775) through a custom-built vector embeddings database to help avoid reasons for retraction based on similar content.
+  This hybrid retrieval-augmented approach helps reduce fabricated citations and avoids reasons for retraction to improve manuscripts scientific credibility.
+- **Automated Feedback Is Powerful, but Imperfect.** Implementing a “peer-review” agent that applied heuristic and model-based checks (e.g., ensuring the presence of hypothesis statements, verifying statistical claims against source data) highlighted both the potential and current limitations of automated review.
+  While it caught many structural issues, nuanced scientific arguments still required human oversight.
 
 ## Challenges We Faced
 
