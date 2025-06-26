@@ -1,7 +1,7 @@
 ---
 title: Manugen AI - Agent Development Kit Hackathon with Google Cloud
-author: faisal_alquaddoomi,vincent-rubinetti,dave-bunten,milton-pividori
-tags: agents,llm,google-adk,vuejs,fastapi,adkhackathon
+author: faisal_alquaddoomi, vincent-rubinetti, dave-bunten, milton-pividori
+tags: agents, llm, google-adk, vuejs, fastapi, adkhackathon
 ---
 
 {%
@@ -24,9 +24,9 @@ Moreover, time spent polishing figures, formatting references, and resolving rev
     width="70%"
 %}
 
-We saw the [Devpost hackathon "Agent Development Kit Hackathon with Google Cloud"](https://googlecloudmultiagents.devpost.com/) as an ideal proving ground for Google’s Agent Development Kit because it offered a fast-paced, collaborative setting in which to experiment with orchestrating specialized AI agents end-to-end.
-In a short amount of time, we could spin up retrieval, summarization, drafting, and revision agents, wire them together through [Google ADK](https://google.github.io/adk-docs/)’s built-in state management, and immediately observe how small prompt tweaks or workflow adjustments affected overall output quality.
-The hackathon’s tight timeframe forced us to confront real-world integration and error-handling challenges—everything from passing context cleanly between agents to gracefully recovering from unexpected generation failures—while also giving us confidence that an agent-based architecture can dramatically streamline the scientific writing process.
+We saw the [Devpost hackathon "Agent Development Kit Hackathon with Google Cloud"](https://googlecloudmultiagents.devpost.com/) as an ideal proving ground for Google's Agent Development Kit because it offered a fast-paced, collaborative setting in which to experiment with orchestrating specialized AI agents end-to-end.
+In a short amount of time, we could spin up retrieval, summarization, drafting, and revision agents, wire them together through [Google ADK](https://google.github.io/adk-docs/)'s built-in state management, and immediately observe how small prompt tweaks or workflow adjustments affected overall output quality.
+The hackathon's tight timeframe forced us to confront real-world integration and error-handling challenges—everything from passing context cleanly between agents to gracefully recovering from unexpected generation failures—while also giving us confidence that an agent-based architecture can dramatically streamline the scientific writing process.
 
 ## What Inspired Us
 
@@ -46,7 +46,7 @@ The Agent Development Kit Hackathon with Google Cloud challenged participants to
 %}
 
 Recognizing that writing a rigorous scientific manuscript involves navigating vast literature, synthesizing nuanced insights, and maintaining a coherent narrative, we saw an opportunity to apply multi-agent orchestration to streamline and elevate the research-writing process.
-The hackathon’s emphasis on orchestrated agent interactions inspired us to ask: what if specialized agents—each expert in retrieval, summarization, drafting, and revision—could work in concert to produce a high-quality scientific paper?
+The hackathon's emphasis on orchestrated agent interactions inspired us to ask: what if specialized agents—each expert in retrieval, summarization, drafting, and revision—could work in concert to produce a high-quality scientific paper?
 
 ## What It Does
 
@@ -54,7 +54,7 @@ We built **Manugen-AI**, an agentic system that can take experimental results ge
 We built a UI that allows the user to upload figures, enter Markdown with a bullet list of rough instructions for the system, and draft sections incrementally.
 When uploading a figure, the system will use a specific agent that will interpret it by generating a title and description that the Results-section agent will use later to reference figures and explain results.
 When the user enters a URL to a source code file, like a `.py` Python file, the Methods-section agent will use a tool to download the file, learn how the method works, and provide an explanation by drafting the Methods section.
-The user can use Manugen-AI to go from results, figures and rough instructions, to a fully drafted, and well-structured scientific manuscript draft in minutes, speeding up science communication significantly.
+The user can use Manugen-AI to go from results, figures, and rough instructions, to a fully drafted, and well-structured scientific manuscript draft in minutes, speeding up science communication significantly.
 
 Check out our [short demo video](https://youtu.be/WkfA-7lXE5w?si=7P_1BMonfFpm_2YE) and [GitHub repo](https://github.com/pivlab/manugen-ai)!
 
@@ -83,9 +83,9 @@ Check out our [short demo video](https://youtu.be/WkfA-7lXE5w?si=7P_1BMonfFpm_2Y
     caption="Manugen-AI enables you to produce high-quality agentic output for use with scientific manuscript generation."
 %}
 
-We used the [Python version of ADK](https://github.com/google/adk-python) to define each agent’s behavior and orchestrate the workflow, tapping into its built-in support for asynchronous execution and state management.
+We used the [Python version of ADK](https://github.com/google/adk-python) to define each agent's behavior and orchestrate the workflow, tapping into its built-in support for asynchronous execution and state management.
 
-- **Coordinator Agent:** A [`CustomAgent`](https://google.github.io/adk-docs/agents/custom-agents/) that orchestrates the entire manuscript workflow by interpreting the user request using clear rules implemented in Python, dispatching tasks to sub-agents (drafting, figures, citations, review, repo extraction), managing shared context and state, and collating each agent’s outputs into a unified draft.
+- **Coordinator Agent:** A [`CustomAgent`](https://google.github.io/adk-docs/agents/custom-agents/) that orchestrates the entire manuscript workflow by interpreting the user request using clear rules implemented in Python, dispatching tasks to sub-agents (drafting, figures, citations, review, repo extraction), managing shared context and state, and collating each agent's outputs into a unified draft.
 
 ### Core Agents
 
@@ -97,14 +97,14 @@ We used the [Python version of ADK](https://github.com/google/adk-python) to def
 
 The following agents are invoked as core functionality by the coordinator agent.
 
-- **Manuscript Drafter Agent:** A [`SequentialAgent`](https://google.github.io/adk-docs/agents/workflow-agents/sequential-agents/) that runs the following agents sequentially: the "Request Interpreter Agent" (an [`LlmAgent`](https://google.github.io/adk-docs/agents/llm-agents/) that tries to interpret which section the user wants to draft, or what the user is requesting to edit in an already drafted section) and the "Section Drafter Agent" that delegates to the section-specific agent for drafting either the Title, Abstract, Introduction, Results, Discussion or Methods sections (all of them being `LlmAgent`s).
-  All theese agents share a state and access different section drafts that are relevant for them.
+- **Manuscript Drafter Agent:** A [`SequentialAgent`](https://google.github.io/adk-docs/agents/workflow-agents/sequential-agents/) that runs the following agents sequentially: the "Request Interpreter Agent" (an [`LlmAgent`](https://google.github.io/adk-docs/agents/llm-agents/) that tries to interpret which section the user wants to draft, or what the user is requesting to edit in an already drafted section) and the "Section Drafter Agent" that delegates to the section-specific agent for drafting either the Title, Abstract, Introduction, Results, Discussion, or Methods sections (all of them being `LlmAgent`s).
+  All these agents share a state and access different section drafts that are relevant for them.
   The Results agent, for instance, has access to the current figures' titles, descriptions, and numbers (e.g., "Figure 1," "Figure 2"), all of them generated by the "Figures Agents" (`LlmAgent`).
-  In our [demo video](https://youtu.be/WkfA-7lXE5w?si=7P_1BMonfFpm_2YE) we show how the Results agent uses this information about figures to draft paragraph explaining all their details.
-  The Methods agent can detect URL to external text files, such as Python files implementing a method by using an external [tool](https://google.github.io/adk-docs/tools/) that retrieves the content, interprets the source code, and extracts relevant information about your approach to explain how it works automatically.
-  Since [each section of a scientific manuscript has a particular structure](https://doi.org/10.1371/journal.pcbi.1005619), these section-specific agents incorporate this knowledge on how to propertly write a section.
-  For example, the Introduction agent's prompt has instructions to highlight *"the gap that exists in current knowledge or methods and why it is important"* [@doi:10.1371/journal.pcbi.1005619], which is done by *"a set of progressively more specific paragraphs that culminate in a clear exposition of what is lacking in the literature, followed by a paragraph summarizing what the paper does to fill that gap"*.
-- **Figure Agent:** Responsible for explaining figures uploaded by the user, identifying different types of plots (like an UpSet plot), numbers and methods being compared, and finally generating a title and description that will be stored in a shared state for other agents to use.
+  In our [demo video](https://youtu.be/WkfA-7lXE5w?si=7P_1BMonfFpm_2YE), we show how the Results agent uses this information about figures to draft paragraphs explaining all their details.
+  The Methods agent can detect URLs to external text files, such as Python files implementing a method, by using an external [tool](https://google.github.io/adk-docs/tools/) that retrieves the content; then, the agent interprets the source code and extracts relevant information about the computational approach to explain how it works automatically.
+  Since [each section of a scientific manuscript has a particular structure](https://doi.org/10.1371/journal.pcbi.1005619), these section-specific agents incorporate this knowledge on how to properly write a section.
+  For example, the Introduction agent's prompt has instructions to highlight the *"gap that exists in current knowledge or methods and why it is important"*, which is done by *"a set of progressively more specific paragraphs that culminate in a clear exposition of what is lacking in the literature, followed by a paragraph summarizing what the paper does to fill that gap."*
+- **Figure Agent:** Responsible for explaining figures uploaded by the user, identifying different types of plots (like an UpSet plot), numbers, and methods being compared, and finally generating a title and description that will be stored in a shared state for other agents to use.
 - **Review Agent:** Acts as an automated peer reviewer—scanning each draft for logical flow, missing or incorrect citations, adherence to target journal guidelines, and surfacing any issues (e.g., potential retractions or style violations) back to the drafting agents.
 
 ### Extended Agents
@@ -119,7 +119,7 @@ The following agents are invoked as part of extended agents which add specific c
 
 - **Repository‐to‐Paper Agent:** Extracts methods and implementation details directly from your code repository—parsing README, docstrings, or example scripts—to generate the “Code & Methods” and Supplementary sections, ensuring the manuscript accurately reflects the underlying software.
 - **Citation Agent:** Manages all bibliographic work by querying OpenAlex, verifying and formatting references, and inserting in‐text citations and a properly styled reference list.
-- **Retraction Avoidance Agent:** Uses a retrieval-augmented generation (RAG) approach and customized embeddings database based on WithdrarXiv abstracts to supply related reasons for retraction to help the mitigate related challenges with the content.
+- **Retraction Avoidance Agent:** Uses a retrieval-augmented generation (RAG) approach and customized embeddings database based on WithdrarXiv abstracts to supply related reasons for retraction to help mitigate related challenges with the content.
 
 #### Repos action demonstration
 
@@ -152,9 +152,9 @@ The following agents are invoked as part of extended agents which add specific c
   It also influences the required model complexity: a modular design with specialized agents focused on specific goals works well with smaller, open-source/open-weight yet powerful models that support tools, reasoning, and vision—such as [Qwen3](https://ollama.com/library/qwen3) or [Gemma3](https://ollama.com/library/gemma3)—which you can run locally (e.g., via [Ollama](https://ollama.com/)) without incurring costs or sharing sensitive content with third parties.
 - **Prompt Engineering Drives Quality.** Small changes in how we prompted each agent had outsized effects on coherence, style, and factual accuracy.
   Iteratively refining prompts based on error modes (e.g., hallucinations in data-driven sections, insufficient context in methods descriptions) emerged as a critical skill.
-- **Integrating Retrieval Strengthens Rigor.** Leveraging a dedicated retrieval agent which queries [OpenAlex](https://openalex.org/) to ensured that our drafts were firmly grounded in existing literature, rather than relying solely on generative models.
+- **Integrating Retrieval Strengthens Rigor.** Leveraging a dedicated retrieval agent which queries [OpenAlex](https://openalex.org/) to ensure that our drafts were firmly grounded in existing literature, rather than relying solely on generative models.
   We also used [WithdrarXiv](https://arxiv.org/abs/2412.03775) through a custom-built vector embeddings database to help avoid reasons for retraction based on similar content.
-  This hybrid retrieval-augmented approach helps reduce fabricated citations and avoids reasons for retraction to improve manuscripts scientific credibility.
+  This hybrid retrieval-augmented approach helps reduce fabricated citations and avoids reasons for retraction to improve the manuscript's scientific credibility.
 - **Automated Feedback Is Powerful, but Imperfect.** Implementing a “peer-review” agent that applied heuristic and model-based checks (e.g., ensuring the presence of hypothesis statements, verifying statistical claims against source data) highlighted both the potential and current limitations of automated review.
   While it caught many structural issues, nuanced scientific arguments still required human oversight.
 
@@ -178,9 +178,9 @@ The following agents are invoked as part of extended agents which add specific c
 %}
 
 Participating in the Devpost hackathon was an exhilarating journey that validated the power of multi-agent AI in scientific writing.
-In a short amount of time, we witnessed firsthand how coordinated agents could accelerate literature review, draft coherent sections, generate figures, manage citations, and perform reviews with relevant updates.
+In a short amount of time, we witnessed firsthand how coordinated agents could accelerate literature review, draft coherent sections, explain figures, manage citations, and perform reviews with relevant updates.
 The collaborative hackathon environment pushed us to solve real-world integration challenges under tight deadlines, and the results exceeded our expectations—our prototype delivered draft manuscripts far more quickly than traditional workflows.
 
-Looking ahead, we’re excited to iterate on this foundation: refining prompt strategies to further reduce factual errors, experimenting with additional sub-agents (e.g., for data analysis or ethical bias checks), and exploring integrations with more diverse data sources.
-By continuously benchmarking against human-authored papers and expanding our agent toolkit, we aim to uncover the full potential of Google-ADK for research writing.
-This hackathon was just the beginning, and we’re eager to push the boundaries of what autonomous AI collaborations can achieve in scholarly publishing!
+Looking ahead, we're excited to iterate on this foundation: refining prompt strategies to further reduce factual errors, experimenting with additional sub-agents (e.g., for data analysis or ethical bias checks), and exploring integrations with more diverse data sources.
+By continuously benchmarking against human-authored papers and expanding our agent toolkit, we aim to uncover the full potential of Google ADK for research writing.
+This hackathon was just the beginning, and we're eager to push the boundaries of what autonomous AI collaborations can achieve in scholarly publishing!
