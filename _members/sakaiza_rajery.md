@@ -1,9 +1,8 @@
 ---
 name: Sakaiza Rasolofomanana-Rajery
 image: images/team/sakaiza-rajery.jpg
-description: HMGGP Rotation Student
+description: PhD Student
 role: phd
-group: alum
 links:
   email: sakaiza.rasolofomananarajery@cuanschutz.edu
   github: sakaizarajery
