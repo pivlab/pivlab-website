@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/preview/pr-48/feed.xml" rel="self" type="application/atom+xml" /><link href="/preview/pr-48/" rel="alternate" type="text/html" /><updated>2025-09-09T18:08:07+00:00</updated><id>/preview/pr-48/feed.xml</id><title type="html">Pividori Lab</title><subtitle>We are a research laboratory at the University of Colorado Anschutz Medical Campus. We design advanced machine learning methods applied to human disease with a systems biology approach.</subtitle><entry><title type="html">Manugen AI - Agent Development Kit Hackathon with Google Cloud</title><link href="/preview/pr-48/2025/06/23/Google-ADK-Hackathon.html" rel="alternate" type="text/html" title="Manugen AI - Agent Development Kit Hackathon with Google Cloud" /><published>2025-06-23T00:00:00+00:00</published><updated>2025-09-09T18:01:15+00:00</updated><id>/preview/pr-48/2025/06/23/Google-ADK-Hackathon</id><content type="html" xml:base="/preview/pr-48/2025/06/23/Google-ADK-Hackathon.html"><![CDATA[<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/preview/pr-48/images/blog/manuscript_deadlines.png" style="
+        width: 60%;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-48/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<p>Researchers today navigate an increasingly complex landscape: from securing funding and navigating ethical approvals to designing robust methodologies and managing ever-growing datasets, the path from hypothesis to discovery is fraught with logistical, technical, and interpersonal hurdles.
+Yet even once experiments conclude and results are compelling, a new challenge emerges—translating months, or sometimes years, of work into a concise, coherent, and publishable manuscript.
+Crafting such a paper demands mastery not only of scientific rigor but also of narrative flow, clarity of argument, and precise language, all under the pressure of journal deadlines and peer review.
+These dual demands often pull scientists in opposite directions: immersed in the nitty-gritty of data collection and analysis, they must then shift gears to adopt the wide-angle lens of storytelling, framing the big question, situating findings within a broader scholarly conversation, and articulating implications for future work.
+Moreover, time spent polishing figures, formatting references, and resolving reviewer comments is time diverted from deeper scientific inquiry—yet without this effort, the impact of the research remains unrealized, making writing not a mere afterthought but an integral and often underestimated component of the scientific endeavor.</p>
+
+<h3 id="a-real-world-test-of-google-adk">A Real-World Test of Google-ADK</h3>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/preview/pr-48/images/blog/hackathon.png" style="
+        width: 70%;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-48/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<p>We saw the <a href="https://googlecloudmultiagents.devpost.com/">Devpost hackathon “Agent Development Kit Hackathon with Google Cloud”</a> as an ideal proving ground for Google’s Agent Development Kit because it offered a fast-paced, collaborative setting in which to experiment with orchestrating specialized AI agents end-to-end.
+In a short amount of time, we could spin up retrieval, summarization, drafting, and revision agents, wire them together through <a href="https://google.github.io/adk-docs/">Google ADK</a>’s built-in state management, and immediately observe how small prompt tweaks or workflow adjustments affected overall output quality.
+The hackathon’s tight timeframe forced us to confront real-world integration and error-handling challenges—everything from passing context cleanly between agents to gracefully recovering from unexpected generation failures—while also giving us confidence that an agent-based architecture can dramatically streamline the scientific writing process.</p>
+
+<h2 id="what-inspired-us">What Inspired Us</h2>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/preview/pr-48/images/blog/ADK%20Hackathon%202025%20Hero%20Image.png" style="
+        width: 60%;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-48/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<p>From the outset, we were captivated by the promise of autonomous AI agents collaborating to tackle complex, multidisciplinary tasks.
+The Agent Development Kit Hackathon with Google Cloud challenged participants to “build autonomous multi-agent AI systems” capable of content creation, among other applications.</p>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/preview/pr-48/images/blog/ai_assisted_writing.png" style="
+        width: 60%;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-48/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<p>Recognizing that writing a rigorous scientific manuscript involves navigating vast literature, synthesizing nuanced insights, and maintaining a coherent narrative, we saw an opportunity to apply multi-agent orchestration to streamline and elevate the research-writing process.
+The hackathon’s emphasis on orchestrated agent interactions inspired us to ask: what if specialized agents—each expert in retrieval, summarization, drafting, and revision—could work in concert to produce a high-quality scientific paper?</p>
+
+<h2 id="what-it-does">What It Does</h2>
+
+<p>We built <strong>Manugen-AI</strong>, an agentic system that can take experimental results generated by humans, such as figures and rough descriptions of results, and generate a full, <a href="https://doi.org/10.1371/journal.pcbi.1005619">well-structured scientific manuscript</a>.
+We built a UI that allows the user to upload figures, enter Markdown with a bullet list of rough instructions for the system, and draft sections incrementally.
+When uploading a figure, the system will use a specific agent that will interpret it by generating a title and description that the Results-section agent will use later to reference figures and explain results.
+When the user enters a URL to a source code file, like a <code class="language-plaintext highlighter-rouge">.py</code> Python file, the Methods-section agent will use a tool to download the file, learn how the method works, and provide an explanation by drafting the Methods section.
+The user can use Manugen-AI to go from results, figures, and rough instructions, to a fully drafted, and well-structured scientific manuscript draft in minutes, speeding up science communication significantly.</p>
+
+<p>Check out our <a href="https://youtu.be/WkfA-7lXE5w?si=7P_1BMonfFpm_2YE">short demo video</a> and <a href="https://github.com/pivlab/manugen-ai">GitHub repo</a>!</p>
+
+<h2 id="how-we-built-it">How We Built It</h2>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/preview/pr-48/images/blog/manugen-ai-frontend.png" style="
+        width: 100%;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-48/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<ol>
+  <li>
+    <p><strong>User Interface.</strong>
+We created a web interface which helps users write their paper content with the help of AI‐assistant actions.
+Under the hood, we used <a href="https://fastapi.tiangolo.com/">FastAPI</a> to provide an API service layer to a <a href="https://vuejs.org/">Vue.js</a> front‐end.
+This streamlined interface means that users can quickly get input on their work directly in a browser.
+It offers an intuitive writing environment that offers agentic input in the form of specific actions.
+Users can leverage one of many options, described in detail below.
+Once agents have taken actions on the content, users may analyze the results and make iterative improvements on the content.</p>
+  </li>
+  <li>
+    <p><strong>Agent Roles &amp; Pipeline:</strong></p>
+  </li>
+</ol>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="Manugen-AI enables you to produce high-quality agentic output for use with scientific manuscript generation.">
+    <img src="/preview/pr-48/images/blog/full_manugen_ai_example.gif" style="
+        width: 100%;
+        max-height: unset;
+      " alt="Manugen-AI enables you to produce high-quality agentic output for use with scientific manuscript generation." loading="lazy" onerror="this.src = '/preview/pr-48/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      Manugen-AI enables you to produce high-quality agentic output for use with scientific manuscript generation.
+
+    </figcaption>
+  
+</figure>
+
+<p>We used the <a href="https://github.com/google/adk-python">Python version of ADK</a> to define each agent’s behavior and orchestrate the workflow, tapping into its built-in support for asynchronous execution and state management.</p>
+
+<ul>
+  <li><strong>Coordinator Agent:</strong> A <a href="https://google.github.io/adk-docs/agents/custom-agents/"><code class="language-plaintext highlighter-rouge">CustomAgent</code></a> that orchestrates the entire manuscript workflow by interpreting the user request using clear rules implemented in Python, dispatching tasks to sub-agents (drafting, figures, citations, review, repo extraction), managing shared context and state, and collating each agent’s outputs into a unified draft.</li>
+</ul>
+
+<h3 id="core-agents">Core Agents</h3>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/preview/pr-48/images/blog/coordinator_agent_core_tb.png" style="
+        width: 100%;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-48/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<p>The following agents are invoked as core functionality by the coordinator agent.</p>
+
+<ul>
+  <li><strong>Manuscript Drafter Agent:</strong> A <a href="https://google.github.io/adk-docs/agents/workflow-agents/sequential-agents/"><code class="language-plaintext highlighter-rouge">SequentialAgent</code></a> that runs the following agents sequentially: the “Request Interpreter Agent” (an <a href="https://google.github.io/adk-docs/agents/llm-agents/"><code class="language-plaintext highlighter-rouge">LlmAgent</code></a> that tries to interpret which section the user wants to draft, or what the user is requesting to edit in an already drafted section) and the “Section Drafter Agent” that delegates to the section-specific agent for drafting either the Title, Abstract, Introduction, Results, Discussion, or Methods sections (all of them being <code class="language-plaintext highlighter-rouge">LlmAgent</code>s).
+All these agents share a state and access different section drafts that are relevant for them.
+The Results agent, for instance, has access to the current figures’ titles, descriptions, and numbers (e.g., “Figure 1,” “Figure 2”), all of them generated by the “Figures Agents” (<code class="language-plaintext highlighter-rouge">LlmAgent</code>).
+In our <a href="https://youtu.be/WkfA-7lXE5w?si=7P_1BMonfFpm_2YE">demo video</a>, we show how the Results agent uses this information about figures to draft paragraphs explaining all their details.
+The Methods agent can detect URLs to external text files, such as Python files implementing a method, by using an external <a href="https://google.github.io/adk-docs/tools/">tool</a> that retrieves the content; then, the agent interprets the source code and extracts relevant information about the computational approach to explain how it works automatically.
+Since <a href="https://doi.org/10.1371/journal.pcbi.1005619">each section of a scientific manuscript has a particular structure</a>, these section-specific agents incorporate this knowledge on how to properly write a section.
+For example, the Introduction agent’s prompt has instructions to highlight the <em>“gap that exists in current knowledge or methods and why it is important”</em>, which is done by <em>“a set of progressively more specific paragraphs that culminate in a clear exposition of what is lacking in the literature, followed by a paragraph summarizing what the paper does to fill that gap.”</em></li>
+  <li><strong>Figure Agent:</strong> Responsible for explaining figures uploaded by the user, identifying different types of plots (like an UpSet plot), numbers, and methods being compared, and finally generating a title and description that will be stored in a shared state for other agents to use.</li>
+  <li><strong>Review Agent:</strong> Acts as an automated peer reviewer—scanning each draft for logical flow, missing or incorrect citations, adherence to target journal guidelines, and surfacing any issues (e.g., potential retractions or style violations) back to the drafting agents.</li>
+</ul>
+
+<h3 id="extended-agents">Extended Agents</h3>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/preview/pr-48/images/blog/coordinator_agent_extensions_lr.png" style="
+        width: 68%;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-48/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<p>The following agents are invoked as part of extended agents which add specific capabilities we thought would be helpful for the project.</p>
+
+<ul>
+  <li><strong>Repository‐to‐Paper Agent:</strong> Extracts methods and implementation details directly from your code repository—parsing README, docstrings, or example scripts—to generate the “Code &amp; Methods” and Supplementary sections, ensuring the manuscript accurately reflects the underlying software.
+See an example below using our <a href="https://github.com/pivlab/manugen-ai">Manugen-AI GitHub repository</a>.</li>
+  <li><strong>Citation Agent:</strong> Manages all bibliographic work by querying OpenAlex, verifying and formatting references, and inserting in‐text citations and a properly styled reference list.</li>
+  <li><strong>Retraction Avoidance Agent:</strong> Uses a retrieval-augmented generation (RAG) approach and customized embeddings database based on WithdrarXiv abstracts to supply related reasons for retraction to help mitigate related challenges with the content.</li>
+</ul>
+
+<h4 id="repos-action-demonstration">Repos action demonstration</h4>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="The Repos action provides users with a way to provide a repository link and draft an entire paper.">
+    <img src="/preview/pr-48/images/blog/repo_manugen_ai_demo.gif" style="
+        width: 100%;
+        max-height: unset;
+      " alt="The Repos action provides users with a way to provide a repository link and draft an entire paper." loading="lazy" onerror="this.src = '/preview/pr-48/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      The ‘Repos’ action provides users with a way to provide a repository link and draft an entire paper.
+
+    </figcaption>
+  
+</figure>
+
+<h4 id="cites-action-demonstration">Cites action demonstration</h4>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="The Cites action provides users with a way to incorporate relevant citations to help strengthen and relate the paper content to other works.">
+    <img src="/preview/pr-48/images/blog/cites_manugen_ai_demo.gif" style="
+        width: 100%;
+        max-height: unset;
+      " alt="The Cites action provides users with a way to incorporate relevant citations to help strengthen and relate the paper content to other works." loading="lazy" onerror="this.src = '/preview/pr-48/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      The ‘Cites’ action provides users with a way to incorporate relevant citations to help strengthen and relate the paper content to other works.
+
+    </figcaption>
+  
+</figure>
+
+<h2 id="what-we-learned">What We Learned</h2>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/preview/pr-48/images/blog/writing_assistance_workflow.png" style="
+        width: 70%;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-48/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<ul>
+  <li><strong>Modular Agent Design Is Essential.</strong> By decomposing the writing process into discrete stages—literature retrieval, abstract summarization, section drafting, and peer-review simulation—agents with narrowly scoped responsibilities can be more effectively tuned and evaluated.
+This division of labor not only improves output quality but also makes debugging and iterating on individual components far more manageable.
+It also influences the required model complexity: a modular design with specialized agents focused on specific goals works well with smaller, open-source/open-weight yet powerful models that support tools, reasoning, and vision—such as <a href="https://ollama.com/library/qwen3">Qwen3</a> or <a href="https://ollama.com/library/gemma3">Gemma3</a>—which you can run locally (e.g., via <a href="https://ollama.com/">Ollama</a>) without incurring costs or sharing sensitive content with third parties.</li>
+  <li><strong>Prompt Engineering Drives Quality.</strong> Small changes in how we prompted each agent had outsized effects on coherence, style, and factual accuracy.
+Iteratively refining prompts based on error modes (e.g., hallucinations in data-driven sections, insufficient context in methods descriptions) emerged as a critical skill.</li>
+  <li><strong>Integrating Retrieval Strengthens Rigor.</strong> Leveraging a dedicated retrieval agent which queries <a href="https://openalex.org/">OpenAlex</a> to ensure that our drafts were firmly grounded in existing literature, rather than relying solely on generative models.
+We also used <a href="https://arxiv.org/abs/2412.03775">WithdrarXiv</a> through a custom-built vector embeddings database to help avoid reasons for retraction based on similar content.
+This hybrid retrieval-augmented approach helps reduce fabricated citations and avoids reasons for retraction to improve the manuscript’s scientific credibility.</li>
+  <li><strong>Automated Feedback Is Powerful, but Imperfect.</strong> Implementing a “peer-review” agent that applied heuristic and model-based checks (e.g., ensuring the presence of hypothesis statements, verifying statistical claims against source data) highlighted both the potential and current limitations of automated review.
+While it caught many structural issues, nuanced scientific arguments still required human oversight.</li>
+</ul>
+
+<h2 id="challenges-we-faced">Challenges We Faced</h2>
+
+<ul>
+  <li><strong>Maintaining Coherence Across Agents.</strong>
+As agents operated asynchronously, ensuring that context (e.g., variable definitions, methodological details) persisted seamlessly between stages required rigorous state-management strategies and periodic context re-injection.</li>
+  <li><strong>Balancing Creativity and Accuracy.</strong>
+Generative models can produce eloquent prose but may introduce factual inconsistencies. We mitigated this by tightly coupling drafting with retrieval, but tuning the trade-off between expressive writing and strict factuality was an ongoing challenge.</li>
+  <li><strong>Scaling Retrieval Latency.</strong>
+Querying large publication databases in real time sometimes introduced delays. Caching strategies and batched queries alleviated but did not eliminate occasional slowdowns under hackathon time constraints.</li>
+  <li><strong>Human-in-the-Loop Necessity.</strong>
+Despite our multi-agent setup, final quality assurance still relied on human review for nuanced interpretation, ethical considerations (e.g., avoiding unintended bias), and the final polish necessary for publication-ready prose.</li>
+</ul>
+
+<h2 id="conclusion-and-future-directions">Conclusion and Future Directions</h2>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/preview/pr-48/images/blog/ai_and_scientist_bright_future.png" style="
+        width: 60%;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-48/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+</figure>
+
+<p>Participating in the Devpost hackathon was an exhilarating journey that validated the power of multi-agent AI in scientific writing.
+In a short amount of time, we witnessed firsthand how coordinated agents could accelerate literature review, draft coherent sections, explain figures, manage citations, and perform reviews with relevant updates.
+The collaborative hackathon environment pushed us to solve real-world integration challenges under tight deadlines, and the results exceeded our expectations—our prototype delivered draft manuscripts far more quickly than traditional workflows.</p>
+
+<p>Looking ahead, we’re excited to iterate on this foundation: refining prompt strategies to further reduce factual errors, experimenting with additional sub-agents (e.g., for data analysis or ethical bias checks), and exploring integrations with more diverse data sources to support scientific writing.
+By continuously benchmarking against human-authored papers and expanding our agent toolkit, we aim to uncover the full potential of Google ADK for research writing.
+This hackathon was just the beginning, and we’re eager to push the boundaries of what autonomous AI collaborations can achieve in scholarly publishing!</p>]]></content><author><name>faisal_alquaddoomi, vincent-rubinetti, dave-bunten, milton-pividori</name></author><category term="agents," /><category term="llm," /><category term="google-adk," /><category term="vuejs," /><category term="fastapi," /><category term="adkhackathon" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Initializing Pividori Lab</title><link href="/preview/pr-48/2023/04/24/initializing-pividori-lab.html" rel="alternate" type="text/html" title="Initializing Pividori Lab" /><published>2023-04-24T00:00:00+00:00</published><updated>2025-09-09T18:01:15+00:00</updated><id>/preview/pr-48/2023/04/24/initializing-pividori-lab</id><content type="html" xml:base="/preview/pr-48/2023/04/24/initializing-pividori-lab.html"><![CDATA[<div class="float" data-flip="">
+  
+<figure class="figure">
+  <a href="/preview/pr-48/research" class="figure-image" aria-label="An abstract painting depicting the dawn light shining on a biomedical informatics research laboratory - Milton DALL E">
+    <img src="/preview/pr-48/images/blog/2023-04-25-dalle_2.png" style="
+        width: 100%;
+        max-height: unset;
+      " alt="An abstract painting depicting the dawn light shining on a biomedical informatics research laboratory - Milton DALL E" loading="lazy" onerror="this.src = '/preview/pr-48/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      “An abstract painting depicting the dawn light shining on a biomedical informatics research laboratory” - Milton × DALL·E
+
+    </figcaption>
+  
+</figure>
+
+
+</div>
+
+<p>On May 1st, 2023, I will officially start as an Assistant Professor and PI of the <a href="/">Pividori Lab</a> in the <a href="https://medschool.cuanschutz.edu/dbmi">Department of Biomedical Informatics</a> at the <a href="https://medschool.cuanschutz.edu/">University of Colorado Anschutz Medical Campus</a>.</p>
+
+<p>I’m very excited and curious about this new stage in my career.
+Our lab will focus on developing machine-learning methods for biomedical informatics, with a specific focus on integrating multi-omics datasets and genetics.
+We aim to design the next generation of methodologies that will consolidate large and heterogeneous sources of biomedical data to extract biological insights that will ultimately improve human health.
+I invite you to keep an eye on <a href="/blog">this blog</a>, <a href="https://twitter.com/miltondp">my Twitter</a>, and <a href="https://github.com/pivlab">our projects on GitHub</a> for updates about our research and other activities.</p>
+
+<p><strong>We are recruiting!</strong> If your interests align with <a href="/research">our labs’</a>, please reach out!</p>
+
+<div class="float" data-clear="">
+  
+
+</div>]]></content><author><name>milton-pividori</name></author><category term="lab,research" /><summary type="html"><![CDATA[]]></summary></entry></feed>
