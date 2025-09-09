@@ -47,7 +47,7 @@ Milton has received the following training for faculty to support students, incl
 {%
   include figure.html
   image="images/lab/research-mentoring-essentials.png"
-  caption="CU Anschutz - Graduate Schoold - Research Mentoring Essentials"
+  caption="CU Anschutz - Graduate School - Research Mentoring Essentials"
   link="https://www.credly.com/badges/384f6fb6-e233-4c60-a857-a1bf4f86437c/public_url"
   height="250px"
 %}
