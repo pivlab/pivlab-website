@@ -42,8 +42,16 @@ Milton has received the following training for faculty to support students, incl
 * CU Office of Research Education (ORE) - Faculty Upstander/Bystander Training (January, 2024)
 * Chan Zuckerberg Initiative (CZI) Project Management for Scientists Workshop (October, 2023)
 
+{% capture col1 %}
+
 {%
   include figure.html
   image="images/lab/research-mentoring-essentials.png"
   caption="CU Anschutz - Graduate Schoold - Research Mentoring Essentials"
+  link="https://www.credly.com/badges/384f6fb6-e233-4c60-a857-a1bf4f86437c/public_url"
+  height="250px"
 %}
+
+{% endcapture %}
+
+{% include cols.html col1=col1 %}
