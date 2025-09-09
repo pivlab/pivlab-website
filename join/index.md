@@ -33,6 +33,7 @@ Please [reach out](/contact) if you have any preliminary questions.
 ### Faculty training
 
 Milton has received the following training for faculty to support students, including topics in Diversity, Equity and Inclusion (DEI):
+* ARME Mentoring Training program (March, 2025)
 * HEAL Foundations in Equity:
   * CU: DEI 101 (August, 2023)
   * CU: Implicit bias (January, 2024)
@@ -40,3 +41,9 @@ Milton has received the following training for faculty to support students, incl
   * CU: Equity in Action (pending)
 * CU Office of Research Education (ORE) - Faculty Upstander/Bystander Training (January, 2024)
 * Chan Zuckerberg Initiative (CZI) Project Management for Scientists Workshop (October, 2023)
+
+{%
+  include figure.html
+  image="images/lab/research-mentoring-essentials.png"
+  caption="CU Anschutz - Graduate Schoold - Research Mentoring Essentials"
+%}
