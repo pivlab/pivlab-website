@@ -285,11 +285,12 @@
   type: paper
   image: images/articles/htp-ds-plier.png
 - id: doi:10.1101/2025.06.03.657735
-  title: 'CCC-GPU: A graphics processing unit (GPU)-optimized nonlinear correlation
-    coefficient for large transcriptomic analyses'
+  title: 'CCC-GPU: A graphics processing unit (GPU)-accelerated nonlinear correlation
+    coefficient for large-scale transcriptomic analyses'
   authors:
   - Haoyu Zhang
   - Kevin Fotso
+  - "Marc Subirana-Gran\xE9s"
   - Milton Pividori
   publisher: Cold Spring Harbor Laboratory
   date: '2025-06-06'
