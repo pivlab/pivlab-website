@@ -1,6 +1,6 @@
 ---
 name: Jill Hoffman
-image: images/team/jill_hoffman.jpg
+image: images/team/jill_hoffman.jpeg
 description: PhD Student
 role: phd
 links:
@@ -8,4 +8,6 @@ links:
   github: jillhoffman
 ---
 
-Jill is a first-year student in the Computational Bioscience program. She received her bachelor's degree in Biochemistry from the University of Colorado Denver. Her previous research involved creating a high-throughput method for modeling protein mutations. 
+ill is a PhD student in the Computational Bioscience program. She received her bachelor's degree in Biochemistry from the University of Colorado Denver. 
+Her research interests are in exploring the architecture of complex traits through the lens of the omnigenic model. She has the goal
+of developing pipelines to uncover "core"-genes as potential theraputic targets.
