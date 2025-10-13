@@ -1,6 +1,6 @@
 
 # Pividori Lab's Website
 
-Visit **[jillhoffman.github.io/pivlab-website](https://jillhoffman.github.io/pivlab-website)** 🚀
+Visit **[pivlab.org](https://pivlab.org)** 🚀
 
 _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
