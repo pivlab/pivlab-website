@@ -16,6 +16,12 @@
   file: sources.yaml
   type: paper
   image: images/articles/ccc-gpu.png
+  buttons:
+  - type: manubot
+    link: https://pivlab.github.io/ccc-gpu_manuscript/
+  - type: source
+    text: Manuscript source
+    link: https://github.com/pivlab/ccc-gpu_manuscript
 - id: pubmed:41644669
   title: Global multi-ancestry genome-wide analyses identify genes and biological
     pathways associated with thyroid cancer and benign thyroid diseases.
