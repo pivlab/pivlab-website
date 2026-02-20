@@ -270,20 +270,6 @@
   file: sources.yaml
   type: paper
   image: images/articles/param-gene-module-clique.png
-- id: doi:10.1093/bioinformatics/btag068
-  title: 'CCC-GPU: A graphics processing unit (GPU)-accelerated nonlinear correlation
-    coefficient for large-scale transcriptomic analyses'
-  authors:
-  - Haoyu Zhang
-  - Kevin Fotso
-  - "Marc Subirana-Gran\xE9s"
-  - Milton Pividori
-  publisher: Bioinformatics
-  date: '2026-02-13'
-  link: https://doi.org/hbnznn
-  orcid: 0000-0002-3035-4403
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1101/2025.06.05.658122
   title: 'PLIERv2: bigger, better and faster'
   authors:
