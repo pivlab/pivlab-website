@@ -28,7 +28,7 @@ Strongly committed to open source and open science, we use [GitHub](https://gith
 
 {% include citation.html lookup="doi:10.1016/j.cels.2024.08.005" style="rich" %}
 
-{% include citation.html lookup="doi:10.1093/bioinformatics/btag068" style="rich" %}
+{% include citation.html lookup="pubmed:41689182" style="rich" %}
 
 {% include section.html %}
 
