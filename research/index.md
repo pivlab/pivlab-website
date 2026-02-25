@@ -22,6 +22,8 @@ Strongly committed to open source and open science, we use [GitHub](https://gith
 
 {% include citation.html lookup="doi:10.1038/s41467-023-41057-4" style="rich" %}
 
+{% include citation.html lookup="pubmed:39977605" style="rich" %}
+
 {% include section.html %}
 
 ## Extracting complex transcriptional signatures using not-only-linear correlation coefficients
