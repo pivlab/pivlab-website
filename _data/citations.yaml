@@ -277,7 +277,7 @@
   type: paper
   image: images/articles/param-gene-module-clique.png
 - id: doi:10.1101/2025.06.05.658122
-  title: 'PLIERv2: bigger, better and faster'
+  title: 'CLAMP: Curated Latent-variable Analysis with Molecular Priors'
   authors:
   - "Marc Subirana-Gran\xE9s"
   - Sutanu Nandi
