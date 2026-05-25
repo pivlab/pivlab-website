@@ -1,15 +1,15 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
 - id: pubmed:41689182
-  title: 'CCC-GPU: A graphics processing unit (GPU)-accelerated nonlinear correlation
+  title: 'CCC-GPU: a graphics processing unit (GPU)-accelerated nonlinear correlation
     coefficient for large-scale transcriptomic analyses.'
   authors:
   - Haoyu Zhang
-  - Kevin Fotso
+  - Kevin T Fotso
   - "Marc Subirana-Gran\xE9s"
   - Milton Pividori
   publisher: Bioinformatics (Oxford, England)
-  date: '2026-02-13'
+  date: '2026-02-28'
   link: https://www.ncbi.nlm.nih.gov/pubmed/41689182
   term: Pividori, Milton[Author]
   plugin: sources.py
