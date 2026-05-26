@@ -3,6 +3,7 @@ name: Prashant Gupta
 image: images/team/prashant-gupta.jpg
 description: Postdoc
 role: postdoc
+group: alum
 links:
   email: prashant.gupta@cuanschutz.edu
   github: pragup
