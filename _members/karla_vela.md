@@ -2,7 +2,7 @@
 name: Karla Vela Lopez
 image: images/team/karla_vela.jpg
 description: Master's Student
-role: Graduate Intern
+role: ms
 links:
   email: karla.velalopez@cuanschutz.edu
   github: karla-vela
