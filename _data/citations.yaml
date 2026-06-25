@@ -1,5 +1,22 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: pubmed:42327181
+  title: An AI-Powered Trisomy 21 Research Assistant.
+  authors:
+  - Sutanu Nandi
+  - Zenitha Sundararajan
+  - "Marc Subirana-Gran\xE9s"
+  - Joaquin M Espinosa
+  - Milton Pividori
+  - Kelly D Sullivan
+  - Matthew D Galbraith
+  - James C Costello
+  publisher: 'bioRxiv : the preprint server for biology'
+  date: '2026-06-11'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/42327181
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:42245041
   title: 'Beyond Identifier Matching: An Empirical Characterization of Failure Modes
     in Biomedical Knowledge Graph Integration.'
