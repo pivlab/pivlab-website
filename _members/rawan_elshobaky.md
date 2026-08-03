@@ -5,12 +5,11 @@ description: PhD Student
 role: phd
 links:
   email: rawan.elshobaky@cuanschutz.edu
+  LinkedIn: [rawan-elshobaky](https://www.linkedin.com/in/rawan-elshobaky/)
   github: rawanelshobaky
 ---
 
-Rawan is a first-year PhD student in the [Human Medical Genetics and Genomics Program (HMGGP)](https://www.cuanschutz.edu/graduate-programs/human-medical-genetics-and-genomics/home), rotating in the Pividori lab in winter 2025.
+Rawan is a PhD student in the [Human Medical Genetics and Genomics Program (HMGGP)](https://www.cuanschutz.edu/graduate-programs/human-medical-genetics-and-genomics/home), co-mentored by Drs. [David Conti](https://coloradosph.cuanschutz.edu/education/departments/biostatistics-informatics/about-us) and [Milton Pividori](https://pivlab.org/preview/pr-64/members/milton-pividori.html).
+
 She graduated from Johns Hopkins University with a B.S. in Molecular and Cellular Biology and minors in Computer Science and Bioethics.
-Her research interests focus on improving disease risk prediction in underrepresented populations. During her rotation, Rawan will evaluate
-the performance of polygenic risk scores (PRS), predicted transcriptome risk scores (PTRS), and latent variable risk scores (LVRS) for
-thyroid cancer. She will train models in European-ancestry populations and test them in African-ancestry individuals in the UK Biobank to
-identify approaches that enhance cross-ancestry prediction, advancing equitable precision medicine.
+Her research interests focus on improving disease risk prediction across populations by creating computational and statistical methods that incorporate functional information.
