@@ -694,6 +694,22 @@
   file: sources.yaml
   type: paper
   image: images/articles/multixcan.png
+- title: Biclustering of a large gene to phenome catalog of associations unveils hidden
+    connections between complex traits and genes
+  publisher: Annual Meeting 2019 American Society of Human Genetics
+  date: '2020-10-02'
+  link: https://www.ashg.org/wp-content/uploads/2019/10/ASHG-2019-platform-plenary-abstracts.pdf
+  orcid: 0000-0002-3035-4403
+  plugin: orcid.py
+  file: orcid.yaml
+- title: 'Shared and distinct ge- netic risk factors for childhood-onset and adult-onset
+    asthma: genome-wide and transcriptome-wide studies'
+  publisher: UK Biobank Early-Career Researcher of the Year Competition 2019
+  date: '2020-10-02'
+  link: http://www.ukbiobank.ac.uk/2019/02/uk-biobank-early-career-researcher-of-the-year-competition-open-for-entries/
+  orcid: 0000-0002-3035-4403
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/S2213-2600(19)30055-4
   title: 'Shared and distinct genetic risk factors for childhood-onset and adult-onset
     asthma: genome-wide and transcriptome-wide studies'
@@ -711,28 +727,31 @@
   file: sources.yaml
   type: paper
   image: images/articles/asthma.png
-- id: pmid:29800232
-  title: 'Predicting novel microRNA: a comprehensive comparison of machine learning
-    approaches.'
+- id: doi:10.1093/bioinformatics/bty899
+  title: 'Clustermatch: discovering hidden relations in highly diverse kinds of qualitative
+    and quantitative data without standardization'
   authors:
-  - Georgina Stegmayer
-  - Leandro E Di Persia
-  - Mariano Rubiolo
-  - Matias Gerard
   - Milton Pividori
-  - Cristian Yones
-  - Leandro A Bugnon
-  - Tadeo Rodriguez
-  - Jonathan Raad
+  - Andres Cernadas
+  - Luis A de Haro
+  - Fernando Carrari
+  - Georgina Stegmayer
   - Diego H Milone
-  publisher: Briefings in bioinformatics
-  date: '2019-09-27'
-  link: https://www.ncbi.nlm.nih.gov/pubmed/29800232
+  publisher: Bioinformatics
+  date: '2018-10-24'
+  link: https://doi.org/gfg4bt
   orcid: 0000-0002-3035-4403
   plugin: sources.py
   file: sources.yaml
   type: paper
-  image: images/articles/predicting-mirna.png
+  image: images/articles/clustermatch.png
+- title: Assessing the phenome-wide consequences of gene expression variation using
+    UK Biobank
+  publisher: GTEx Project Community Scientific Meeting 2017
+  date: '2020-10-02'
+  orcid: 0000-0002-3035-4403
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1016/j.ins.2016.04.027
   title: Diversity control for improving the analysis of consensus clustering
   authors:
@@ -747,6 +766,14 @@
   file: sources.yaml
   type: paper
   image: images/articles/divcontrol.png
+- title: A novel approach for highly-diverse multi-omics data fusion applied to tomato
+    germplasm selection
+  publisher: International Society for Computational Biology - Latin America 2016
+  date: '2020-10-02'
+  link: http://sinc.unl.edu.ar/sinc-publications/2016/PSCCCM16a/sinc_PSCCCM16a.pdf
+  orcid: 0000-0002-3035-4403
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1093/bib/bbv054
   title: A very simple and fast way to access and validate algorithms in reproducible
     research
@@ -762,12 +789,26 @@
   file: sources.yaml
   type: paper
   image: images/articles/webdemo-builder.png
+- title: Cluster ensembles for big data mining problems
+  publisher: AGRANDA 2015 (Argentine Symposium on Big Data)
+  date: '2020-10-02'
+  link: http://44jaiio.sadio.org.ar/sites/default/files/agranda52-54.pdf
+  orcid: 0000-0002-3035-4403
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.4114/intartif.vol17iss53
   title: ''
   authors: []
   publisher: INTELIGENCIA ARTIFICIAL
   date: '2014-06-18'
   link: https://doi.org/gqqzn4
+  orcid: 0000-0002-3035-4403
+  plugin: orcid.py
+  file: orcid.yaml
+- title: Consensus clustering from heteroge- neous measures of S. Lycopersicum
+  publisher: 4CAB2C (IV Argentine Conference on Computational Biology and Bioinformatics)
+  date: '2020-10-02'
+  link: http://sinc.unl.edu.ar/sinc-publications/2013/PSCM13/sinc_PSCM13.pdf
   orcid: 0000-0002-3035-4403
   plugin: orcid.py
   file: orcid.yaml
@@ -797,20 +838,24 @@
   file: sources.yaml
   image: images/articles/faia.png
   type: book
-- id: doi:10.1093/bioinformatics/bty899
-  title: 'Clustermatch: discovering hidden relations in highly diverse kinds of qualitative
-    and quantitative data without standardization'
+- id: pmid:29800232
+  title: 'Predicting novel microRNA: a comprehensive comparison of machine learning
+    approaches.'
   authors:
-  - Milton Pividori
-  - Andres Cernadas
-  - Luis A de Haro
-  - Fernando Carrari
   - Georgina Stegmayer
+  - Leandro E Di Persia
+  - Mariano Rubiolo
+  - Matias Gerard
+  - Milton Pividori
+  - Cristian Yones
+  - Leandro A Bugnon
+  - Tadeo Rodriguez
+  - Jonathan Raad
   - Diego H Milone
-  publisher: Bioinformatics
-  date: '2018-10-24'
-  link: https://doi.org/gfg4bt
+  publisher: Briefings in bioinformatics
+  date: '2019-09-27'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/29800232
   type: paper
-  image: images/articles/clustermatch.png
+  image: images/articles/predicting-mirna.png
   plugin: sources.py
   file: sources.yaml
