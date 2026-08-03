@@ -3,7 +3,6 @@ name: Rawan Elshobaky
 image: images/team/rawan_elshobaky.jpeg
 description: PhD Student
 role: phd
-group: alum
 links:
   email: rawan.elshobaky@cuanschutz.edu
   github: rawanelshobaky
