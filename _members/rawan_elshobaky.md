@@ -5,7 +5,7 @@ description: PhD Student
 role: phd
 links:
   email: rawan.elshobaky@cuanschutz.edu
-  LinkedIn: [rawan-elshobaky](https://www.linkedin.com/in/rawan-elshobaky/)
+  LinkedIn: rawan-elshobaky
   github: rawanelshobaky
 ---
 
