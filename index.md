@@ -10,7 +10,7 @@ For this, we design and develop algorithms and tools that are applied to human d
 
 {%
   include figure.html
-  image="images/team/team-photo-01.jpg"
+  image="images/team/team-photo-02.jpg"
   width="100%"
 %}
 
