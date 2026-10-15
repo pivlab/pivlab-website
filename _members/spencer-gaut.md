@@ -1,6 +1,6 @@
 ---
 name: Spencer Gaut
-image: images/team/spencer_gaut.jpeg
+image: images/spencer_gaut.jpeg
 description: PhD Student
 role: phd
 links:
