@@ -1,4 +1,3 @@
-
 ---
 name: Hanan Wees
 image: images/team/hanan_wees.jpeg
