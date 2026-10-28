@@ -22,17 +22,16 @@ We enjoy learning from each other and strive to make a significant impact on soc
 {% include section.html dark=true %}
 
 {:refdef: class="center" style="font-size: var(--xxl);"}
-**We are hiring!**
+**Interested in joining?**
 {: refdef}
 
-We're currently hiring for several positions.
-**Join us** and become part of our team.
+If you are interested in joining the lab, please contact Milton.
 {:.center}
 
 {%
   include button.html
-  text="Join the lab"
-  link="join"
+  text="Contact Milton"
+  link="contact"
   style="button"
 %}
 
