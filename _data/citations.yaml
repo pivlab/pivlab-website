@@ -1,5 +1,31 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: pubmed:42926702
+  title: The landscape of polygenic score prediction accuracy and transportability
+    across the phenome in ancestrally diverse populations.
+  authors:
+  - Meng Lin
+  - Christopher H Arehart
+  - Simon N K Walker
+  - Nicholas Rafaels
+  - Kristy R Crooks
+  - Matthew Fisher
+  - Sameer Chavan
+  - Harry Smith
+  - Nikita Pozdeyev
+  - Leslie A Lange
+  - Milton Pividori
+  - Jonathan A Shortt
+  - Ryan M Layer
+  - Audrey E Hendricks
+  - Sridharan Raghavan
+  - Christopher R Gignoux
+  publisher: 'medRxiv : the preprint server for health sciences'
+  date: '2026-10-11'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/42926702
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:42327181
   title: An AI-Powered Trisomy 21 Research Assistant.
   authors:
