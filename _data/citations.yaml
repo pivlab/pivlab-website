@@ -24,8 +24,10 @@
   date: '2026-10-11'
   link: https://www.ncbi.nlm.nih.gov/pubmed/42926702
   term: Pividori, Milton[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: images/articles/pgs-landscape.png
 - id: pubmed:42327181
   title: An AI-Powered Trisomy 21 Research Assistant.
   authors:
@@ -41,8 +43,10 @@
   date: '2026-06-11'
   link: https://www.ncbi.nlm.nih.gov/pubmed/42327181
   term: Pividori, Milton[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: images/articles/t21-research-assistant.png
 - id: pubmed:42245041
   title: 'Beyond Identifier Matching: An Empirical Characterization of Failure Modes
     in Biomedical Knowledge Graph Integration.'
@@ -62,8 +66,10 @@
   date: '2026-05-28'
   link: https://www.ncbi.nlm.nih.gov/pubmed/42245041
   term: Pividori, Milton[Author]
-  plugin: pubmed.py
-  file: pubmed.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: images/articles/kg-integration-failures.png
 - id: pubmed:41689182
   title: 'CCC-GPU: a graphics processing unit (GPU)-accelerated nonlinear correlation
     coefficient for large-scale transcriptomic analyses.'
@@ -354,8 +360,10 @@
   date: '2026-10-13'
   link: https://doi.org/hcnb6t
   orcid: 0000-0002-3035-4403
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: images/articles/hsa21-cis-eqtl.png
 - id: doi:10.1101/2025.06.05.658122
   title: 'CLAMP: Curated Latent-variable Analysis with Molecular Priors'
   authors:
