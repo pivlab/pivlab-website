@@ -236,3 +236,17 @@
   title: 'FAIA: Un framework para el desarrollo de agentes inteligentes'
   link: https://www.worldcat.org/isbn/9789872585594
   type: book
+
+# 2026 preprints
+- id: doi:10.64898/2026.10.10.758221
+  type: paper
+  image: images/articles/hsa21-cis-eqtl.png
+- id: pubmed:42926702
+  type: paper
+  image: images/articles/pgs-landscape.png
+- id: pubmed:42327181
+  type: paper
+  image: images/articles/t21-research-assistant.png
+- id: pubmed:42245041
+  type: paper
+  image: images/articles/kg-integration-failures.png
