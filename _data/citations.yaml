@@ -1,5 +1,19 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: pubmed:42999246
+  title: Common
+  authors:
+  - Lucas A Gillenwater
+  - Mary A Allen
+  - Milton Pividori
+  - Casey S Greene
+  - "Marc Subirana-Gran\xE9s"
+  publisher: 'bioRxiv : the preprint server for biology'
+  date: '2026-10-13'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/42999246
+  term: Pividori, Milton[Author]
+  plugin: pubmed.py
+  file: pubmed.yaml
 - id: pubmed:42926702
   title: The landscape of polygenic score prediction accuracy and transportability
     across the phenome in ancestrally diverse populations.
