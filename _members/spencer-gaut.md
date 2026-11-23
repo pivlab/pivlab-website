@@ -3,6 +3,7 @@ name: Spencer Gaut
 image: images/spencer_gaut.jpeg
 description: PhD Student
 role: phd
+group: alum
 links:
   email: spencer.gaut@cuanschutz.edu
   github: spencersgaut
