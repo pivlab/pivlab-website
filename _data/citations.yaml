@@ -361,9 +361,7 @@
   type: paper
   image: images/articles/param-gene-module-clique.png
 - id: doi:10.64898/2026.10.10.758221
-  title: "Common\n                  <i>cis</i>\n                  -eQTLs do not explain\
-    \ chromosome 21 gene expression deviations from the ploidy expectation in Trisomy\
-    \ 21"
+  title: "Common <i>cis</i>-eQTLs do not explain chromosome 21 gene expression deviations from the ploidy expectation in Trisomy 21"
   authors:
   - Lucas A. Gillenwater
   - Mary A. Allen
