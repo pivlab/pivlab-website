@@ -135,6 +135,8 @@
   remove: true
 
 # Others
+- id: pubmed:42999246
+  remove: true
 - id: pubmed:38879443
   remove: true
 - id: pubmed:26223526
